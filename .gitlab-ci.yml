@@ -1,0 +1,18 @@
+stages:
+    - runs
+
+draft:
+    stage: runs
+    script:
+        - make TITLE=compecol TYPE=draft
+    artifacts:
+        paths:
+            - compecol_draft_version.pdf
+
+preprint:
+    stage: runs
+    script:
+        - make TITLE=compecol TYPE=preprint
+    artifacts:
+        paths:
+            - compecol_preprint_version.pdf

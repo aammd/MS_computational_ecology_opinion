@@ -1,0 +1,341 @@
+[
+    {
+        "abstract": "Meta-analysis offers ecologists a powerful tool for knowledge synthesis. There is however obvious and subtle issues to consider specific to ecology with respect to the appropriate interpretation of meta-analyses once the statistics are completed. Meta-analysts in any field must clearly define a priori the scope of inference and the purpose of the meta-analysis, but ecological meta-analysis often faces issues particular to this field. For example, the primary studies being combined, even for tests of the same hypothesis, in ecology are generally conducted at different study sites or have difference ecological contexts (i.e. often few studies are not conducted in a laboratory) and use very different methods to test a single hypothesis. General objectives of the meta-analysis could include assessment of confidence limits of the treatment or ecological process of interest, detection of differences in treatments from no effect, identification of research gaps, and differences between groups such as different populations or communities. Meta-analyses can also be used in ecology to assess whether the scope of tests of a hypothesis are adequate. Reporting more than one summary statistic such as different effect size metrics is an excellent means to enhance synthetic potential for ecologists. Magnitude and sign of effect sizes can also be interpreted in novel ways for ecology given the broad scope of forms of hypotheses explored in this discipline. Ecology is now poised to take advantage of the synthesis developments common in other disciplines and this brief conceptual methods review provides the appropriate framing for this endeavor.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2013,
+                    8,
+                    28
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Lortie",
+                "given": "Christopher J."
+            },
+            {
+                "family": "Stewart",
+                "given": "Gavin"
+            },
+            {
+                "family": "Rothstein",
+                "given": "Hannah"
+            },
+            {
+                "family": "Lau",
+                "given": "Joseph"
+            }
+        ],
+        "id": "lortie_pie",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    6
+                ]
+            ]
+        },
+        "number": "e38v1",
+        "publisher": "PeerJ PrePrints",
+        "title": "Practical interpretation of ecological meta-analyses",
+        "type": "report"
+    },
+    {
+        "DOI": "10.1103/PhysRevLett.93.158701",
+        "author": [
+            {
+                "family": "Ackland",
+                "given": "G."
+            },
+            {
+                "family": "Gallagher",
+                "given": "I."
+            }
+        ],
+        "container-title": "Phys. Rev. Lett.",
+        "id": "ackland_slg",
+        "issue": "15",
+        "issued": {
+            "date-parts": [
+                [
+                    2004,
+                    10
+                ]
+            ]
+        },
+        "page": "1-4",
+        "title": "Stabilization of Large Generalized Lotka-Volterra Foodwebs By Evolutionary Feedback",
+        "type": "article-journal",
+        "volume": "93"
+    },
+    {
+        "DOI": "10.1098/rsfs.2011.0083",
+        "PMID": "23565336",
+        "abstract": "It has long been recognized that numerical modelling and computer simulations can be used as a powerful research tool to understand, and sometimes to predict, the tendencies and peculiarities in the dynamics of populations and ecosystems. It has been, however, much less appreciated that the context of modelling and simulations in ecology is essentially different from those that normally exist in other natural sciences. In our paper, we review the computational challenges arising in modern ecology in the spirit of computational mathematics, i.e. with our main focus on the choice and use of adequate numerical methods. Somewhat paradoxically, the complexity of ecological problems does not always require the use of complex computational methods. This paradox, however, can be easily resolved if we recall that application of sophisticated computational methods usually requires clear and unambiguous mathematical problem statement as well as clearly defined benchmark information for model validation. At the same time, many ecological problems still do not have mathematically accurate and unambiguous description, and available field data are often very noisy, and hence it can be hard to understand how the results of computations should be interpreted from the ecological viewpoint. In this scientific context, computational ecology has to deal with a new paradigm: conventional issues of numerical modelling such as convergence and stability become less important than the qualitative analysis that can be provided with the help of computational techniques. We discuss this paradigm by considering computational challenges arising in several specific ecological applications.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2014,
+                    10,
+                    14
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Petrovskii",
+                "given": "Sergei"
+            },
+            {
+                "family": "Petrovskaya",
+                "given": "Natalia"
+            }
+        ],
+        "container-title": "Interface Focus",
+        "id": "petrovskii_cee",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    4
+                ]
+            ]
+        },
+        "page": "241-254",
+        "title": "Computational ecology as an emerging science",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
+        "abstract": "In this paper we are investigating the long time behaviour of the solution of a mutation competition model of Lotka-Volterra’s type. Our main motivation comes from the analysis of the Lotka-Volterra’s competition system with mutation which simulates the demo-genetic dynamics of diverse virus in their host : \\$\\$ \\\\frac{}dv\\_{i}(t){}{dt}=v\\_i\\[r\\_i-\\\\frac{1}{K}\\\\Psi\\_i(v)\\]+\\\\sum\\_{j=1}\\^{N} \\\\mu\\_{ij}(v\\_j-v\\_i). \\$\\$ In a first part we analyse the case where the competition terms \\$\\\\Psi\\_i\\$ are independent of the virus type \\$i\\$. In this situation and under some rather general assumptions on the functions \\$\\\\Psi\\_i\\$, the coefficients \\$r\\_i\\$ and the mutation matrix \\$\\\\mu\\_{ij}\\$ we prove the existence of a unique positive globally stable stationary solution i.e. the solution attracts the trajectory initiated from any nonnegative initial datum. Moreover the unique steady state \\$\\\\bar v\\$ is strictly positive in the sense that \\$\\\\bar v\\_i$>$0\\$ for all \\$i\\$. These results are in sharp contrast with the behaviour of Lotka-Volterra without mutation term where it is known that multiple non negative stationary solutions exist and an exclusion principle occurs (i.e For all \\$i\\\\neq i\\_0, \\\\bar v\\_{i}=0\\$ and \\$\\\\bar v\\_{i\\_0}$>$0\\$). Then we explore a typical example that has been proposed to explain some experimental data. For such particular models we characterise the speed of convergence to the equilibrium. In a second part, under some additional assumption, we prove the existence of a positive steady state for the full system and we analyse the long term dynamics. The proofs mainly rely on the construction of a relative entropy which plays the role of a Lyapunov functional.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2013,
+                    2,
+                    4
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Coville",
+                "given": "Jerome"
+            },
+            {
+                "family": "Frederic",
+                "given": "Fabre"
+            }
+        ],
+        "container-title": "<span class=\"nocase\">arXiv</span>:1301.6237",
+        "id": "coville_cel",
+        "issued": {
+            "date-parts": [
+                [
+                    2013,
+                    1
+                ]
+            ]
+        },
+        "title": "Convergence To The Equilibrium In A Lotka-Volterra Ode Competition System With Mutations",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1073/pnas.1100631108",
+        "abstract": "Predator-prey interactions are thought by many researchers to define both modern ecosystems and past macroevolutionary events. In modern ecosystems, experimental removal or addition of taxa is often used to determine trophic relationships and predator identity. Both characteristics are notoriously difficult to infer in the fossil record, where evidence of predation is usually limited to damage from failed attacks, individual stomach contents, one-sided escalation, or modern analogs. As a result, the role of predation in macroevolution is often dismissed in favor of competition and abiotic factors. Here we show that the end-Devonian Hangenberg event (359 Mya) was a natural experiment in which vertebrate predators were both removed and added to an otherwise stable prey fauna, revealing specific and persistent trophic interactions. Despite apparently favorable environmental conditions, crinoids diversified only after removal of their vertebrate consumers, exhibiting predatory release on a geological time scale. In contrast, later Mississippian (359-318 Mya) camerate crinoids declined precipitously in the face of increasing predation pressure from new durophagous fishes. Camerate failure is linked to the retention of obsolete defenses or “legacy adaptations” that prevented coevolutionary escalation. Our results suggest that major crinoid evolutionary phenomena, including rapid diversification, faunal turnover, and species selection, might be linked to vertebrate predation. Thus, interactions observed in small ecosystems, such as Lotka-Volterra cycles and trophic cascades, could operate at geologic time scales and higher taxonomic ranks. Both trophic knock-on effects and retention of obsolete traits might be common in the aftermath of predator extinction.",
+        "author": [
+            {
+                "family": "Sallan",
+                "given": "Lauren Cole"
+            },
+            {
+                "family": "Kammer",
+                "given": "Thomas W"
+            },
+            {
+                "family": "Ausich",
+                "given": "William I"
+            },
+            {
+                "family": "Cook",
+                "given": "Lewis A"
+            }
+        ],
+        "container-title": "Proc. Natl. Acad. Sci. U. S. A.",
+        "id": "sallan_ppd",
+        "issue": "20",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    5
+                ]
+            ]
+        },
+        "page": "8335-8338",
+        "title": "Persistent predator-prey dynamics revealed by mass extinction.",
+        "type": "article-journal",
+        "volume": "108"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.1002001",
+        "author": [
+            {
+                "family": "Bourne",
+                "given": "Philip E"
+            }
+        ],
+        "container-title": "PLoS Comput. Biol.",
+        "id": "bourne_tsr",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    1
+                ]
+            ]
+        },
+        "page": "e1002001",
+        "title": "Ten Simple Rules for Getting Ahead as a Computational Biologist in Academia",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1016/j.physd.2006.07.016",
+        "author": [
+            {
+                "family": "Gyllenberg",
+                "given": "M"
+            },
+            {
+                "family": "Yan",
+                "given": "P"
+            },
+            {
+                "family": "Wang",
+                "given": "Y"
+            }
+        ],
+        "container-title": "Phys. Nonlinear Phenom.",
+        "id": "gyllenberg_lcf",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2006,
+                    9
+                ]
+            ]
+        },
+        "page": "135-145",
+        "title": "Limit cycles for competitorcompetitormutualist LotkaVolterra systems73",
+        "type": "article-journal",
+        "volume": "221"
+    },
+    {
+        "DOI": "10.1098/rsfs.2012.0006",
+        "author": [
+            {
+                "family": "Levin",
+                "given": "Simon A"
+            }
+        ],
+        "container-title": "Interface Focus",
+        "id": "levin_tmt",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    2
+                ]
+            ]
+        },
+        "page": "141-143",
+        "title": "Towards the marriage of theory and data",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
+        "DOI": "10.1890/04-1249",
+        "alternative-id": [
+            "10.1890/04-1249"
+        ],
+        "author": [
+            {
+                "family": "Bolnick",
+                "given": "Daniel I."
+            },
+            {
+                "family": "Preisser",
+                "given": "Evan L."
+            }
+        ],
+        "container-title": "Ecology",
+        "created": {
+            "date-parts": [
+                [
+                    2007,
+                    6,
+                    4
+                ]
+            ],
+            "date-time": "2007-06-04T23:33:05Z",
+            "timestamp": 1180999985000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    2,
+                    24
+                ]
+            ],
+            "date-time": "2016-02-24T15:03:19Z",
+            "timestamp": 1456326199000
+        },
+        "id": "bolnick_rcm",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    2,
+                    24
+                ]
+            ],
+            "date-time": "2016-02-24T16:13:05Z",
+            "timestamp": 1456330385323
+        },
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2005,
+                    10
+                ]
+            ]
+        },
+        "page": "2771-2779",
+        "prefix": "http://id.crossref.org/prefix/10.1002",
+        "published-print": {
+            "date-parts": [
+                [
+                    2005,
+                    10
+                ]
+            ]
+        },
+        "publisher": "Wiley-Blackwell",
+        "reference-count": 33,
+        "subject": [
+            "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "title": "RESOURCE COMPETITION MODIFIES THE STRENGTH OF TRAIT-MEDIATED PREDATOR–PREY INTERACTIONS: A META-ANALYSIS",
+        "type": "article-journal",
+        "volume": "86"
+    }
+]
