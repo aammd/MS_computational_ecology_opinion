@@ -28,6 +28,10 @@ figure:
     caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
     short: Example figure.
     file: costbenefit.pdf
+  - id: flow
+    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
+    short: Example figure.
+    file: flow.pdf
 date: \today
 abstract: What do we say to abstracts? Not today.
 ---
@@ -163,6 +167,12 @@ validation, rejection, or refinement of predictions derived in other ways.
 
 ## Establishing the currencies of collaboration
 
+!{flow}
+
 ## Training and advising computational ecologists
+
+@barraquand_lqt
+
+@white_nga
 
 # References

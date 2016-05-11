@@ -206,6 +206,117 @@
         "volume": "2"
     },
     {
+        "DOI": "10.1890/es14-00485.1",
+        "alternative-id": [
+            "10.1890/ES14-00485.1"
+        ],
+        "author": [
+            {
+                "family": "White",
+                "given": "Rachel L."
+            },
+            {
+                "family": "Sutton",
+                "given": "Alexandra E."
+            },
+            {
+                "family": "Salguero-Gómez",
+                "given": "Roberto"
+            },
+            {
+                "family": "Bray",
+                "given": "Timothy C."
+            },
+            {
+                "family": "Campbell",
+                "given": "Heather"
+            },
+            {
+                "family": "Cieraad",
+                "given": "Ellen"
+            },
+            {
+                "family": "Geekiyanage",
+                "given": "Nalaka"
+            },
+            {
+                "family": "Gherardi",
+                "given": "Laureano"
+            },
+            {
+                "family": "Hughes",
+                "given": "Alice C."
+            },
+            {
+                "family": "Jørgensen",
+                "given": "Peter Søgaard"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timothee"
+            },
+            {
+                "family": "DeSoto",
+                "given": "Lucía"
+            },
+            {
+                "family": "Zimmerman",
+                "given": "Naupaka"
+            }
+        ],
+        "container-title": "Ecosphere",
+        "created": {
+            "date-parts": [
+                [
+                    2015,
+                    8,
+                    7
+                ]
+            ],
+            "date-time": "2015-08-07T20:56:33Z",
+            "timestamp": 1438980993000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2015,
+                    8,
+                    7
+                ]
+            ],
+            "date-time": "2015-08-07T20:59:58Z",
+            "timestamp": 1438981198000
+        },
+        "id": "white_nga",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    9,
+                    22
+                ]
+            ],
+            "date-time": "2015-09-22T12:57:49Z",
+            "timestamp": 1442926669691
+        },
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    8
+                ]
+            ]
+        },
+        "page": "art134",
+        "prefix": "http://id.crossref.org/prefix/10.1890",
+        "publisher": "Ecological Society of America",
+        "reference-count": 92,
+        "title": " The next generation of action ecology : novel approaches towards global ecological research ",
+        "type": "article-journal",
+        "volume": "6"
+    },
+    {
         "abstract": "In this paper we are investigating the long time behaviour of the solution of a mutation competition model of Lotka-Volterra’s type. Our main motivation comes from the analysis of the Lotka-Volterra’s competition system with mutation which simulates the demo-genetic dynamics of diverse virus in their host : \\$\\$ \\\\frac{}dv\\_{i}(t){}{dt}=v\\_i\\[r\\_i-\\\\frac{1}{K}\\\\Psi\\_i(v)\\]+\\\\sum\\_{j=1}\\^{N} \\\\mu\\_{ij}(v\\_j-v\\_i). \\$\\$ In a first part we analyse the case where the competition terms \\$\\\\Psi\\_i\\$ are independent of the virus type \\$i\\$. In this situation and under some rather general assumptions on the functions \\$\\\\Psi\\_i\\$, the coefficients \\$r\\_i\\$ and the mutation matrix \\$\\\\mu\\_{ij}\\$ we prove the existence of a unique positive globally stable stationary solution i.e. the solution attracts the trajectory initiated from any nonnegative initial datum. Moreover the unique steady state \\$\\\\bar v\\$ is strictly positive in the sense that \\$\\\\bar v\\_i$>$0\\$ for all \\$i\\$. These results are in sharp contrast with the behaviour of Lotka-Volterra without mutation term where it is known that multiple non negative stationary solutions exist and an exclusion principle occurs (i.e For all \\$i\\\\neq i\\_0, \\\\bar v\\_{i}=0\\$ and \\$\\\\bar v\\_{i\\_0}$>$0\\$). Then we explore a typical example that has been proposed to explain some experimental data. For such particular models we characterise the speed of convergence to the equilibrium. In a second part, under some additional assumption, we prove the existence of a positive steady state for the full system and we analyse the long term dynamics. The proofs mainly rely on the construction of a relative entropy which plays the role of a Lyapunov functional.",
         "accessed": {
             "date-parts": [
@@ -520,6 +631,68 @@
         "publisher": "Wiley-Blackwell",
         "title": "Synthetic datasets and community tools for the rapid testing of ecological hypotheses",
         "type": "article-journal"
+    },
+    {
+        "DOI": "10.7717/peerj.285",
+        "abstract": "Proficiency in mathematics and statistics is essential to modern ecological science, yet few studies have assessed the level of quantitative training received by ecologists. To do so, we conducted an online survey. The 937 respondents were mostly early-career scientists that studied biology as undergraduates. We found a clear self-perceived lack of quantitative training: 75% are not satisfied with their understanding of mathematical models; 75% feel the level of mathematics was “too low” in their ecology classes; 90% wanted more mathematics classes for ecologists; and 95% more statistics classes. Respondents thought that 30% of classes in ecology-related degrees should be focused on quantitative disciplines; likely more than what is taught in most universities. The main suggestion to improve quantitative training was to relate theoretical and statistical modeling to applied ecological problems. Improving quantitative training will require more mathematics classes for ecology-related degrees, and also more ecology classes containing mathematical and statistical examples.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2014,
+                    11,
+                    23
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Barraquand",
+                "given": "Frédéric"
+            },
+            {
+                "family": "Ezard",
+                "given": "Thomas H.G."
+            },
+            {
+                "family": "Jørgensen",
+                "given": "Peter S."
+            },
+            {
+                "family": "Zimmerman",
+                "given": "Naupaka"
+            },
+            {
+                "family": "Chamberlain",
+                "given": "Scott"
+            },
+            {
+                "family": "Salguero-Gómez",
+                "given": "Roberto"
+            },
+            {
+                "family": "Curran",
+                "given": "Timothy J."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timothée"
+            }
+        ],
+        "container-title": "PeerJ",
+        "id": "barraquand_lqt",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    3
+                ]
+            ]
+        },
+        "page": "e285",
+        "title": "Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions",
+        "title-short": "Lack of quantitative training among early-career ecologists",
+        "type": "article-journal",
+        "volume": "2"
     },
     {
         "DOI": "10.1016/j.physd.2006.07.016",
