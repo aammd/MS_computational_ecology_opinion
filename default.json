@@ -379,6 +379,149 @@
         "volume": "86"
     },
     {
+        "DOI": "10.1111/ecog.01941",
+        "author": [
+            {
+                "affiliation": [
+                    {
+                        "name": "Université de Montréal; Département de Sciences Biologiques; 90 Avenue Vincent d'Indy Montréal QC Canada H2V3S9"
+                    },
+                    {
+                        "name": "Québec Centre for Biodiversity Sciences; 1205 Dr. Penfield Avenue Montréal QC Canada H3A1B1"
+                    }
+                ],
+                "family": "Poisot",
+                "given": "Timothée"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Québec Centre for Biodiversity Sciences; 1205 Dr. Penfield Avenue Montréal QC Canada H3A1B1"
+                    },
+                    {
+                        "name": "Université du Québec à Rimouski; Département de Biologie; 300 Allée des Ursulines Rimouski QC Canada G5L3A1"
+                    }
+                ],
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Memorial University of Newfoundland; Department of Biology; 232 Elizabeth Ave St. John's NL Canada A1B3X9"
+                    }
+                ],
+                "family": "Leroux",
+                "given": "Shawn"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Woods Institute for the Environment, Stanford University; Stanford CA USA"
+                    },
+                    {
+                        "name": "School for Environmental and Forest Science, University of Washington; Seattle WA USA"
+                    }
+                ],
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of Toronto; Department of Ecology & Evolutionary Biology; 25 Harbord Street Toronto ON Canada M5S3G5"
+                    }
+                ],
+                "family": "Fortin",
+                "given": "Marie-Josée"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of Florida; Department of Wildlife, Ecology & Conservation; Gainseville FL USA"
+                    }
+                ],
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Centre for Integrative Ecology, School of Biological Sciences, University of Canterbury; Christchurch New Zealand"
+                    }
+                ],
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Museo Nacional de Ciencias Naturales; CSIC, C/ José Gutiérrez Abascal 2 Madrid 28006 España"
+                    }
+                ],
+                "family": "Araújo",
+                "given": "Miguel B."
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "Centre for Integrative Ecology, School of Biological Sciences, University of Canterbury; Christchurch New Zealand"
+                    }
+                ],
+                "family": "Stouffer",
+                "given": "Daniel B."
+            }
+        ],
+        "container-title": "Ecography",
+        "created": {
+            "date-parts": [
+                [
+                    2015,
+                    10,
+                    15
+                ]
+            ],
+            "date-time": "2015-10-15T09:09:42Z",
+            "timestamp": 1444900182000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2015,
+                    10,
+                    15
+                ]
+            ],
+            "date-time": "2015-10-15T09:09:42Z",
+            "timestamp": 1444900182000
+        },
+        "id": "poisot_sdc",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    10,
+                    18
+                ]
+            ],
+            "date-time": "2015-10-18T12:07:57Z",
+            "timestamp": 1445170077609
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    2015,
+                    10
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "prefix": "http://id.crossref.org/prefix/10.1111",
+        "publisher": "Wiley-Blackwell",
+        "title": "Synthetic datasets and community tools for the rapid testing of ecological hypotheses",
+        "type": "article-journal"
+    },
+    {
         "DOI": "10.1016/j.physd.2006.07.016",
         "author": [
             {
@@ -581,5 +724,156 @@
         "page": "1-14",
         "title": "Model-based thinking for community ecology",
         "type": "article-journal"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.0010018",
+        "author": [
+            {
+                "family": "Pascual",
+                "given": "Mercedes"
+            }
+        ],
+        "container-title": "PLoS Comp Biol",
+        "created": {
+            "date-parts": [
+                [
+                    2005,
+                    7,
+                    28
+                ]
+            ],
+            "date-time": "2005-07-28T21:30:59Z",
+            "timestamp": 1122586259000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    4,
+                    20
+                ]
+            ],
+            "date-time": "2016-04-20T17:59:31Z",
+            "timestamp": 1461175171000
+        },
+        "id": "pascual_cef",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    4,
+                    20
+                ]
+            ],
+            "date-time": "2016-04-20T19:40:15Z",
+            "timestamp": 1461181215090
+        },
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "page": "e18",
+        "prefix": "http://id.crossref.org/prefix/10.1371",
+        "published-print": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "publisher": "Public Library of Science (PLoS)",
+        "reference-count": 51,
+        "subject": [
+            "Ecology",
+            "Modelling and Simulation",
+            "Computational Theory and Mathematics",
+            "Genetics",
+            "Ecology, Evolution, Behavior and Systematics",
+            "Molecular Biology",
+            "Cellular and Molecular Neuroscience"
+        ],
+        "title": "Computational Ecology: From the Complex to the Simple and Back",
+        "type": "article-journal",
+        "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1016/0304-3800(95)00152-2",
+        "alternative-id": [
+            "0304380095001522"
+        ],
+        "author": [
+            {
+                "family": "Rykiel",
+                "given": "Edward J.",
+                "suffix": "Jr."
+            }
+        ],
+        "container-title": "Ecological Modelling",
+        "created": {
+            "date-parts": [
+                [
+                    2002,
+                    7,
+                    25
+                ]
+            ],
+            "date-time": "2002-07-25T14:55:55Z",
+            "timestamp": 1027608955000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2015,
+                    9,
+                    3
+                ]
+            ],
+            "date-time": "2015-09-03T06:47:49Z",
+            "timestamp": 1441262869000
+        },
+        "id": "rykiel_tem",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    12,
+                    20
+                ]
+            ],
+            "date-time": "2015-12-20T23:27:59Z",
+            "timestamp": 1450654079347
+        },
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    1996,
+                    11
+                ]
+            ]
+        },
+        "page": "229-244",
+        "prefix": "http://id.crossref.org/prefix/10.1016",
+        "published-print": {
+            "date-parts": [
+                [
+                    1996,
+                    11
+                ]
+            ]
+        },
+        "publisher": "Elsevier BV",
+        "reference-count": 51,
+        "subject": [
+            "Ecological Modelling"
+        ],
+        "title": "Testing ecological models: the meaning of validation",
+        "type": "article-journal",
+        "volume": "90"
     }
 ]

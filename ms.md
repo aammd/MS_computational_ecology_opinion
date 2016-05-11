@@ -29,7 +29,7 @@ figure:
     short: Example figure.
     file: costbenefit.pdf
 date: \today
-abstract: Writing manuscripts doesn't have to be awful. This template *tries* to provide good defaults for both the draft and preprint modes. Most of the information is contained in the YAML file. The preprint mode is particularly good looking.
+abstract: What do we say to abstracts? Not today.
 ---
 
 Computational science happens when algortihms and software, data management
@@ -71,6 +71,8 @@ generative models (*i.e.* models that, given rules, will generate new data) can
 be helpful to initiate the investigation of questions that have not received
 extensive empirical treatment, or for which usual statistical approaches fall
 short.
+
+{== need one more paragraph on the paper goals ==}
 
 # Computational ecology in its broader landscape
 
@@ -127,13 +129,31 @@ such a trifling investment of fact.". Because there was no such thing as
 computational science in 1883, this is surely not what he had in mind -- but
 amusingly, here lies computational ecology mission statement: in a data-limited
 context, merging phenomenological models with pre-existing datasets is a way to
-efficiently
+efficiently. @pascual_cef outlines that computational ecology has a unique
+ability to go from the complex (natural systems) to the simple (representations
+and conceptual models), and back (testable predictions).
+
+This I illustrate in \autoref{costbenefit} (in which I excluded meta-analyses).
+The three types of approaches are ranked in (again, approximate and arbitrary)
+order of cost and effort. Ecological models make, by definition, high accuracy
+predictions, but they tend to be difficult to test [@rykiel_tem]. At the other
+hand of the spectrum, observations (field sampling) or manipulative approaches
+(micro/meso/macro-cosms, field experiments) are highly accurate (but have also
+immense human and monetary costs).
+
+Computational ecology ought to fall in the middle of this spectrum -- although
+the reliance on advanced research computing incurs greater costs (either paid by
+the researcher of by a computing center or consortium), it can generates
+predictions that are highly testable. Specifically, although the accuracy of
+these predictions is currently unknown (and will vary on a model/study/question
+basis), any additional empirical effort to *validate* predictions will improve
+the predictions quality [@poisot_sdc].
+
+!{costbenefit}
 
 None of these approaches to ecological research have any intrinsic superiority --
 in the end, direct observation and experimentation trumps all, and serve as the
 validation, rejection, or refinement of predictions derived in other ways.
-
-!{costbenefit}
 
 # Challenges for computational ecology
 
