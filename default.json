@@ -1,5 +1,52 @@
 [
     {
+        "author": [
+            {
+                "family": "Bolker",
+                "given": "Benjamin M",
+                "parse-names": true
+            }
+        ],
+        "id": "bolker_emd",
+        "issued": {
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        },
+        "publisher": "Princeton University Press",
+        "title": "Ecological models and data in R",
+        "type": "book"
+    },
+    {
+        "DOI": "10.1073/pnas.1205259109",
+        "abstract": "Most research in biology is empirical, yet empirical studies rely fundamentally on theoretical work for generating testable predictions and interpreting observations. Despite this interdependence, many empirical studies build largely on other empirical studies with little direct reference to relevant theory, suggesting a failure of communication that may hinder scientific progress. To investigate the extent of this problem, we analyzed how the use of mathematical equations affects the scientific impact of studies in ecology and evolution. The density of equations in an article has a significant negative impact on citation rates, with papers receiving 28% fewer citations overall for each additional equation per page in the main text. Long, equation-dense papers tend to be more frequently cited by other theoretical papers, but this increase is outweighed by a sharp drop in citations from nontheoretical papers (35% fewer citations for each additional equation per page in the main text). In contrast, equations presented in an accompanying appendix do not lessen a paper’s impact. Our analysis suggests possible strategies for enhancing the presentation of mathematical models to facilitate progress in disciplines that rely on the tight integration of theoretical and empirical work.",
+        "author": [
+            {
+                "family": "Fawcett",
+                "given": "Tim W"
+            },
+            {
+                "family": "Higginson",
+                "given": "Andrew D"
+            }
+        ],
+        "container-title": "Proc. Natl. Acad. Sci. U. S. A.",
+        "id": "fawcett_hue",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    6
+                ]
+            ]
+        },
+        "page": "1205259109-",
+        "title": "Heavy use of equations impedes communication among biologists.",
+        "type": "article-journal"
+    },
+    {
         "abstract": "Meta-analysis offers ecologists a powerful tool for knowledge synthesis. There is however obvious and subtle issues to consider specific to ecology with respect to the appropriate interpretation of meta-analyses once the statistics are completed. Meta-analysts in any field must clearly define a priori the scope of inference and the purpose of the meta-analysis, but ecological meta-analysis often faces issues particular to this field. For example, the primary studies being combined, even for tests of the same hypothesis, in ecology are generally conducted at different study sites or have difference ecological contexts (i.e. often few studies are not conducted in a laboratory) and use very different methods to test a single hypothesis. General objectives of the meta-analysis could include assessment of confidence limits of the treatment or ecological process of interest, detection of differences in treatments from no effect, identification of research gaps, and differences between groups such as different populations or communities. Meta-analyses can also be used in ecology to assess whether the scope of tests of a hypothesis are adequate. Reporting more than one summary statistic such as different effect size metrics is an excellent means to enhance synthetic potential for ecologists. Magnitude and sign of effect sizes can also be interpreted in novel ways for ecology given the broad scope of forms of hypotheses explored in this discipline. Ecology is now poised to take advantage of the synthesis developments common in other disciplines and this brief conceptual methods review provides the appropriate framing for this endeavor.",
         "accessed": {
             "date-parts": [
@@ -41,6 +88,55 @@
         "publisher": "PeerJ PrePrints",
         "title": "Practical interpretation of ecological meta-analyses",
         "type": "report"
+    },
+    {
+        "author": [
+            {
+                "family": "Soetaert",
+                "given": "K"
+            },
+            {
+                "family": "Herman",
+                "given": "P M J"
+            }
+        ],
+        "id": "soetaert_pge",
+        "issued": {
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        },
+        "publisher": "Springer Verlag",
+        "title": "A Practical Guide to Ecological Modelling: Using R as a Simulation Platform",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Legendre",
+                "given": "Pierre"
+            },
+            {
+                "family": "Legendre",
+                "given": "Louis"
+            }
+        ],
+        "collection-number": "Developments in environmental modelling",
+        "id": "legendre_ne",
+        "issued": {
+            "date-parts": [
+                [
+                    1998
+                ]
+            ]
+        },
+        "publisher": "Elsevier",
+        "publisher-place": "Oxford, UK",
+        "title": "Numerical ecology",
+        "type": "book",
+        "volume": "20"
     },
     {
         "DOI": "10.1103/PhysRevLett.93.158701",
@@ -205,62 +301,6 @@
         "volume": "7"
     },
     {
-        "DOI": "10.1016/j.physd.2006.07.016",
-        "author": [
-            {
-                "family": "Gyllenberg",
-                "given": "M"
-            },
-            {
-                "family": "Yan",
-                "given": "P"
-            },
-            {
-                "family": "Wang",
-                "given": "Y"
-            }
-        ],
-        "container-title": "Phys. Nonlinear Phenom.",
-        "id": "gyllenberg_lcf",
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    2006,
-                    9
-                ]
-            ]
-        },
-        "page": "135-145",
-        "title": "Limit cycles for competitorcompetitormutualist LotkaVolterra systems73",
-        "type": "article-journal",
-        "volume": "221"
-    },
-    {
-        "DOI": "10.1098/rsfs.2012.0006",
-        "author": [
-            {
-                "family": "Levin",
-                "given": "Simon A"
-            }
-        ],
-        "container-title": "Interface Focus",
-        "id": "levin_tmt",
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    2012,
-                    2
-                ]
-            ]
-        },
-        "page": "141-143",
-        "title": "Towards the marriage of theory and data",
-        "type": "article-journal",
-        "volume": "2"
-    },
-    {
         "DOI": "10.1890/04-1249",
         "alternative-id": [
             "10.1890/04-1249"
@@ -337,5 +377,209 @@
         "title": "RESOURCE COMPETITION MODIFIES THE STRENGTH OF TRAIT-MEDIATED PREDATOR–PREY INTERACTIONS: A META-ANALYSIS",
         "type": "article-journal",
         "volume": "86"
+    },
+    {
+        "DOI": "10.1016/j.physd.2006.07.016",
+        "author": [
+            {
+                "family": "Gyllenberg",
+                "given": "M"
+            },
+            {
+                "family": "Yan",
+                "given": "P"
+            },
+            {
+                "family": "Wang",
+                "given": "Y"
+            }
+        ],
+        "container-title": "Phys. Nonlinear Phenom.",
+        "id": "gyllenberg_lcf",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2006,
+                    9
+                ]
+            ]
+        },
+        "page": "135-145",
+        "title": "Limit cycles for competitorcompetitormutualist LotkaVolterra systems73",
+        "type": "article-journal",
+        "volume": "221"
+    },
+    {
+        "DOI": "10.1007/bf00191473",
+        "alternative-id": [
+            "BF00191473"
+        ],
+        "author": [
+            {
+                "family": "Papert",
+                "given": "Seymour"
+            }
+        ],
+        "container-title": "International Journal of Computers for Mathematical Learning",
+        "created": {
+            "date-parts": [
+                [
+                    2004,
+                    9,
+                    25
+                ]
+            ],
+            "date-time": "2004-09-25T11:04:23Z",
+            "timestamp": 1096110263000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2013,
+                    1,
+                    4
+                ]
+            ],
+            "date-time": "2013-01-04T00:56:43Z",
+            "timestamp": 1357261003000
+        },
+        "id": "papert_esm",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    12,
+                    27
+                ]
+            ],
+            "date-time": "2015-12-27T02:33:36Z",
+            "timestamp": 1451183616240
+        },
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1996
+                ]
+            ]
+        },
+        "prefix": "http://id.crossref.org/prefix/10.1007",
+        "published-print": {
+            "date-parts": [
+                [
+                    1996
+                ]
+            ]
+        },
+        "publisher": "Springer Science + Business Media",
+        "reference-count": 0,
+        "subject": [
+            "Theoretical Computer Science",
+            "Engineering(all)",
+            "Computational Theory and Mathematics",
+            "Computer Science Applications"
+        ],
+        "title": "An exploration in the space of mathematics educations",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1098/rsfs.2012.0006",
+        "author": [
+            {
+                "family": "Levin",
+                "given": "Simon A"
+            }
+        ],
+        "container-title": "Interface Focus",
+        "id": "levin_tmt",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    2
+                ]
+            ]
+        },
+        "page": "141-143",
+        "title": "Towards the marriage of theory and data",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
+        "author": [
+            {
+                "family": "Otto",
+                "given": "Sarah P",
+                "parse-names": true
+            },
+            {
+                "family": "Day",
+                "given": "Troy",
+                "parse-names": true
+            }
+        ],
+        "id": "otto_bgm",
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        },
+        "publisher": "Princeton University Press",
+        "title": "A biologist’s guide to mathematical modeling in ecology and evolution",
+        "type": "book",
+        "volume": "13"
+    },
+    {
+        "DOI": "10.1007/s11258-014-0366-3",
+        "abstract": "In this paper, a case is made for the use of model-based approaches for the analysis of community data. This involves the direct specification of a statistical model for the observed multivariate data. Recent advances in statistical modelling mean that it is now possible to build models that are appropriate for the data which address key ecological questions in a statistically coherent manner. Key advantages of this approach include interpretability, flexibility, and efficiency, which we explain in detail and illustrate by example. The steps in a model-based approach to analysis are outlined, with an emphasis on key features arising in a multivariate context. A key distinction in the model-based approach is the emphasis on diagnostic checking to ensure that the model provides reasonable agreement with the observed data. Two examples are presented that illustrate how the model-based approach can provide insights into ecological problems not previously available. In the first example, we test for a treatment effect in a study where different sites had different sampling intensities, which was handled by adding an offset term to the model. In the second example, we incorporate trait information into a model for ordinal response in order to identify the main reasons why species differ in their environmental response.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2014,
+                    11,
+                    23
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Warton",
+                "given": "David I."
+            },
+            {
+                "family": "Foster",
+                "given": "Scott D."
+            },
+            {
+                "family": "De’ath",
+                "given": "Glenn"
+            },
+            {
+                "family": "Stoklosa",
+                "given": "Jakub"
+            },
+            {
+                "family": "Dunstan",
+                "given": "Piers K."
+            }
+        ],
+        "container-title": "Plant Ecol",
+        "id": "warton_mtf",
+        "issued": {
+            "date-parts": [
+                [
+                    2014,
+                    11
+                ]
+            ]
+        },
+        "page": "1-14",
+        "title": "Model-based thinking for community ecology",
+        "type": "article-journal"
     }
 ]

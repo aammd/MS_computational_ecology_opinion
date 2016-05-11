@@ -52,7 +52,25 @@ mathematical formulation, computational approaches hold great promises
 their move towards a *marriage of theory and data*. In addition to the
 aforementionned problem of the lack of adequately expressed models, this effort
 is hampered by the fact that data and models are often developped in independant
-ways, and reconciling both can be difficult.
+ways, and reconciling both can be difficult. This has been suggested as one of
+the reasons for which theoretical papers (defined as *papers with at least one
+equation in the main text*) experience a sharp decrease in citation
+[@fawcett_hue]. One of the leading textbooks for the mathematical models in
+ecology and evolution [@otto_bgm] is more focused with algebra and calculus, and
+not with the integration of models with data [though other texts, like
+@soetaert_pge and @bolker_emd, cover the integration of data and models well].
+
+Ecology as a whole (and community ecology in particular) circumvented the
+problem of model and data mismatch problem by investing in the development and
+refinment of statistical models [see @warton_mtf for an excellent overview] and
+"numerical" approaches [@legendre_ne] based on multivariate statistics. These
+models, hovewer, are able to *explain* data, but very rarely can they give new
+predictions. This is, essentially, the niche that computational ecology can
+fill; at the cost of a higher degree of abstraction, its integration of data and
+generative models (*i.e.* models that, given rules, will generate new data) can
+be helpful to initiate the investigation of questions that have not received
+extensive empirical treatment, or for which usual statistical approaches fall
+short.
 
 # Computational ecology in its broader landscape
 
