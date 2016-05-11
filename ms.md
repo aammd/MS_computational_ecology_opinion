@@ -171,8 +171,10 @@ validation, rejection, or refinement of predictions derived in other ways.
 
 ## Training and advising computational ecologists
 
-@barraquand_lqt
+@barraquand_lqt -- expressed lack of training
 
-@white_nga
+@hoffman_dam -- increase exposures across different classes
+
+@white_nga -- need to be made policy relevant
 
 # References
