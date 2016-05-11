@@ -32,15 +32,27 @@ date: \today
 abstract: Writing manuscripts doesn't have to be awful. This template *tries* to provide good defaults for both the draft and preprint modes. Most of the information is contained in the YAML file. The preprint mode is particularly good looking.
 ---
 
-Computational approaches are common place in most area of biology, to the point
-where one would almost be confident that they represent a viable career path
-[@bourne_tsr]. Ecology is a particular field for which, because field data have
-a natural variability, are difficult to find and expensive to collect, and many
-problems lack an adequate formal mathematical formulation, computational
-approaches hold great promises [@petrovskii_cee].
+Computational science happens when algortihms and software, data management
+practices, and advanced research computing are put in interaction with the
+explicit goal of solving "complex" problems. Typically, problems are considered
+*complex* when they cannot be solved appropriately with modelling or
+data-collection only. Computational science is one of the ways to practice
+computational thinking [@papert_esm], *i.e.* the feedback loop of abstracting a
+problem to its core mechanisms, expressing a solution in a way that can be
+automated, and using an interactions between simulations and data to refine the
+original problem or suggest new knowledge. Computational approaches are common
+place in most area of biology, to the point where one would almost be confident
+that they represent a viable career path [@bourne_tsr]. Ecology is a particular
+field for which, because field data have a natural variability, are difficult to
+find and expensive to collect, and many problems lack an adequate formal
+mathematical formulation, computational approaches hold great promises
+[@petrovskii_cee].
 
 @levin_tmt suggested that ecology (and evolutionary biology) should continue
-their move towards a *marriage of theory and data*.
+their move towards a *marriage of theory and data*. In addition to the
+aforementionned problem of the lack of adequately expressed models, this effort
+is hampered by the fact that data and models are often developped in independant
+ways, and reconciling both can be difficult.
 
 # Computational ecology in its broader landscape
 
