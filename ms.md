@@ -21,16 +21,16 @@ keyword:
   - k: meta-analysis
 figure:
   - id: quadrats
-    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
-    short: Example figure.
+    caption: Methods of ecological research can be (roughly) classified in four quadrats, based on whether they suggest or document mechanisms and relationships, and whether they integrate or dissociate models and raw data. Although crude, this classification helps understanding what computational approaches can bring to the global research effort.
+    short: Four quadrats of ecological research.
     file: quadrats.pdf
   - id: costbenefit
-    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
-    short: Example figure.
+    caption: Research methodologies differ on the basis of their costs, and on the type of predictions they make. Computational ecology is justified only in the context of an interaction with observational or manipulative approaches; specifically, only observations can validate predictions.
+    short: Costs and benefits.
     file: costbenefit.pdf
   - id: flow
-    caption: This is a figure. Its caption should be long enough to demonstrate the effects of using the caption package.
-    short: Example figure.
+    caption: A) The domains of computational ecology (grey box) in the general research process. (THIS FIGURE IS BAD BECAUSE IT IMPLIES ONLY COMP APPROACHES CAN GENERATE HYPOTHESES WHICH IS WRONG). B) Mapping the currencies of collaborations across methodologies (IN NEED OF A LEGEND).
+    short: Flow and currencies.
     file: flow.pdf
 date: \today
 abstract: What do we say to abstracts? Not today.
@@ -163,9 +163,28 @@ validation, rejection, or refinement of predictions derived in other ways.
 
 # The roadmap towards synthesis
 
+{== need for synthesis and policy relevance ==} @white_nga
+
 ## Integration of computational research into the broader research landscape
 
+- {== a lot of large-scale databases ==}
+
+- summary of @poisot_sdc
+  + {>> lack of insights on error propagation <<}
+  + {>> standards <<}
+
+\autoref{flow} A
+
+- computational -> other {>> models needs explanations + grounding <<}
+
 ## Establishing the currencies of collaboration
+
+\autoref{flow} B
+
+- ecological research is not going to get easier so requires to capitalize on strengths
+  + {>> data management and software, computing <<}
+  + {>> high quality data + taxonomic expertise <<}
+  + {>> end-goal is the resolution of problems <<}
 
 !{flow}
 
@@ -174,7 +193,5 @@ validation, rejection, or refinement of predictions derived in other ways.
 @barraquand_lqt -- expressed lack of training
 
 @hoffman_dam -- increase exposures across different classes
-
-@white_nga -- need to be made policy relevant
 
 # References

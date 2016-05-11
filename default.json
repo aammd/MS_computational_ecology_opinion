@@ -1048,5 +1048,104 @@
         "title": "Testing ecological models: the meaning of validation",
         "type": "article-journal",
         "volume": "90"
+    },
+    {
+        "DOI": "10.1187/cbe.15-09-0186",
+        "author": [
+            {
+                "family": "Hoffman",
+                "given": "K."
+            },
+            {
+                "family": "Leupen",
+                "given": "S."
+            },
+            {
+                "family": "Dowell",
+                "given": "K."
+            },
+            {
+                "family": "Kephart",
+                "given": "K."
+            },
+            {
+                "family": "Leips",
+                "given": "J."
+            }
+        ],
+        "container-title": "Cell Biology Education",
+        "created": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T04:29:09Z",
+            "timestamp": 1462422549000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T04:29:10Z",
+            "timestamp": 1462422550000
+        },
+        "id": "hoffman_dam",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T05:41:49Z",
+            "timestamp": 1462426909347
+        },
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "page": "ar14-ar14",
+        "prefix": "http://id.crossref.org/prefix/10.1187",
+        "published-online": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "published-print": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "publisher": "American Society for Cell Biology (ASCB)",
+        "reference-count": 0,
+        "subject": [
+            "Biochemistry, Genetics and Molecular Biology(all)",
+            "Education"
+        ],
+        "title": "Development and Assessment of Modules to Integrate Quantitative Skills in Introductory Biology Courses",
+        "type": "article-journal",
+        "volume": "15"
     }
 ]
