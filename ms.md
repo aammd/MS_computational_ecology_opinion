@@ -36,7 +36,7 @@ date: \today
 abstract: What do we say to abstracts? Not today.
 ---
 
-Computational science happens when algortihms and software, data management
+Computational science happens when algorithms and software, data management
 practices, and advanced research computing are put in interaction with the
 explicit goal of solving "complex" problems. Typically, problems are considered
 *complex* when they cannot be solved appropriately with modelling or
@@ -133,17 +133,17 @@ such a trifling investment of fact.". Because there was no such thing as
 computational science in 1883, this is surely not what he had in mind -- but
 amusingly, here lies computational ecology mission statement: in a data-limited
 context, merging phenomenological models with pre-existing datasets is a way to
-efficiently. @pascual_cef outlines that computational ecology has a unique
-ability to go from the complex (natural systems) to the simple (representations
-and conceptual models), and back (testable predictions).
+efficiently {>>what?<<}. @pascual_cef outlines that computational ecology has a
+unique ability to go from the complex (natural systems) to the simple
+(representations and conceptual models), and back (testable predictions).
 
-This I illustrate in \autoref{costbenefit} (in which I excluded meta-analyses).
-The three types of approaches are ranked in (again, approximate and arbitrary)
-order of cost and effort. Ecological models make, by definition, high accuracy
-predictions, but they tend to be difficult to test [@rykiel_tem]. At the other
-hand of the spectrum, observations (field sampling) or manipulative approaches
-(micro/meso/macro-cosms, field experiments) are highly accurate (but have also
-immense human and monetary costs).
+This I illustrate in \autoref{costbenefit} (from which I excluded
+meta-analyses). The three types of approaches are ranked in (again, approximate
+and arbitrary) order of cost and effort. Ecological models make, by definition,
+high accuracy predictions, but they tend to be difficult to test [@rykiel_tem].
+At the other hand of the spectrum, observations (field sampling) or manipulative
+approaches (micro/meso/macro-cosms, field experiments) are highly accurate (but
+have also immense human and monetary costs).
 
 Computational ecology ought to fall in the middle of this spectrum -- although
 the reliance on advanced research computing incurs greater costs (either paid by
@@ -154,6 +154,8 @@ basis), any additional empirical effort to *validate* predictions will improve
 the predictions quality [@poisot_sdc].
 
 !{costbenefit}
+
+{== missing a transition here ==}
 
 None of these approaches to ecological research have any intrinsic superiority --
 in the end, direct observation and experimentation trumps all, and serve as the
@@ -219,7 +221,28 @@ explicit consideration of more realistic ecological mechanisms.
 
 ## Establishing the currencies of collaboration
 
-\autoref{flow} B
+An important question to further the integration of of computational approaches
+to the workflow of ecological research is to establish *currencies* for
+collaborations. Both at the scale of individuals researchers, research groups,
+and larger research communities, it is important to understand what each can
+contribute to the research effort. I attempt to represent this in panel B of
+\autoref{flow}. As ecological research is expected to be increasingly predictive
+and policy-relevant, and as fundamental research tends to tackle increasingly
+refined and complex questions, it is expected that research problems will become
+more difficult to resolve; this is, I think, an incentive for a collaboration
+that builds on the skills that are specific to different approaches.
+
+There is no tip-toeing around the fact that computational ecologists will be
+*data consumer*, and this data will have to come from ecologists with active
+field programs. Recognizing that computational ecology *needs* this data as a
+condition for its continued existence and relevance should motivate the
+establishment of a way to credit and recognize the role of *data producers*
+[which is discussed in @poisot_sdc, in particular in the context of massive
+dataset aggregation].
+
+- research parasitisim
+- @evans_gpc -- no cost
+
 
 - ecological research is not going to get easier so requires to capitalize on strengths
   + {>> data management and software, computing <<}
@@ -233,6 +256,8 @@ explicit consideration of more realistic ecological mechanisms.
 @barraquand_lqt -- expressed lack of training
 
 @hoffman_dam -- increase exposures across different classes
+
+- @roche_pda @roche_tpd -- low adherence to standards (emphasize at all time)
 
 Emphasize that computational power and increased data availability will allow
 more predictions but the time to test them is not compressible. Let theory +
