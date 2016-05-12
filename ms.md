@@ -159,7 +159,7 @@ None of these approaches to ecological research have any intrinsic superiority -
 in the end, direct observation and experimentation trumps all, and serve as the
 validation, rejection, or refinement of predictions derived in other ways.
 
-# The success story of Species Distribution Models
+## A success story: Species Distribution Models
 
 The practice known as "species distributions modelling" (and the species
 distribution models, henceforth SDMs, it generates) is a good example of
@@ -187,17 +187,15 @@ in determining the presence of a species is an explanation of its distribution.
 @austin_sps makes the point that SDMs exist at the interface between ecological
 theory and statistical models -- this is a key feature of computational
 thinking, *i.e.* being able to integrate ideas and knowledge (abstract concepts)
-with statistical and numerical tools.
-
-@franklin_mbs -- add proceszes to existing models
-
-@wisz_rbi @pellissier_cfw - dynamic models + theoretical predictors
-
-@poisot_sdc - large-scale data mining
-
-@gravel_tti - TIB + food web theory
-
-@araujo_usc - co-occurence + graph theory
+with statistical and numerical tools. In fact, one of the most recent and most
+stimulating developments in the field of SDMs is to refine their predictions not
+through the addition of more data, but through the addition of more processes
+[@franklin_mbs]. These SDMs rely on the usual statistical models, but also on
+dynamical models (*i.e.* simulations; see *e.g.* @wisz_rbi or @pellissier_cfw
+for biotic interactions, and @miller_ims for movement and dispersal). What they
+lack in mathematical expressiveness (which is most often ruled out by the use of
+stochastic simulations), they assume to gain in predictive ability through the
+explicit consideration of more realistic ecological mechanisms.
 
 # The roadmap towards synthesis
 
