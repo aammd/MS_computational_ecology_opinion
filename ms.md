@@ -159,9 +159,37 @@ None of these approaches to ecological research have any intrinsic superiority -
 in the end, direct observation and experimentation trumps all, and serve as the
 validation, rejection, or refinement of predictions derived in other ways.
 
-# Species distribution models as a case study
+# The success story of Species Distribution Models
 
-@austin_sps - theory + stats model
+The practice known as "species distributions modelling" (and the species
+distribution models, henceforth SDMs, it generates) is a good example of
+computational practices generating new ecological insights. At their core, SDMs
+seek to model the presence (and sometimes absence) of a species based on
+previous observations of its presence (absence) and knowledge of the environment
+in which the observation was made. More formally, SDMs are of the form
+$\text{P}(S | \epsilon)$, where $S$ denotes the presence of a species, and
+$\epsilon$ is a set of variables representing the local environment at the point
+where the prediction is made.
+
+As @franklin_msd highlights, SDMs emerged at a time where access to computers
+*and* the ability to effectively program them became easier. Although ecological
+insights, statistical methods, and data were pre-existing, the ability to turn
+these ingredients into a predictive whole required what is now called
+"computational literacy" -- the ability to automate a system in order to
+generate predictions through computer simulations and analysis. One of the
+strengths of SDMs is that they can be used either for predictions or
+explanations [@elith_sdm]. To calculate $\text{P}(S | \epsilon)$ is to make a
+prediction (what are the chances of observing species $S$ at a given location),
+that can be refined, validated, or rejected based on sampling; to understand
+what goes into $\epsilon$, *i.e.* what aspects of the environments are involved
+in determining the presence of a species is an explanation of its distribution.
+
+@austin_sps makes the point that SDMs exist at the interface between ecological
+theory and statistical models -- this is a key feature of computational
+thinking, *i.e.* being able to integrate ideas and knowledge (abstract concepts)
+with statistical and numerical tools.
+
+@franklin_mbs -- add proceszes to existing models
 
 @wisz_rbi @pellissier_cfw - dynamic models + theoretical predictors
 

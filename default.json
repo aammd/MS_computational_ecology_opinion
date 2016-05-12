@@ -1,5 +1,80 @@
 [
     {
+        "DOI": "10.1016/0304-3800(95)00152-2",
+        "alternative-id": [
+            "0304380095001522"
+        ],
+        "author": [
+            {
+                "family": "Rykiel",
+                "given": "Edward J.",
+                "suffix": "Jr."
+            }
+        ],
+        "container-title": "Ecological Modelling",
+        "created": {
+            "date-parts": [
+                [
+                    2002,
+                    7,
+                    25
+                ]
+            ],
+            "date-time": "2002-07-25T14:55:55Z",
+            "timestamp": 1027608955000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2015,
+                    9,
+                    3
+                ]
+            ],
+            "date-time": "2015-09-03T06:47:49Z",
+            "timestamp": 1441262869000
+        },
+        "id": "rykiel_tem",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    12,
+                    20
+                ]
+            ],
+            "date-time": "2015-12-20T23:27:59Z",
+            "timestamp": 1450654079347
+        },
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    1996,
+                    11
+                ]
+            ]
+        },
+        "page": "229-244",
+        "prefix": "http://id.crossref.org/prefix/10.1016",
+        "published-print": {
+            "date-parts": [
+                [
+                    1996,
+                    11
+                ]
+            ]
+        },
+        "publisher": "Elsevier BV",
+        "reference-count": 51,
+        "subject": [
+            "Ecological Modelling"
+        ],
+        "title": "Testing ecological models: the meaning of validation",
+        "type": "article-journal",
+        "volume": "90"
+    },
+    {
         "author": [
             {
                 "family": "Bolker",
@@ -44,6 +119,120 @@
         },
         "page": "1205259109-",
         "title": "Heavy use of equations impedes communication among biologists.",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/j.1469-185X.2012.00235.x",
+        "author": [
+            {
+                "family": "Wisz",
+                "given": "Mary Susanne"
+            },
+            {
+                "family": "Pottier",
+                "given": "Julien"
+            },
+            {
+                "family": "Kissling",
+                "given": "W. Daniel"
+            },
+            {
+                "family": "Pellissier",
+                "given": "LoÏc"
+            },
+            {
+                "family": "Lenoir",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Damgaard",
+                "given": "Christian F."
+            },
+            {
+                "family": "Dormann",
+                "given": "Carsten F."
+            },
+            {
+                "family": "Forchhammer",
+                "given": "Mads C."
+            },
+            {
+                "family": "Grytnes",
+                "given": "John-Arvid"
+            },
+            {
+                "family": "Guisan",
+                "given": "Antoine"
+            },
+            {
+                "family": "Heikkinen",
+                "given": "Risto K."
+            },
+            {
+                "family": "Hø ye",
+                "given": "Toke T."
+            },
+            {
+                "family": "Kühn",
+                "given": "Ingolf"
+            },
+            {
+                "family": "Luoto",
+                "given": "Miska"
+            },
+            {
+                "family": "Maiorano",
+                "given": "Luigi"
+            },
+            {
+                "family": "Nilsson",
+                "given": "Marie-Charlotte"
+            },
+            {
+                "family": "Normand",
+                "given": "Signe"
+            },
+            {
+                "family": "Öckinger",
+                "given": "Erik"
+            },
+            {
+                "family": "Schmidt",
+                "given": "Niels M."
+            },
+            {
+                "family": "Termansen",
+                "given": "Mette"
+            },
+            {
+                "family": "Timmermann",
+                "given": "Allan"
+            },
+            {
+                "family": "Wardle",
+                "given": "David a."
+            },
+            {
+                "family": "Aastrup",
+                "given": "Peter"
+            },
+            {
+                "family": "Svenning",
+                "given": "Jens-Christian"
+            }
+        ],
+        "container-title": "Biol. Rev.",
+        "id": "wisz_rbi",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    6
+                ]
+            ]
+        },
+        "page": "no-no",
+        "title": "The role of biotic interactions in shaping distributions and realised assemblages of species: implications for species distribution modelling",
         "type": "article-journal"
     },
     {
@@ -139,6 +328,79 @@
         "volume": "20"
     },
     {
+        "DOI": "10.1111/j.1472-4642.2010.00641.x",
+        "author": [
+            {
+                "family": "Franklin",
+                "given": "Janet"
+            }
+        ],
+        "container-title": "Diversity and Distributions",
+        "created": {
+            "date-parts": [
+                [
+                    2010,
+                    2,
+                    12
+                ]
+            ],
+            "date-time": "2010-02-12T05:11:41Z",
+            "timestamp": 1265951501000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2015,
+                    10,
+                    21
+                ]
+            ],
+            "date-time": "2015-10-21T02:47:17Z",
+            "timestamp": 1445395637000
+        },
+        "id": "franklin_mbs",
+        "indexed": {
+            "date-parts": [
+                [
+                    2015,
+                    12,
+                    23
+                ]
+            ],
+            "date-time": "2015-12-23T04:14:56Z",
+            "timestamp": 1450844096215
+        },
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    4,
+                    13
+                ]
+            ]
+        },
+        "page": "321-330",
+        "prefix": "http://id.crossref.org/prefix/10.1111",
+        "published-online": {
+            "date-parts": [
+                [
+                    2010,
+                    4,
+                    13
+                ]
+            ]
+        },
+        "publisher": "Wiley-Blackwell",
+        "reference-count": 101,
+        "subject": [
+            "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "title": "Moving beyond static species distribution models in support of conservation biogeography",
+        "type": "article-journal",
+        "volume": "16"
+    },
+    {
         "DOI": "10.1103/PhysRevLett.93.158701",
         "author": [
             {
@@ -204,6 +466,222 @@
         "title": "Computational ecology as an emerging science",
         "type": "article-journal",
         "volume": "2"
+    },
+    {
+        "DOI": "10.1002/ece3.843",
+        "abstract": "The ability to model biodiversity patterns is of prime importance in this era of severe environmental crisis. Species assemblage along environmental gradients is subject to the interplay of biotic interactions in complement to abiotic filtering and stochastic forces. Accounting for complex biotic interactions for a wide array of species remains so far challenging. Here, we propose using food web models that can infer the potential interaction links between species as a constraint in species distribution models. Using a plantherbivore (butterfly) interaction dataset, we demonstrate that this combined approach is able to improve species distribution and community forecasts. The trophic interaction network between butterfly larvae and host plant was phylogenetically structured and driven by host plant nitrogen content allowing forecasting the food web model to unknown interactions links. This combined approach is very useful in rendering models of more generalist species that have multiple potential interaction links, where gap in the literature may occur. Our combined approach points toward a promising direction for modeling the spatial variation in entire species interaction networks.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2013,
+                    10,
+                    25
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Pellissier",
+                "given": "Loïc"
+            },
+            {
+                "family": "Rohr",
+                "given": "Rudolf P."
+            },
+            {
+                "family": "Ndiribe",
+                "given": "Charlotte"
+            },
+            {
+                "family": "Pradervand",
+                "given": "Jean-Nicolas"
+            },
+            {
+                "family": "Salamin",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Guisan",
+                "given": "Antoine"
+            },
+            {
+                "family": "Wisz",
+                "given": "Mary"
+            }
+        ],
+        "container-title": "Ecol. Evol.",
+        "id": "pellissier_cfw",
+        "issue": "13",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "4572-4583",
+        "title": "Combining food web and species distribution models for improved community projections",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1187/cbe.15-09-0186",
+        "author": [
+            {
+                "family": "Hoffman",
+                "given": "K."
+            },
+            {
+                "family": "Leupen",
+                "given": "S."
+            },
+            {
+                "family": "Dowell",
+                "given": "K."
+            },
+            {
+                "family": "Kephart",
+                "given": "K."
+            },
+            {
+                "family": "Leips",
+                "given": "J."
+            }
+        ],
+        "container-title": "Cell Biology Education",
+        "created": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T04:29:09Z",
+            "timestamp": 1462422549000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T04:29:10Z",
+            "timestamp": 1462422550000
+        },
+        "id": "hoffman_dam",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    5
+                ]
+            ],
+            "date-time": "2016-05-05T05:41:49Z",
+            "timestamp": 1462426909347
+        },
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "page": "ar14-ar14",
+        "prefix": "http://id.crossref.org/prefix/10.1187",
+        "published-online": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "published-print": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    4
+                ]
+            ]
+        },
+        "publisher": "American Society for Cell Biology (ASCB)",
+        "reference-count": 0,
+        "subject": [
+            "Biochemistry, Genetics and Molecular Biology(all)",
+            "Education"
+        ],
+        "title": "Development and Assessment of Modules to Integrate Quantitative Skills in Introductory Biology Courses",
+        "type": "article-journal",
+        "volume": "15"
+    },
+    {
+        "DOI": "10.1016/S0304-3800(02)00205-3",
+        "author": [
+            {
+                "family": "Austin",
+                "given": "M.P"
+            }
+        ],
+        "container-title": "Ecol. Model.",
+        "id": "austin_sps",
+        "issue": "2-3",
+        "issued": {
+            "date-parts": [
+                [
+                    2002,
+                    11
+                ]
+            ]
+        },
+        "page": "101-118",
+        "title": "Spatial prediction of species distribution: an interface between ecological theory and statistical modelling",
+        "type": "article-journal",
+        "volume": "157"
+    },
+    {
+        "DOI": "10.1111/j.1600-0587.2011.06919.x",
+        "author": [
+            {
+                "family": "Araújo",
+                "given": "Miguel B"
+            },
+            {
+                "family": "Rozenfeld",
+                "given": "Alejandro"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Marquet",
+                "given": "Pablo A"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "araujo_usc",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    12
+                ]
+            ]
+        },
+        "page": "897-908",
+        "title": "Using species co-occurrence networks to assess the impacts of climate change",
+        "type": "article-journal",
+        "volume": "34"
     },
     {
         "DOI": "10.1890/es14-00485.1",
@@ -315,6 +793,242 @@
         "title": " The next generation of action ecology : novel approaches towards global ecological research ",
         "type": "article-journal",
         "volume": "6"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.0010018",
+        "author": [
+            {
+                "family": "Pascual",
+                "given": "Mercedes"
+            }
+        ],
+        "container-title": "PLoS Comp Biol",
+        "created": {
+            "date-parts": [
+                [
+                    2005,
+                    7,
+                    28
+                ]
+            ],
+            "date-time": "2005-07-28T21:30:59Z",
+            "timestamp": 1122586259000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    4,
+                    20
+                ]
+            ],
+            "date-time": "2016-04-20T17:59:31Z",
+            "timestamp": 1461175171000
+        },
+        "id": "pascual_cef",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    4,
+                    20
+                ]
+            ],
+            "date-time": "2016-04-20T19:40:15Z",
+            "timestamp": 1461181215090
+        },
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "page": "e18",
+        "prefix": "http://id.crossref.org/prefix/10.1371",
+        "published-print": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "publisher": "Public Library of Science (PLoS)",
+        "reference-count": 51,
+        "subject": [
+            "Ecology",
+            "Modelling and Simulation",
+            "Computational Theory and Mathematics",
+            "Genetics",
+            "Ecology, Evolution, Behavior and Systematics",
+            "Molecular Biology",
+            "Cellular and Molecular Neuroscience"
+        ],
+        "title": "Computational Ecology: From the Complex to the Simple and Back",
+        "type": "article-journal",
+        "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1146/annurev.ecolsys.110308.120159",
+        "accessed": {
+            "date-parts": [
+                [
+                    2013,
+                    2,
+                    14
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Elith",
+                "given": "Jane"
+            },
+            {
+                "family": "Leathwick",
+                "given": "John R."
+            }
+        ],
+        "container-title": "Annu. Rev. Ecol. Evol. Syst.",
+        "id": "elith_sdm",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2009,
+                    12
+                ]
+            ]
+        },
+        "page": "677-697",
+        "title": "Species Distribution Models: Ecological Explanation and Prediction Across Space and Time",
+        "title-short": "Species Distribution Models",
+        "type": "article-journal",
+        "volume": "40"
+    },
+    {
+        "DOI": "10.1145/2851581.2892577",
+        "ISBN": "http://id.crossref.org/isbn/9781450340823",
+        "author": [
+            {
+                "affiliation": [
+                    {
+                        "name": "International Computer Science Institute, Berkeley, CA, USA"
+                    }
+                ],
+                "family": "Raghavan",
+                "given": "Barath"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "UC Irvine, Irvine, CA, USA"
+                    }
+                ],
+                "family": "Nardi",
+                "given": "Bonnie"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+                    }
+                ],
+                "family": "Lovell",
+                "given": "Sarah T."
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of California, Irvine, Irvine, CA, USA"
+                    }
+                ],
+                "family": "Norton",
+                "given": "Juliet"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of California, Irvine, Irvine, CA, USA"
+                    }
+                ],
+                "family": "Tomlinson",
+                "given": "Bill"
+            },
+            {
+                "affiliation": [
+                    {
+                        "name": "University of California at Irvine, Irvine, CA, USA"
+                    }
+                ],
+                "family": "Patterson",
+                "given": "Donald J."
+            }
+        ],
+        "container-title": "Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA '16",
+        "created": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    6
+                ]
+            ],
+            "date-time": "2016-05-06T19:56:09Z",
+            "timestamp": 1462564569000
+        },
+        "deposited": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    6
+                ]
+            ],
+            "date-time": "2016-05-06T20:52:12Z",
+            "timestamp": 1462567932000
+        },
+        "funder": [
+            {
+                "award": [
+                    "CCF-1442749"
+                ],
+                "name": "National Science Foundation"
+            }
+        ],
+        "id": "raghavan_ca",
+        "indexed": {
+            "date-parts": [
+                [
+                    2016,
+                    5,
+                    6
+                ]
+            ],
+            "date-time": "2016-05-06T21:40:51Z",
+            "timestamp": 1462570851994
+        },
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "prefix": "http://id.crossref.org/prefix/10.1145",
+        "published-print": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "publisher": "Association for Computing Machinery (ACM)",
+        "reference-count": 48,
+        "title": "Computational Agroecology",
+        "type": "paper-conference"
     },
     {
         "abstract": "In this paper we are investigating the long time behaviour of the solution of a mutation competition model of Lotka-Volterra’s type. Our main motivation comes from the analysis of the Lotka-Volterra’s competition system with mutation which simulates the demo-genetic dynamics of diverse virus in their host : \\$\\$ \\\\frac{}dv\\_{i}(t){}{dt}=v\\_i\\[r\\_i-\\\\frac{1}{K}\\\\Psi\\_i(v)\\]+\\\\sum\\_{j=1}\\^{N} \\\\mu\\_{ij}(v\\_j-v\\_i). \\$\\$ In a first part we analyse the case where the competition terms \\$\\\\Psi\\_i\\$ are independent of the virus type \\$i\\$. In this situation and under some rather general assumptions on the functions \\$\\\\Psi\\_i\\$, the coefficients \\$r\\_i\\$ and the mutation matrix \\$\\\\mu\\_{ij}\\$ we prove the existence of a unique positive globally stable stationary solution i.e. the solution attracts the trajectory initiated from any nonnegative initial datum. Moreover the unique steady state \\$\\\\bar v\\$ is strictly positive in the sense that \\$\\\\bar v\\_i$>$0\\$ for all \\$i\\$. These results are in sharp contrast with the behaviour of Lotka-Volterra without mutation term where it is known that multiple non negative stationary solutions exist and an exclusion principle occurs (i.e For all \\$i\\\\neq i\\_0, \\\\bar v\\_{i}=0\\$ and \\$\\\\bar v\\_{i\\_0}$>$0\\$). Then we explore a typical example that has been proposed to explain some experimental data. For such particular models we characterise the speed of convergence to the equilibrium. In a second part, under some additional assumption, we prove the existence of a positive steady state for the full system and we analyse the long term dynamics. The proofs mainly rely on the construction of a relative entropy which plays the role of a Lyapunov functional.",
@@ -825,6 +1539,47 @@
         "volume": "2"
     },
     {
+        "DOI": "10.1111/j.1461-0248.2011.01667.x",
+        "abstract": "MacArthur and Wilson’s Theory of Island Biogeography (TIB) is among the most well-known process-based explanations for the distribution of species richness. It helps understand the species-area relationship, a fundamental pattern in ecology and an essential tool for conservation. The classic TIB does not, however, account for the complex structure of ecological systems. We extend the TIB to take into account trophic interactions and derive a species-specific model for occurrence probability. We find that the properties of the regional food web influence the species-area relationship, and that, in return, immigration and extinction dynamics affect local food web properties. We compare the accuracy of the classic TIB to our trophic TIB to predict community composition of real food webs and find strong support for our trophic extension of the TIB. Our approach provides a parsimonious explanation to species distributions and open new perspectives to integrate the complexity of ecological interactions into simple species distribution models.",
+        "author": [
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Massol",
+                "given": "Fran\\\\ccois"
+            },
+            {
+                "family": "Canard",
+                "given": "Elsa"
+            },
+            {
+                "family": "Mouillot",
+                "given": "David"
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            }
+        ],
+        "container-title": "Ecol. Lett.",
+        "id": "gravel_tti",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    10
+                ]
+            ]
+        },
+        "page": "1010-1016",
+        "title": "Trophic theory of island biogeography.",
+        "type": "article-journal",
+        "volume": "14"
+    },
+    {
         "author": [
             {
                 "family": "Otto",
@@ -849,6 +1604,26 @@
         "title": "A biologist’s guide to mathematical modeling in ecology and evolution",
         "type": "book",
         "volume": "13"
+    },
+    {
+        "author": [
+            {
+                "family": "Franklin",
+                "given": "Janet",
+                "parse-names": true
+            }
+        ],
+        "id": "franklin_msd",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "publisher": "Cambridge University Press",
+        "title": "Mapping species distributions: spatial inference and prediction",
+        "type": "book"
     },
     {
         "DOI": "10.1007/s11258-014-0366-3",
@@ -897,255 +1672,5 @@
         "page": "1-14",
         "title": "Model-based thinking for community ecology",
         "type": "article-journal"
-    },
-    {
-        "DOI": "10.1371/journal.pcbi.0010018",
-        "author": [
-            {
-                "family": "Pascual",
-                "given": "Mercedes"
-            }
-        ],
-        "container-title": "PLoS Comp Biol",
-        "created": {
-            "date-parts": [
-                [
-                    2005,
-                    7,
-                    28
-                ]
-            ],
-            "date-time": "2005-07-28T21:30:59Z",
-            "timestamp": 1122586259000
-        },
-        "deposited": {
-            "date-parts": [
-                [
-                    2016,
-                    4,
-                    20
-                ]
-            ],
-            "date-time": "2016-04-20T17:59:31Z",
-            "timestamp": 1461175171000
-        },
-        "id": "pascual_cef",
-        "indexed": {
-            "date-parts": [
-                [
-                    2016,
-                    4,
-                    20
-                ]
-            ],
-            "date-time": "2016-04-20T19:40:15Z",
-            "timestamp": 1461181215090
-        },
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    2005
-                ]
-            ]
-        },
-        "page": "e18",
-        "prefix": "http://id.crossref.org/prefix/10.1371",
-        "published-print": {
-            "date-parts": [
-                [
-                    2005
-                ]
-            ]
-        },
-        "publisher": "Public Library of Science (PLoS)",
-        "reference-count": 51,
-        "subject": [
-            "Ecology",
-            "Modelling and Simulation",
-            "Computational Theory and Mathematics",
-            "Genetics",
-            "Ecology, Evolution, Behavior and Systematics",
-            "Molecular Biology",
-            "Cellular and Molecular Neuroscience"
-        ],
-        "title": "Computational Ecology: From the Complex to the Simple and Back",
-        "type": "article-journal",
-        "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
-        "volume": "1"
-    },
-    {
-        "DOI": "10.1016/0304-3800(95)00152-2",
-        "alternative-id": [
-            "0304380095001522"
-        ],
-        "author": [
-            {
-                "family": "Rykiel",
-                "given": "Edward J.",
-                "suffix": "Jr."
-            }
-        ],
-        "container-title": "Ecological Modelling",
-        "created": {
-            "date-parts": [
-                [
-                    2002,
-                    7,
-                    25
-                ]
-            ],
-            "date-time": "2002-07-25T14:55:55Z",
-            "timestamp": 1027608955000
-        },
-        "deposited": {
-            "date-parts": [
-                [
-                    2015,
-                    9,
-                    3
-                ]
-            ],
-            "date-time": "2015-09-03T06:47:49Z",
-            "timestamp": 1441262869000
-        },
-        "id": "rykiel_tem",
-        "indexed": {
-            "date-parts": [
-                [
-                    2015,
-                    12,
-                    20
-                ]
-            ],
-            "date-time": "2015-12-20T23:27:59Z",
-            "timestamp": 1450654079347
-        },
-        "issue": "3",
-        "issued": {
-            "date-parts": [
-                [
-                    1996,
-                    11
-                ]
-            ]
-        },
-        "page": "229-244",
-        "prefix": "http://id.crossref.org/prefix/10.1016",
-        "published-print": {
-            "date-parts": [
-                [
-                    1996,
-                    11
-                ]
-            ]
-        },
-        "publisher": "Elsevier BV",
-        "reference-count": 51,
-        "subject": [
-            "Ecological Modelling"
-        ],
-        "title": "Testing ecological models: the meaning of validation",
-        "type": "article-journal",
-        "volume": "90"
-    },
-    {
-        "DOI": "10.1187/cbe.15-09-0186",
-        "author": [
-            {
-                "family": "Hoffman",
-                "given": "K."
-            },
-            {
-                "family": "Leupen",
-                "given": "S."
-            },
-            {
-                "family": "Dowell",
-                "given": "K."
-            },
-            {
-                "family": "Kephart",
-                "given": "K."
-            },
-            {
-                "family": "Leips",
-                "given": "J."
-            }
-        ],
-        "container-title": "Cell Biology Education",
-        "created": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    5
-                ]
-            ],
-            "date-time": "2016-05-05T04:29:09Z",
-            "timestamp": 1462422549000
-        },
-        "deposited": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    5
-                ]
-            ],
-            "date-time": "2016-05-05T04:29:10Z",
-            "timestamp": 1462422550000
-        },
-        "id": "hoffman_dam",
-        "indexed": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    5
-                ]
-            ],
-            "date-time": "2016-05-05T05:41:49Z",
-            "timestamp": 1462426909347
-        },
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    4
-                ]
-            ]
-        },
-        "page": "ar14-ar14",
-        "prefix": "http://id.crossref.org/prefix/10.1187",
-        "published-online": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    4
-                ]
-            ]
-        },
-        "published-print": {
-            "date-parts": [
-                [
-                    2016,
-                    5,
-                    4
-                ]
-            ]
-        },
-        "publisher": "American Society for Cell Biology (ASCB)",
-        "reference-count": 0,
-        "subject": [
-            "Biochemistry, Genetics and Molecular Biology(all)",
-            "Education"
-        ],
-        "title": "Development and Assessment of Modules to Integrate Quantitative Skills in Introductory Biology Courses",
-        "type": "article-journal",
-        "volume": "15"
     }
 ]
