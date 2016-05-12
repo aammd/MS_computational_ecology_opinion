@@ -1,5 +1,5 @@
 ---
-title: "Question-driven, data-based: the research agenda of computational ecology"
+title: "Question-driven, data-based, policy-relevant? A research agenda for computational ecology"
 short: Computational ecology
 bibliography: default.json
 csl: plmt/plab.csl
@@ -175,8 +175,9 @@ validation, rejection, or refinement of predictions derived in other ways.
 
 {== need for synthesis and policy relevance ==} @white_nga
 
-+ list of challenges
+@raghavan_ca -- design sustainable socio-ecological systems through simulations + knowledge
 
++ list of challenges
 
 ## Integration of computational research into the broader research landscape
 
@@ -206,5 +207,13 @@ validation, rejection, or refinement of predictions derived in other ways.
 @barraquand_lqt -- expressed lack of training
 
 @hoffman_dam -- increase exposures across different classes
+
+Emphasize that computational power and increased data availability will allow
+more predictions but the time to test them is not compressible. Let theory +
+what is feasible + dialogue with field ecologists determine where efforts should
+be invested, also develop roadmap to understand the propagation of uncertainty
+and errors.
+
+**Acknowledgements:** Allison Barner, CESS students
 
 # References
