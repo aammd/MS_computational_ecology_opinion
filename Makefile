@@ -1,5 +1,5 @@
 SOURCE=ms.md
-TYPE=preprint# alt. value: draft
+TYPE=draft# alt. value: draft | preprint
 TITLE=computationalecology
 MARKED= plmt/$(TITLE)_temp.md
 PFLAGS= --variable=$(TYPE) --filter pandoc-citeproc
