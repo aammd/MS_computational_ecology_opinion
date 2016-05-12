@@ -159,11 +159,24 @@ None of these approaches to ecological research have any intrinsic superiority -
 in the end, direct observation and experimentation trumps all, and serve as the
 validation, rejection, or refinement of predictions derived in other ways.
 
-# Challenges for computational ecology
+# Species distribution models as a case study
+
+@austin_sps - theory + stats model
+
+@wisz_rbi @pellissier_cfw - dynamic models + theoretical predictors
+
+@poisot_sdc - large-scale data mining
+
+@gravel_tti - TIB + food web theory
+
+@araujo_usc - co-occurence + graph theory
 
 # The roadmap towards synthesis
 
 {== need for synthesis and policy relevance ==} @white_nga
+
++ list of challenges
+
 
 ## Integration of computational research into the broader research landscape
 
