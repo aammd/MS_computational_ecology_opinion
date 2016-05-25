@@ -41,28 +41,28 @@ practices, and advanced research computing are put in interaction with the
 explicit goal of solving "complex" problems. Typically, problems are considered
 *complex* when they cannot be solved appropriately with modelling or
 data-collection only. Computational science is one of the ways to practice
-computational thinking [@papert_esm], *i.e.* the feedback loop of abstracting a
+computational thinking [@pape96esm], *i.e.* the feedback loop of abstracting a
 problem to its core mechanisms, expressing a solution in a way that can be
 automated, and using an interactions between simulations and data to refine the
 original problem or suggest new knowledge. Computational approaches are common
 place in most area of biology, to the point where one would almost be confident
-that they represent a viable career path [@bourne_tsr]. Ecology is a particular
+that they represent a viable career path [@bour11tsr]. Ecology is a particular
 field for which, because field data have a natural variability, are difficult to
 find and expensive to collect, and many problems lack an adequate formal
 mathematical formulation, computational approaches hold great promises
-[@petrovskii_cee].
+[@petr12cee].
 
-@levin_tmt suggested that ecology (and evolutionary biology) should continue
+@levi12mtd suggested that ecology (and evolutionary biology) should continue
 their move towards a *marriage of theory and data*. In addition to the
 aforementionned problem of the lack of adequately expressed models, this effort
 is hampered by the fact that data and models are often developped in independant
 ways, and reconciling both can be difficult. This has been suggested as one of
 the reasons for which theoretical papers (defined as *papers with at least one
 equation in the main text*) experience a sharp decrease in citation
-[@fawcett_hue]. One of the leading textbooks for the mathematical models in
-ecology and evolution [@otto_bgm] is more focused with algebra and calculus, and
-not with the integration of models with data [though other texts, like
-@soetaert_pge and @bolker_emd, cover the integration of data and models well].
+[@fawc12hei]. One of the leading textbooks for the mathematical models in
+ecology and evolution [@otto07bgm] is more focused with algebra and calculus,
+and not with the integration of models with data [though other texts, like
+@soet08pge and @bolk08emd, cover the integration of data and models well].
 
 Ecology as a whole (and community ecology in particular) circumvented the
 problem of model and data mismatch problem by investing in the development and
