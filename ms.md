@@ -66,8 +66,8 @@ and not with the integration of models with data [though other texts, like
 
 Ecology as a whole (and community ecology in particular) circumvented the
 problem of model and data mismatch problem by investing in the development and
-refinment of statistical models [see @warton_mtf for an excellent overview] and
-"numerical" approaches [@legendre_ne] based on multivariate statistics. These
+refinment of statistical models [see @wart14mtc for an excellent overview] and
+"numerical" approaches [@lege98ne] based on multivariate statistics. These
 models, hovewer, are able to *explain* data, but very rarely can they give new
 predictions. This is, essentially, the niche that computational ecology can
 fill; at the cost of a higher degree of abstraction, its integration of data and
@@ -106,20 +106,20 @@ relevant quantity (population stability and coexistence). These models, although
 they have been formulated to explain data generated through empirical
 observations, are disconnected from the data themselves. In fact, this family of
 model lies at the basis of a branch of ecological modelling that now exists
-entirely outside of data [@gyllenberg_lcf; @ackland_slg; @coville_cel].
+entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
 
-By contrast @sallan_ppd study the same problematic (sustained persistence and
+By contrast @sall11ppd study the same problematic (sustained persistence and
 fluctuations of predator--prey couples through time) using a paleo-ecological
 timeseries, and interpret their data in the context of predictions from the
 Lotka-Volterra family of models (namely, they find support for
 Lotka-Volterra-like oscillations in time).
 
-Meta-analyses, such as the one by @bolnick_rcm, are instead interested in
+Meta-analyses, such as the one by @boln05rcm, are instead interested in
 collecting the outcome of observational and manipulative studies, and
 synthetizing the *effects* they report. These are often purely *statistical*, in
 that they aggregate significance, effect size, to measure how robust a result is
 across different systems. Meta-analyses most often require a *critical mass* of
-pre-existing papers [@lortie_pie]. Although they are irreplaceable as a tool to
+pre-existing papers [@lort13pie]. Although they are irreplaceable as a tool to
 measure the strength of results, they are limited by their need for primary
 literature with experimental designs that are similar enough.
 
@@ -133,14 +133,14 @@ such a trifling investment of fact.". Because there was no such thing as
 computational science in 1883, this is surely not what he had in mind -- but
 amusingly, here lies computational ecology mission statement: in a data-limited
 context, merging phenomenological models with pre-existing datasets is a way to
-efficiently {>>what?<<}. @pascual_cef outlines that computational ecology has a
+efficiently {>>what?<<}. @pasc05cec outlines that computational ecology has a
 unique ability to go from the complex (natural systems) to the simple
 (representations and conceptual models), and back (testable predictions).
 
 This I illustrate in \autoref{costbenefit} (from which I excluded
 meta-analyses). The three types of approaches are ranked in (again, approximate
 and arbitrary) order of cost and effort. Ecological models make, by definition,
-high accuracy predictions, but they tend to be difficult to test [@rykiel_tem].
+high accuracy predictions, but they tend to be difficult to test [@ryki96tem].
 At the other hand of the spectrum, observations (field sampling) or manipulative
 approaches (micro/meso/macro-cosms, field experiments) are highly accurate (but
 have also immense human and monetary costs).
@@ -151,7 +151,7 @@ the researcher of by a computing center or consortium), it can generates
 predictions that are highly testable. Specifically, although the accuracy of
 these predictions is currently unknown (and will vary on a model/study/question
 basis), any additional empirical effort to *validate* predictions will improve
-the predictions quality [@poisot_sdc].
+the predictions quality [@pois15sdc].
 
 !{costbenefit}
 
@@ -173,37 +173,37 @@ $\text{P}(S | \epsilon)$, where $S$ denotes the presence of a species, and
 $\epsilon$ is a set of variables representing the local environment at the point
 where the prediction is made.
 
-As @franklin_msd highlights, SDMs emerged at a time where access to computers
-*and* the ability to effectively program them became easier. Although ecological
+As @fran10msd highlights, SDMs emerged at a time where access to computers *and*
+the ability to effectively program them became easier. Although ecological
 insights, statistical methods, and data were pre-existing, the ability to turn
 these ingredients into a predictive whole required what is now called
 "computational literacy" -- the ability to automate a system in order to
 generate predictions through computer simulations and analysis. One of the
 strengths of SDMs is that they can be used either for predictions or
-explanations [@elith_sdm]. To calculate $\text{P}(S | \epsilon)$ is to make a
+explanations [@elit09sdm]. To calculate $\text{P}(S | \epsilon)$ is to make a
 prediction (what are the chances of observing species $S$ at a given location),
 that can be refined, validated, or rejected based on sampling; to understand
 what goes into $\epsilon$, *i.e.* what aspects of the environments are involved
 in determining the presence of a species is an explanation of its distribution.
 
-@austin_sps makes the point that SDMs exist at the interface between ecological
+@aust02sps makes the point that SDMs exist at the interface between ecological
 theory and statistical models -- this is a key feature of computational
 thinking, *i.e.* being able to integrate ideas and knowledge (abstract concepts)
 with statistical and numerical tools. In fact, one of the most recent and most
 stimulating developments in the field of SDMs is to refine their predictions not
 through the addition of more data, but through the addition of more processes
-[@franklin_mbs]. These SDMs rely on the usual statistical models, but also on
-dynamical models (*i.e.* simulations; see *e.g.* @wisz_rbi or @pellissier_cfw
-for biotic interactions, and @miller_ims for movement and dispersal). What they
-lack in mathematical expressiveness (which is most often ruled out by the use of
+[@fran10mss]. These SDMs rely on the usual statistical models, but also on
+dynamical models (*i.e.* simulations; see *e.g.* @wisz12rbi or @pell13cfw for
+biotic interactions, and @mill15ims for movement and dispersal). What they lack
+in mathematical expressiveness (which is most often ruled out by the use of
 stochastic simulations), they assume to gain in predictive ability through the
 explicit consideration of more realistic ecological mechanisms.
 
 # The roadmap towards synthesis
 
-{== need for synthesis and policy relevance ==} @white_nga
+{== need for synthesis and policy relevance ==} @whit15gae
 
-@raghavan_ca -- design sustainable socio-ecological systems through simulations + knowledge
+@ragh16ca -- design sustainable socio-ecological systems through simulations + knowledge
 
 + list of challenges
 
