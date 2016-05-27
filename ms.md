@@ -217,7 +217,7 @@ these scenarios to impact policy-making. @whit15gae propose that this falls
 under the umbrella of *action ecology*, *i.e.* using fundamental knowlede and
 ecological theory to adress pressing, real-world questions.
 
-{==a ¶ on the need to comp res instead of sampling bc time constraint==}
+{== a bit on the need to comp res instead of sampling bc time constraint ==}
 
 @ragh16ca suggest that this approach can also accomodate stakeholder knowledge
 and engagement. By building models that rely on ecological concepts, empirical
