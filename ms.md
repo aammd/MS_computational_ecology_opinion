@@ -76,7 +76,12 @@ be helpful to initiate the investigation of questions that have not received
 extensive empirical treatment, or for which usual statistical approaches fall
 short.
 
-{== need one more paragraph on the paper goals ==}
+In this paper, I attempt to situate the practice of computational ecology within
+the broader landscape of ecological research. In particular, I highlight the
+ways in which computational ecology differs from, and complements, ecological
+modelling. I finally move on to the currency of collaborations between different
+groups of ecologists, and discuss the need to add more quantitative skills in
+ecological training.
 
 # Computational ecology in its broader landscape
 
@@ -201,9 +206,24 @@ explicit consideration of more realistic ecological mechanisms.
 
 # The roadmap towards synthesis
 
-{== need for synthesis and policy relevance ==} @whit15gae
+The field of ecology as a whole needs to improve the ways in which it can
+improve synthesis in order to become policy-relevant. Most of the global
+challenges have an ecological or environmental component, and outside of the
+socio-$\star$ (ecological, economical, cultural, ...) aspects, ecologists can
+contribute to the mitigation or resolution of these challenges by i) assessing
+our knowledge of natural systems, ii) developping methods to produce scenarios
+using state-of-the-art models and tools, and iii) communicate the output of
+these scenarios to impact policy-making. @whit15gae propose that this falls
+under the umbrella of *action ecology*, *i.e.* using fundamental knowlede and
+ecological theory to adress pressing, real-world questions.
 
-@ragh16ca -- design sustainable socio-ecological systems through simulations + knowledge
+{==a ¶ on the need to comp res instead of sampling bc time constraint==}
+
+@ragh16ca suggest that this approach can also accomodate stakeholder knowledge
+and engagement. By building models that rely on ecological concepts, empirical
+data, and stakeholder feedback, they are able to implement a *computational
+agroecology* program, to use computational tools in the optimization of
+sustainable agricultural practices.
 
 + list of challenges
 
@@ -211,7 +231,7 @@ explicit consideration of more realistic ecological mechanisms.
 
 - {== a lot of large-scale databases ==}
 
-- summary of @poisot_sdc
+- summary of @pois15sdc
   + {>> lack of insights on error propagation <<}
   + {>> standards <<}
 
@@ -237,11 +257,11 @@ There is no tip-toeing around the fact that computational ecologists will be
 field programs. Recognizing that computational ecology *needs* this data as a
 condition for its continued existence and relevance should motivate the
 establishment of a way to credit and recognize the role of *data producers*
-[which is discussed in @poisot_sdc, in particular in the context of massive
+[which is discussed in @pois15sdc, in particular in the context of massive
 dataset aggregation].
 
 - research parasitisim
-- @evans_gpc -- no cost
+- @evan16gpc -- no cost
 
 
 - ecological research is not going to get easier so requires to capitalize on strengths
@@ -253,11 +273,17 @@ dataset aggregation].
 
 ## Training and advising computational ecologists
 
-@barraquand_lqt -- expressed lack of training
+@barr14lqt highlighted the fact that, professional ecologists received *less*
+quantitative and computational thinking that they think should be necessary.
+Increasing the amount of such training does not necessarily imply that natural
+history or field practice will be sacrified on the altar of mathematics: rather,
+ecology would benefit from introducing more quantitative skills and reasoning
+across all courses, and introductiory ones in particular [@hoff16dam]. Instead
+of dividing the field further beteen empirically and theoretically minded
+scientists, this would showcase quantitative skills are being transversal to all
+questions that ecology can adress.
 
-@hoffman_dam -- increase exposures across different classes
-
-- @roche_pda @roche_tpd -- low adherence to standards (emphasize at all time)
+- @roch15pda @roch14tpd -- low adherence to standards (emphasize at all time)
 
 Emphasize that computational power and increased data availability will allow
 more predictions but the time to test them is not compressible. Let theory +

@@ -17,14 +17,8 @@ clean:
 	rm $(MARKED)
 	rm plmt/bib.keys
 
-$(BIB): plmt/bib.keys
-	chmod +x plmt/generatebib.py
-	./plmt/generatebib.py
-	cat $@ | json_reformat > tmp.json
-	mv tmp.json $@
-
-plmt/bib.keys: $(MARKED)
-	grep @[a-zA-Z0-9_:]* $< -oh --color=never | sort  | uniq | sed 's/@//g' > $@
+$(BIB): $(SOURCE)
+	node plmt/index.js $(SOURCE)
 
 $(MARKED): $(SOURCE)
 	# Removes critic marks
