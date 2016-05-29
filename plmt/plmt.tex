@@ -1,5 +1,5 @@
-$if(draft)$\documentclass[12pt]{report}$endif$
-$if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
+$if(draft)$\documentclass[12pt]{article}$endif$
+$if(preprint)$\documentclass[9pt,twocolumn]{article}$endif$
 
 \usepackage{xcolor}
 \usepackage{ccicons}
@@ -11,7 +11,6 @@ $if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
 \input{plmt/plmt-pgf.tex}
 
 \usepackage[hidelinks]{hyperref}
-\usepackage[utf8]{inputenc}
 \usepackage{etoolbox}
 \usepackage{graphicx}
 \usepackage{adjustbox}
@@ -29,6 +28,8 @@ $if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
 \usepackage{setspace}
 
 \input{"plmt/plmt-marks.tex"}
+
+\usepackage{booktabs, longtable}
 
 $if(preprint)$
 \setcounter{secnumdepth}{0}

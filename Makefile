@@ -1,36 +1,27 @@
 SOURCE=ms.md
-TYPE=draft# alt. value: draft | preprint
+TYPE=draft# alt. value: preprint
 TITLE=computationalecology
 MARKED= plmt/$(TITLE)_temp.md
 PFLAGS= --variable=$(TYPE) --filter pandoc-citeproc
 OUTPUT= $(TITLE)_$(TYPE)_version.pdf
 BIB=default.json
 
-PHONY: all prepare
+PHONY: all
 
-prepare:
-	chmod +x plmt/*.{sh,py}
-
-all: prepare $(OUTPUT)
+all: $(OUTPUT)
 
 clean:
 	rm $(MARKED)
-	rm plmt/bib.keys
 
 $(BIB): $(SOURCE)
 	node plmt/index.js $(SOURCE)
 
 $(MARKED): $(SOURCE)
-	# Removes critic marks
-	./plmt/critic.sh $< $@
-	# Get yaml
-	grep -Pzo '\-\-\-\n((.+)\n)+\-\-\-' $@ > paper.yaml
-	# Replaces figures marks
-	./plmt/figures.py $@ paper.yaml $(TYPE)
-	mv $@_NEW $@
-	# Remove yaml
-	rm paper.yaml
+	node plmt/critic.js $< plmt/tmp1
+	node plmt/figures.js plmt/tmp1 plmt/tmp2
+	node plmt/tables.js plmt/tmp2 $@
+	rm plmt/tmp*
 
 $(OUTPUT): $(MARKED)
-	pandoc $< -o $@ $(PFLAGS) --template plmt/plmt.tex
+	pandoc $< -o $@ $(PFLAGS) --template plmt/plmt.tex plmt.yaml
 	rm $(MARKED)

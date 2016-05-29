@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hylla": "0.0.3"
+    "hylla": "0.0.3",
+    "jandoc": "0.0.2",
+    "js-yaml": "^3.6.1"
   }
 }

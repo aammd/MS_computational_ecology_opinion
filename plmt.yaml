@@ -1,0 +1,37 @@
+---
+title: "Question-driven, data-based, policy-relevant? A research agenda for computational ecology"
+short: Computational ecology
+bibliography: default.json
+csl: plmt/plab.csl
+author:
+  - family: Poisot
+    given: Timothée
+    affiliation: 1, 2
+    email: tim@poisotlab.io
+    id: tp
+    orcid: 0000-0002-0735-5184
+affiliation:
+  - id: 1
+    text: Université de Montréal, Département de Sciences Biologiques
+  - id: 2
+    text: Québec Centre for Biodiversity Sciences
+keyword:
+  - k: ecological synthesis
+  - k: open science
+  - k: meta-analysis
+figure:
+  - id: quadrats
+    caption: Methods of ecological research can be (roughly) classified in four quadrats, based on whether they suggest or document mechanisms and relationships, and whether they integrate or dissociate models and raw data. Although crude, this classification helps understanding what computational approaches can bring to the global research effort.
+    short: Four quadrats of ecological research.
+    file: quadrats.pdf
+  - id: costbenefit
+    caption: Research methodologies differ on the basis of their costs, and on the type of predictions they make. Computational ecology is justified only in the context of an interaction with observational or manipulative approaches; specifically, only observations can validate predictions.
+    short: Costs and benefits.
+    file: costbenefit.pdf
+  - id: flow
+    caption: A) The domains of computational ecology (grey box) in the general research process. (THIS FIGURE IS BAD BECAUSE IT IMPLIES ONLY COMP APPROACHES CAN GENERATE HYPOTHESES WHICH IS WRONG). B) Mapping the currencies of collaborations across methodologies (IN NEED OF A LEGEND).
+    short: Flow and currencies.
+    file: flow.pdf
+date: \today
+abstract: What do we say to abstracts? Not today.
+...
