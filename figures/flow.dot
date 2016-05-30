@@ -1,0 +1,32 @@
+#
+
+digraph G{
+
+  node [shape=rectangle];
+
+  subgraph comp {
+    style = filled;
+    color = lightgrey;
+    node [color=blue];
+    synthesis -> prediction [label = "generates", color = blue]
+  }
+
+  models -> hyp [label = "generates"]
+  hyp -> collect [label = "informs"]
+  analysis -> hyp [label = "suggests"]
+  analysis -> meta [label = "allows"]
+  collect -> analysis
+  collect -> synthesis [label = "allows", color = blue]
+  prediction -> hyp [label = "suggests"]
+  prediction -> collect [label = "informs", color = blue]
+  collect -> prediction [label = "tests"]
+
+  collect [label = "Data collection"]
+  hyp [label = "Testable hypothesis"]
+  models [label = "Ecological models"]
+  analysis [label = "Data analysis"]
+  meta [label = "Meta-analysis"]
+  prediction [label = "Testable prediction"]
+  synthesis [label = <<B>Data synthesis</B>>]
+
+}

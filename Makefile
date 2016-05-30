@@ -8,6 +8,9 @@ BIB=default.json
 
 PHONY: all
 
+figures/flow.pdf: figures/flow.dot
+	dot -Tpdf figures/flow.dot -o figures/flow.pdf
+
 all: $(OUTPUT)
 
 clean:
@@ -22,6 +25,6 @@ $(MARKED): $(SOURCE)
 	node plmt/tables.js plmt/tmp2 $@
 	rm plmt/tmp*
 
-$(OUTPUT): $(MARKED)
+$(OUTPUT): $(MARKED) figures/flow.pdf
 	pandoc $< -o $@ $(PFLAGS) --template plmt/plmt.tex plmt.yaml
 	rm $(MARKED)
