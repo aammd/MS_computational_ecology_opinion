@@ -16,8 +16,8 @@ mathematical formulation, computational approaches hold great promises
 
 @levi12mtd suggested that ecology (and evolutionary biology) should continue
 their move towards a *marriage of theory and data*. In addition to the
-aforementionned problem of the lack of adequately expressed models, this effort
-is hampered by the fact that data and models are often developped in independant
+aforementioned problem of the lack of adequately expressed models, this effort
+is hampered by the fact that data and models are often developed in independent
 ways, and reconciling both can be difficult. This has been suggested as one of
 the reasons for which theoretical papers (defined as *papers with at least one
 equation in the main text*) experience a sharp decrease in citation
