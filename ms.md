@@ -1,42 +1,48 @@
-Computational science happens when algorithms and software, data management
-practices, and advanced research computing are put in interaction with the
-explicit goal of solving "complex" problems. Typically, problems are considered
-*complex* when they cannot be solved appropriately with modelling or
-data-collection only. Computational science is one of the ways to practice
-computational thinking [@pape96esm], *i.e.* the feedback loop of abstracting a
-problem to its core mechanisms, expressing a solution in a way that can be
-automated, and using an interactions between simulations and data to refine the
-original problem or suggest new knowledge. Computational approaches are common
-place in most area of biology, to the point where one would almost be confident
-that they represent a viable career path [@bour11tsr]. Ecology is a particular
-field for which, because field data have a natural variability, are difficult to
-find and expensive to collect, and many problems lack an adequate formal
-mathematical formulation, computational approaches hold great promises
-[@petr12cee].
+Computational science happens when algorithms, software, data management
+practices, and advanced research computing are put in interaction with
+the explicit goal of solving "complex" problems. Typically, problems are
+considered *complex* when they cannot be solved appropriately with modelling
+or data-collection only. Computational science is one of the ways to practice
+computational thinking [@pape96esm], *i.e.* the feedback loop of abstracting
+a problem to its core mechanisms, expressing a solution in a way that can
+be automated, and using interactions between simulations and data to refine
+the original problem or suggest new knowledge. Computational approaches are
+common place in most area of biology, to the point where one would almost be
+confident that they represent a viable career path [@bour11tsr]. Data usually
+collected in ecological studies have a high variability, are time-consuming,
+costly, and demanding to collect. In parallel, many problems lack appropriate
+formal mathematical formulations. For these reasons, computational approaches
+hold great possibilities, notably to further ecological synthesis and help
+decision-making [@petr12cee].
 
 @levi12mtd suggested that ecology (and evolutionary biology) should continue
 their move towards a *marriage of theory and data*. In addition to the
-aforementioned problem of the lack of adequately expressed models, this effort
-is hampered by the fact that data and models are often developed in independent
-ways, and reconciling both can be difficult. This has been suggested as one of
-the reasons for which theoretical papers (defined as *papers with at least one
-equation in the main text*) experience a sharp decrease in citation
-[@fawc12hei]. One of the leading textbooks for the mathematical models in
-ecology and evolution [@otto07bgm] is more focused with algebra and calculus,
-and not with the integration of models with data [though other texts, like
-@soet08pge and @bolk08emd, cover the integration of data and models well].
+aforementioned problem of the lack of adequately expressed models, this
+effort is hampered by the fact that data and models are often developed
+in independent ways, and reconciling both can be difficult. This has been
+suggested as one of the reasons for which theoretical papers (defined as
+*papers with at least one equation in the main text*) experience a sharp
+decrease in citation [@fawc12hei]; this is the tragic sign that empirical
+scientists do not see the value of theoretical work, which of course can be
+blamed on both parties. One of the leading textbooks for the mathematical
+models in ecology and evolution [@otto07bgm] is more focused with algebra and
+calculus, and not with the integration of models with data. Other manuals
+that cover the integration of models and data tend to lean more towards
+statistical models [@soet08pge; @bolk08emd]. This paints a picture of ecology
+as a field in which dynamical models and empirical data do not interact much,
+and instead the literature develops in silos.
 
 Ecology as a whole (and community ecology in particular) circumvented the
-problem of model and data mismatch problem by investing in the development and
-refinment of statistical models [see @wart14mtc for an excellent overview] and
-"numerical" approaches [@lege98ne] based on multivariate statistics. These
-models, hovewer, are able to *explain* data, but very rarely can they give new
-predictions. This is, essentially, the niche that computational ecology can
-fill; at the cost of a higher degree of abstraction, its integration of data and
-generative models (*i.e.* models that, given rules, will generate new data) can
-be helpful to initiate the investigation of questions that have not received
-extensive empirical treatment, or for which usual statistical approaches fall
-short.
+problem of model and data mismatch by investing in the development and
+refinement of statistical models [see @wart14mtc for an excellent overview]
+and "numerical" approaches [@lege98ne] based on multivariate statistics. These
+models, however, are able to *explain* data, but very rarely do they give
+new predictions. This is, essentially, the niche that computational ecology
+can fill; at the cost of a higher degree of abstraction, its integration of
+data and generative models (*i.e.* models that, given rules, will generate
+new data) can be helpful to initiate the investigation of questions that have
+not received extensive empirical treatment, or for which usual statistical
+approaches fall short.
 
 In this paper, I attempt to situate the practice of computational ecology within
 the broader landscape of ecological research. In particular, I highlight the
@@ -49,18 +55,19 @@ ecological training.
 
 ## The four quadrats of ecological research
 
-In \autoref{quadrats}, I propose a rough outline of four quadrats for ecological
-research. The first axis is based on the ability to *document* (through direct
-or indirect observation of natural systems) rather than *suggest* (through focus
-on a reduced number of mechanisms and their interactions). The second axis is
+In \autoref{quadrats}, I propose a rough outline of four quadrats for
+ecological research. The first axis is based on the ability to *document*
+natural processes and their underlying mechanisms (through direct or indirect
+observation of natural systems) rather than *suggest* (through focus on a
+reduced number of mechanisms and their interactions). The second axis is
 based on the degree of integration between data and models, ranging from
 disconnected (for purely data-based or model-based) to highly integrated. A
 classification this coarse is bound to be caricatural, but it serves as an
 illustration of where computational ecology exists in the overall research
 methodology. Because it relies on the integration of data (if possible *raw*
 data from observational and manipulative experiments) and models (either
-statistical or phenomenological), it can *suggest* general trends through an
-abstraction of the idiosyncracies of a particular system.
+statistical or phenomenological), it can *suggest* general trends through
+an abstraction of the idiosyncracies of a particular system.
 
 !{quadrats}
 
