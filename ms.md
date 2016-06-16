@@ -119,20 +119,23 @@ world is immensely complex, it is paradoxically the high degree of abstraction
 of models that computational approaches favor that give them generality.
 
 This I illustrate in \autoref{costbenefit} (from which I excluded
-meta-analyses). The three types of approaches are ranked in (again, approximate
-and arbitrary) order of cost and effort. Ecological models make, by definition,
-high accuracy predictions, but they tend to be difficult to test [@ryki96tem].
-At the other hand of the spectrum, observations (field sampling) or manipulative
-approaches (micro/meso/macro-cosms, field experiments) are highly accurate (but
-have also immense human and monetary costs).
+meta-analyses). The three types of approaches are ranked in (again,
+approximate and arbitrary) order of cost and effort. Ecological models make,
+by definition, high accuracy predictions, but they tend to be difficult
+to test [@ryki96tem].  At the other hand of the spectrum, observations
+(field sampling) or manipulative approaches (micro/meso/macro-cosms, field
+experiments) are highly accurate (but have also immense human and monetary
+costs that limit the scale at which they can be applied). There is simply
+too much Nature around for us to observe, monitor, and manipulate it all.
 
 Computational ecology ought to fall in the middle of this spectrum -- although
-the reliance on advanced research computing incurs greater costs (either paid by
-the researcher of by a computing center or consortium), it can generates
-predictions that are highly testable. Specifically, although the accuracy of
-these predictions is currently unknown (and will vary on a model/study/question
-basis), any additional empirical effort to *validate* predictions will improve
-the predictions quality [@pois15sdc].
+the reliance on advanced research computing incurs greater costs (either
+paid for by the researcher of by a computing center or consortium; these
+costs include operations of computing power, but also training of qualified
+students), it can generates predictions that are highly testable. Specifically,
+although the accuracy of these predictions is currently unknown (and will
+vary on a model/study/question basis), any additional empirical effort to
+*validate* predictions will improve the predictions quality [@pois15sdc].
 
 !{costbenefit}
 
@@ -267,6 +270,13 @@ what is feasible + dialogue with field ecologists determine where efforts should
 be invested, also develop roadmap to understand the propagation of uncertainty
 and errors.
 
-**Acknowledgements:** Allison Barner, CESS students
+**Acknowledgements:** I thank Dr. Allison Barner for comments on a very
+early draft of this manuscript as well as stimulating on-line discussions,
+students of the Computational Ecology Summer School 2016 for asking "What
+is computational ecology?", and the Station de Biologie des Laurentides
+de l'Université de Montréal for hosting me during part of the writing
+process. Part of this manuscript was inspired by a presentation I gave during
+High Performance Computing Symposium 2015 in Montréal, for the organization
+of which I thank Compute Québec and Compute Canada.
 
 # References
