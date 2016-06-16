@@ -72,21 +72,24 @@ an abstraction of the idiosyncracies of a particular system.
 !{quadrats}
 
 The specific example of predator-prey interactions should be a familiar
-illustration of how the same problem can be adressed in different ways. The
-classical prey--predator equations of Lotka & Volterra are an instance of a
-"modelling" based perspective, wherein mathematical analysis reveals how
+illustration of how the same problem can be addressed in different ways. The
+classical prey--predator equations of Lotka & Volterra are an instance of
+a "modelling" based perspective, wherein mathematical analysis reveals how
 selected parameters (rates of interactions and growth) affect an ecologically
-relevant quantity (population stability and coexistence). These models, although
-they have been formulated to explain data generated through empirical
-observations, are disconnected from the data themselves. In fact, this family of
-model lies at the basis of a branch of ecological modelling that now exists
-entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
+relevant quantity (population stability and coexistence). These models,
+although they have been formulated to explain data generated through
+empirical observations, are disconnected from the data themselves. In fact,
+this family of model lies at the basis of a branch of ecological modelling
+that now exists entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
 
 By contrast @sall11ppd study the same problematic (sustained persistence and
 fluctuations of predator--prey couples through time) using a paleo-ecological
-timeseries, and interpret their data in the context of predictions from the
-Lotka-Volterra family of models (namely, they find support for
-Lotka-Volterra-like oscillations in time).
+timeseries, and interpret their data in the context of predictions
+from the Lotka-Volterra family of models (namely, they find support for
+Lotka-Volterra-like oscillations in time). Although dynamical models and
+empirical data interact in this example, they do not do so directly ; that is,
+the analysis of empirical data is done within the context of a broad family
+of model, but not coupled to *e.g.* additional simulations.
 
 Meta-analyses, such as the one by @boln05rcm, are instead interested in
 collecting the outcome of observational and manipulative studies, and
@@ -101,15 +104,19 @@ Where in this landscape does computational approaches fit?
 
 ## Computational ecology in context
 
-In *Life on the Mississipi*, Mark Twain wrote that "There is something
-fascinating about science. One gets such wholesale returns of conjecture out of
-such a trifling investment of fact.". Because there was no such thing as
-computational science in 1883, this is surely not what he had in mind -- but
-amusingly, here lies computational ecology mission statement: in a data-limited
-context, merging phenomenological models with pre-existing datasets is a way to
-efficiently {>>what?<<}. @pasc05cec outlines that computational ecology has a
-unique ability to go from the complex (natural systems) to the simple
-(representations and conceptual models), and back (testable predictions).
+In *Life on the Mississippi*, Mark Twain wrote that "There is something
+fascinating about science. One gets such wholesale returns of conjecture
+out of such a trifling investment of fact.". Because there was no such
+thing as computational science in 1883, this is surely not what he had in
+mind -- but amusingly, herein lies computational ecology mission statement:
+in a data-limited context, merging phenomenological models with pre-existing
+datasets is a way to efficiently develop conjectures, or more appropriately,
+build on our knowledge of models and data to put forward testable, quantified
+hypotheses. @pasc05cec outlines that computational ecology has a unique ability
+to go from the complex (natural systems) to the simple (representations and
+conceptual models), and back (testable predictions). Although the natural
+world is immensely complex, it is paradoxically the high degree of abstraction
+of models that computational approaches favor that give them generality.
 
 This I illustrate in \autoref{costbenefit} (from which I excluded
 meta-analyses). The three types of approaches are ranked in (again, approximate
