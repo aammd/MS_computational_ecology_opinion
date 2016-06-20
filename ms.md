@@ -263,35 +263,50 @@ to communicate how predictions came to be.
 
 ## Establishing the currencies of collaboration
 
-An important question to further the integration of of computational approaches
-to the workflow of ecological research is to establish *currencies* for
-collaborations. Both at the scale of individuals researchers, research groups,
-and larger research communities, it is important to understand what each can
-contribute to the research effort. I attempt to represent this in panel B of
-\autoref{flow}. As ecological research is expected to be increasingly predictive
-and policy-relevant, and as fundamental research tends to tackle increasingly
-refined and complex questions, it is expected that research problems will become
-more difficult to resolve; this is, I think, an incentive for a collaboration
-that builds on the skills that are specific to different approaches.
+An important question to further the integration of of computational
+approaches to the workflow of ecological research is to establish *currencies*
+for collaborations. Both at the scale of individuals researchers, research
+groups, and larger research communities, it is important to understand what
+each can contribute to the research effort. I attempt to represent this
+in \autoref{flow}. As ecological research is expected to be increasingly
+predictive and policy-relevant, and as fundamental research tends to
+tackle increasingly refined and complex questions, it is expected that
+research problems will become more difficult to resolve; this is, I think,
+an incentive for a collaboration that builds on the skills that are specific
+to different approaches.
 
 There is no tip-toeing around the fact that computational ecologists will be
 *data consumer*, and this data will have to come from ecologists with active
-field programs. Recognizing that computational ecology *needs* this data as a
-condition for its continued existence and relevance should motivate the
+field programs. Recognizing that computational ecology *needs* this data as
+a condition for its continued existence and relevance should motivate the
 establishment of a way to credit and recognize the role of *data producers*
 [which is discussed in @pois15sdc, in particular in the context of massive
-dataset aggregation].
+dataset aggregation]. Data users should be extremely pro-active in the
+establishment of crediting mechanisms for data producers; as the availability
+of these data is crucial to computational approaches, and as we do not share
+the cost of collecting these data, it behooves thus to make sure that our
+research practices do not accrue a cost for our colleagues with field or
+lab programs.
 
-- research parasitisim
-- @evan16gpc -- no cost
-
-
-- ecological research is not going to get easier so requires to capitalize on strengths
-  + {>> data management and software, computing <<}
-  + {>> high quality data + taxonomic expertise <<}
-  + {>> end-goal is the resolution of problems <<}
+This said, the fear of data parasites taking away data and publishing faster,
+thereby scooping the people involved in data collection, has no empirical
+support [@evan16gpc]; there is a necessary delay between the moment data are
+available, and the moment where they are re-used (especially considering that
+data are, at the earliest, published at the same time as the paper). This
+delay is introduced by the need to understand the data, see how they can be
+combined, develop a research hypothesis, etc.. The fact that data re-use
+is not instantaneous conveniently reveals another piece of information
+about computational ecology: it relies on different skills, and different
+tools. One of the most fruitful avenue for collaboration lies in recognizing
+the strengths of different domains: the skills required to assemble a dataset
+(taxonomic expertise, natural history knowledge, field know-how) and the
+skills required to develop robust computational studies (programming,
+applied mathematics) are different. If anything, this calls for increased
+collaboration, where these approaches are put to work in complementarity.
 
 !{flow}
+
+The end-goal of ecological research is problem solving. {== to be continued==}
 
 ## Training and advising computational ecologists
 
