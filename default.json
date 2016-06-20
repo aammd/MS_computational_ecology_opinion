@@ -1,21 +1,98 @@
 [
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2015-12-20T05:45:47Z",
+      "timestamp": 1450590347018
+    },
+    "reference-count": 19,
+    "publisher": "American Physical Society (APS)",
     "issue": "15",
+    "license": [
+      {
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2004,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2004-10-08T00:00:00Z",
+          "timestamp": 1097193600000
+        },
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      }
+    ],
     "DOI": "10.1103/physrevlett.93.158701",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2004-10-08T21:51:19Z",
+      "timestamp": 1097272279000
+    },
+    "source": "CrossRef",
     "title": "Stabilization of Large Generalized Lotka-Volterra Foodwebs By Evolutionary Feedback",
+    "prefix": "http://id.crossref.org/prefix/10.1103",
     "volume": "93",
     "author": [
       {
+        "affiliation": [],
         "family": "Ackland",
         "given": "G. J."
       },
       {
+        "affiliation": [],
         "family": "Gallagher",
         "given": "I. D."
       }
     ],
+    "member": "http://id.crossref.org/member/16",
+    "published-online": {
+      "date-parts": [
+        [
+          2004,
+          10,
+          8
+        ]
+      ]
+    },
     "container-title": "Phys. Rev. Lett.",
+    "link": [
+      {
+        "intended-application": "syndication",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.93.158701"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2015-03-27T10:12:17Z",
+      "timestamp": 1427451137000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -25,22 +102,112 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1103/PhysRevLett.93.158701",
+    "ISSN": [
+      "0031-9007",
+      "1079-7114"
+    ],
+    "subject": [
+      "Physics and Astronomy(all)"
+    ],
+    "article-number": "158701",
     "id": "ackl04slg"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2015-12-22T01:26:16Z",
+      "timestamp": 1450747576484
+    },
+    "reference-count": 111,
+    "publisher": "Elsevier BV",
     "issue": "2-3",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2002,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2002-11-01T00:00:00Z",
+          "timestamp": 1036108800000
+        },
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2002,
+          11
+        ]
+      ]
+    },
     "DOI": "10.1016/s0304-3800(02)00205-3",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2002-10-21T18:05:17Z",
+      "timestamp": 1035223517000
+    },
     "page": "101-118",
+    "source": "CrossRef",
     "title": "Spatial prediction of species distribution: an interface between ecological theory and statistical modelling",
+    "prefix": "http://id.crossref.org/prefix/10.1016",
     "volume": "157",
     "author": [
       {
+        "affiliation": [],
         "family": "Austin",
         "given": "M.P"
       }
     ],
+    "member": "http://id.crossref.org/member/78",
     "container-title": "Ecological Modelling",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/xml",
+        "URL": "http://api.elsevier.com/content/article/PII:S0304380002002053?httpAccept=text/xml"
+      },
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/plain",
+        "URL": "http://api.elsevier.com/content/article/PII:S0304380002002053?httpAccept=text/plain"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2015-09-15T23:12:31Z",
+      "timestamp": 1442358751000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -49,10 +216,22 @@
         ]
       ]
     },
+    "alternative-id": [
+      "S0304380002002053"
+    ],
+    "URL": "http://dx.doi.org/10.1016/S0304-3800(02)00205-3",
+    "ISSN": [
+      "0304-3800"
+    ],
+    "subject": [
+      "Ecological Modelling"
+    ],
     "id": "aust02sps"
   },
   {
     "DOI": "10.7717/peerj.285",
+    "ISSN": "2167-8359",
+    "abstract": "Proficiency in mathematics and statistics is essential to modern ecological science, yet few studies have assessed the level of quantitative training received by ecologists. To do so, we conducted an online survey. The 937 respondents were mostly early-career scientists that studied biology as undergraduates. We found a clear self-perceived lack of quantitative training: 75% are not satisfied with their understanding of mathematical models; 75% feel the level of mathematics was “too low” in their ecology classes; 90% wanted more mathematics classes for ecologists; and 95% more statistics classes. Respondents thought that 30% of classes in ecology-related degrees should be focused on quantitative disciplines; likely more than what is taught in most universities. The main suggestion to improve quantitative training was to relate theoretical and statistical modeling to applied ecological problems. Improving quantitative training will require more mathematics classes for ecology-related degrees, and also more ecology classes containing mathematical and statistical examples.",
     "accessed": {
       "date-parts": [
         [
@@ -105,6 +284,7 @@
         ]
       ]
     },
+    "keyword": "ecology student,education,Mathematics,Statistics,student,Teaching,university curriculum",
     "page": "e285",
     "title": "Lack of quantitative training among early-career ecologists: a survey of the problem and potential solutions",
     "title-short": "Lack of quantitative training among early-career ecologists",
@@ -116,7 +296,8 @@
     "author": [
       {
         "family": "Bolker",
-        "given": "Benjamin M"
+        "given": "Benjamin M",
+        "parse-names": true
       }
     ],
     "issued": {
@@ -132,23 +313,99 @@
     "id": "bolk08emd"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2016-02-24T16:13:05Z",
+      "timestamp": 1456330385323
+    },
+    "reference-count": 33,
+    "publisher": "Wiley-Blackwell",
     "issue": "10",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 3622,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          10
+        ]
+      ]
+    },
     "DOI": "10.1890/04-1249",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2007-06-04T23:33:05Z",
+      "timestamp": 1180999985000
+    },
     "page": "2771-2779",
+    "source": "CrossRef",
     "title": "RESOURCE COMPETITION MODIFIES THE STRENGTH OF TRAIT-MEDIATED PREDATOR–PREY INTERACTIONS: A META-ANALYSIS",
+    "prefix": "http://id.crossref.org/prefix/10.1002",
     "volume": "86",
     "author": [
       {
+        "affiliation": [],
         "family": "Bolnick",
         "given": "Daniel I."
       },
       {
+        "affiliation": [],
         "family": "Preisser",
         "given": "Evan L."
       }
     ],
+    "member": "http://id.crossref.org/member/311",
     "container-title": "Ecology",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1890%2F04-1249"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          24
+        ]
+      ],
+      "date-time": "2016-02-24T15:03:19Z",
+      "timestamp": 1456326199000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -157,22 +414,101 @@
         ]
       ]
     },
+    "alternative-id": [
+      "10.1890/04-1249"
+    ],
+    "URL": "http://dx.doi.org/10.1890/04-1249",
+    "ISSN": [
+      "0012-9658"
+    ],
+    "subject": [
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
     "id": "boln05rcm"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T20:42:35Z",
+      "timestamp": 1461184955536
+    },
+    "reference-count": 0,
+    "publisher": "Public Library of Science (PLoS)",
     "issue": "1",
+    "license": [
+      {
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2011-01-06T00:00:00Z",
+          "timestamp": 1294272000000
+        },
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
     "DOI": "10.1371/journal.pcbi.1002001",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2011-01-06T22:20:24Z",
+      "timestamp": 1294352424000
+    },
     "page": "e1002001",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "CrossRef",
     "title": "Ten Simple Rules for Getting Ahead as a Computational Biologist in Academia",
+    "prefix": "http://id.crossref.org/prefix/10.1371",
     "volume": "7",
     "author": [
       {
+        "affiliation": [],
         "family": "Bourne",
         "given": "Philip E."
       }
     ],
+    "member": "http://id.crossref.org/member/340",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          6
+        ]
+      ]
+    },
     "container-title": "PLoS Comput Biol",
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T18:00:33Z",
+      "timestamp": 1461175233000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -182,10 +518,24 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1371/journal.pcbi.1002001",
+    "ISSN": [
+      "1553-7358"
+    ],
+    "subject": [
+      "Ecology",
+      "Modelling and Simulation",
+      "Computational Theory and Mathematics",
+      "Genetics",
+      "Ecology, Evolution, Behavior and Systematics",
+      "Molecular Biology",
+      "Cellular and Molecular Neuroscience"
+    ],
     "id": "bour11tsr"
   },
   {
     "URL": "http://arxiv.org/abs/1301.6237",
+    "abstract": "In this paper we are investigating the long time behaviour of the solution of a mutation competition model of Lotka-Volterra’s type. Our main motivation comes from the analysis of the Lotka-Volterra’s competition system with mutation which simulates the demo-genetic dynamics of diverse virus in their host : \\$\\$ \\\\frac{}dv\\_{i}(t){}{dt}=v\\_i\\[r\\_i-\\\\frac{1}{K}\\\\Psi\\_i(v)\\]+\\\\sum\\_{j=1}\\^{N} \\\\mu\\_{ij}(v\\_j-v\\_i). \\$\\$ In a first part we analyse the case where the competition terms \\$\\\\Psi\\_i\\$ are independent of the virus type \\$i\\$. In this situation and under some rather general assumptions on the functions \\$\\\\Psi\\_i\\$, the coefficients \\$r\\_i\\$ and the mutation matrix \\$\\\\mu\\_{ij}\\$ we prove the existence of a unique positive globally stable stationary solution i.e. the solution attracts the trajectory initiated from any nonnegative initial datum. Moreover the unique steady state \\$\\\\bar v\\$ is strictly positive in the sense that \\$\\\\bar v\\_i$>$0\\$ for all \\$i\\$. These results are in sharp contrast with the behaviour of Lotka-Volterra without mutation term where it is known that multiple non negative stationary solutions exist and an exclusion principle occurs (i.e For all \\$i\\\\neq i\\_0, \\\\bar v\\_{i}=0\\$ and \\$\\\\bar v\\_{i\\_0}$>$0\\$). Then we explore a typical example that has been proposed to explain some experimental data. For such particular models we characterise the speed of convergence to the equilibrium. In a second part, under some additional assumption, we prove the existence of a positive steady state for the full system and we analyse the long term dynamics. The proofs mainly rely on the construction of a relative entropy which plays the role of a Lyapunov functional.",
     "accessed": {
       "date-parts": [
         [
@@ -214,28 +564,79 @@
         ]
       ]
     },
+    "keyword": "Mathematics - Analysis of PDEs,Quantitative Biology - Populations and Evolution",
     "title": "Convergence To The Equilibrium In A Lotka-Volterra Ode Competition System With Mutations",
     "type": "article-journal",
     "id": "covi13cel"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2015-12-26T23:54:20Z",
+      "timestamp": 1451174060025
+    },
+    "reference-count": 119,
+    "publisher": "Annual Reviews",
     "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          12
+        ]
+      ]
+    },
     "DOI": "10.1146/annurev.ecolsys.110308.120159",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2009-09-23T17:37:16Z",
+      "timestamp": 1253727436000
+    },
     "page": "677-697",
+    "source": "CrossRef",
     "title": "Species Distribution Models: Ecological Explanation and Prediction Across Space and Time",
+    "prefix": "http://id.crossref.org/prefix/10.1146",
     "volume": "40",
     "author": [
       {
+        "affiliation": [],
         "family": "Elith",
         "given": "Jane"
       },
       {
+        "affiliation": [],
         "family": "Leathwick",
         "given": "John R."
       }
     ],
+    "member": "http://id.crossref.org/member/22",
     "container-title": "Annu. Rev. Ecol. Evol. Syst.",
+    "deposited": {
+      "date-parts": [
+        [
+          2011,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2011-08-20T07:42:43Z",
+      "timestamp": 1313826163000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -244,10 +645,23 @@
         ]
       ]
     },
+    "alternative-id": [
+      "10.1146/annurev.ecolsys.110308.120159"
+    ],
+    "URL": "http://dx.doi.org/10.1146/annurev.ecolsys.110308.120159",
+    "ISSN": [
+      "1543-592X",
+      "1545-2069"
+    ],
+    "subject": [
+      "Ecology",
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
     "id": "elit09sdm"
   },
   {
     "DOI": "10.1371/journal.pbio.1002432",
+    "ISSN": "1545-7885",
     "URL": "http://dx.doi.org/10.1371/journal.pbio.1002432",
     "author": [
       {
@@ -256,6 +670,39 @@
       }
     ],
     "container-title": "PLOS Biology",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2016-04-09T01:45:50Z",
+      "timestamp": 1460166350000
+    },
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2016-04-09T01:46:09Z",
+      "timestamp": 1460166369000
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2016-04-09T02:41:40Z",
+      "timestamp": 1460169700882
+    },
     "issue": "4",
     "issued": {
       "date-parts": [
@@ -266,31 +713,114 @@
         ]
       ]
     },
+    "member": "http://id.crossref.org/member/340",
     "page": "e1002432",
+    "prefix": "http://id.crossref.org/prefix/10.1371",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          8
+        ]
+      ]
+    },
     "publisher": "Public Library of Science (PLoS)",
+    "reference-count": 0,
+    "score": 1,
+    "source": "CrossRef",
+    "subject": [
+      "Biochemistry, Genetics and Molecular Biology(all)",
+      "Immunology and Microbiology(all)",
+      "Neuroscience(all)",
+      "Agricultural and Biological Sciences(all)"
+    ],
+    "subtitle": [],
     "title": "Gauging the Purported Costs of Public Data Archiving for Long-Term Population Studies",
     "type": "article-journal",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "volume": "14",
     "id": "evan16gpc"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          28
+        ]
+      ],
+      "date-time": "2015-12-28T02:21:25Z",
+      "timestamp": 1451269285356
+    },
+    "reference-count": 16,
+    "publisher": "Proceedings of the National Academy of Sciences",
     "issue": "29",
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          17
+        ]
+      ]
+    },
     "DOI": "10.1073/pnas.1205259109",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2012-06-27T07:48:12Z",
+      "timestamp": 1340783292000
+    },
     "page": "11735-11739",
+    "update-policy": "http://dx.doi.org/10.1073/pnas.cm10313",
+    "source": "CrossRef",
     "title": "Heavy use of equations impedes communication among biologists",
+    "prefix": "http://id.crossref.org/prefix/10.1073",
     "volume": "109",
     "author": [
       {
+        "affiliation": [],
         "family": "Fawcett",
         "given": "T. W."
       },
       {
+        "affiliation": [],
         "family": "Higginson",
         "given": "A. D."
       }
     ],
+    "member": "http://id.crossref.org/member/341",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          25
+        ]
+      ]
+    },
     "container-title": "Proceedings of the National Academy of Sciences",
+    "deposited": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2013-10-27T18:33:42Z",
+      "timestamp": 1382898822000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -300,13 +830,117 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1073/pnas.1205259109",
+    "ISSN": [
+      "0027-8424",
+      "1091-6490"
+    ],
+    "subject": [
+      "General"
+    ],
     "id": "fawc12hei"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          14
+        ]
+      ],
+      "date-time": "2016-01-14T10:37:24Z",
+      "timestamp": 1452767844580
+    },
+    "reference-count": 0,
+    "publisher": "Wiley-Blackwell",
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1890/0012-9623(2005)86[158:mtvoed]2.0.co;2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          2,
+          4
+        ]
+      ],
+      "date-time": "2008-02-04T13:02:07Z",
+      "timestamp": 1202130127000
+    },
+    "page": "158-168",
+    "source": "CrossRef",
+    "title": "Maximizing the Value of Ecological Data with Structured Metadata: An Introduction to Ecological Metadata Language (EML) and Principles for Metadata Creation",
+    "prefix": "http://id.crossref.org/prefix/10.1002",
+    "volume": "86",
+    "author": [
+      {
+        "affiliation": [],
+        "family": "Fegraus",
+        "given": "Eric H."
+      },
+      {
+        "affiliation": [],
+        "family": "Andelman",
+        "given": "Sandy"
+      },
+      {
+        "affiliation": [],
+        "family": "Jones",
+        "given": "Matthew B."
+      },
+      {
+        "affiliation": [],
+        "family": "Schildhauer",
+        "given": "Mark"
+      }
+    ],
+    "member": "http://id.crossref.org/member/311",
+    "container-title": "Bulletin of the Ecological Society of America",
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2016-01-11T22:11:49Z",
+      "timestamp": 1452550309000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          7
+        ]
+      ]
+    },
+    "alternative-id": [
+      "10.1890/0012-9623(2005)86[158:MTVOED]2.0.CO;2"
+    ],
+    "URL": "http://dx.doi.org/10.1890/0012-9623(2005)86[158:mtvoed]2.0.co;2",
+    "ISSN": [
+      "0012-9623"
+    ],
+    "id": "fegr05med"
   },
   {
     "author": [
       {
         "family": "Franklin",
-        "given": "Janet"
+        "given": "Janet",
+        "parse-names": true
       }
     ],
     "issued": {
@@ -322,19 +956,97 @@
     "id": "fran10msd"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2015-12-23T04:14:56Z",
+      "timestamp": 1450844096215
+    },
+    "reference-count": 101,
+    "publisher": "Wiley-Blackwell",
     "issue": "3",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 1967,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
     "DOI": "10.1111/j.1472-4642.2010.00641.x",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2010-02-12T05:11:41Z",
+      "timestamp": 1265951501000
+    },
     "page": "321-330",
+    "source": "CrossRef",
     "title": "Moving beyond static species distribution models in support of conservation biogeography",
+    "prefix": "http://id.crossref.org/prefix/10.1111",
     "volume": "16",
     "author": [
       {
+        "affiliation": [],
         "family": "Franklin",
         "given": "Janet"
       }
     ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          13
+        ]
+      ]
+    },
     "container-title": "Diversity and Distributions",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1472-4642.2010.00641.x"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2015-10-21T02:47:17Z",
+      "timestamp": 1445395637000
+    },
+    "score": 1,
+    "subtitle": [
+      "Moving beyond static species distribution models"
+    ],
     "issued": {
       "date-parts": [
         [
@@ -344,30 +1056,212 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1111/j.1472-4642.2010.00641.x",
+    "ISSN": [
+      "1366-9516",
+      "1472-4642"
+    ],
+    "subject": [
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
     "id": "fran10mss"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2015-12-26T17:29:21Z",
+      "timestamp": 1451150961344
+    },
+    "reference-count": 0,
+    "publisher": "Inderscience Publishers",
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1504/ijmso.2011.042489",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2011-09-15T16:26:40Z",
+      "timestamp": 1316104000000
+    },
+    "page": "46",
+    "source": "CrossRef",
+    "title": "Examples of ecological data synthesis driven by rich metadata, and practical guidelines to use the Ecological Metadata Language specification to this end",
+    "prefix": "http://id.crossref.org/prefix/10.1504",
+    "volume": "6",
+    "author": [
+      {
+        "affiliation": [],
+        "family": "Gil",
+        "given": "Inigo San"
+      },
+      {
+        "affiliation": [],
+        "family": "Vanderbilt",
+        "given": "Kristin"
+      },
+      {
+        "affiliation": [],
+        "family": "Harrington",
+        "given": "Steve A."
+      }
+    ],
+    "member": "http://id.crossref.org/member/378",
+    "container-title": "International Journal of Metadata, Semantics and Ontologies",
+    "deposited": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2011-09-15T16:26:58Z",
+      "timestamp": 1316104018000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "URL": "http://dx.doi.org/10.1504/ijmso.2011.042489",
+    "ISSN": [
+      "1744-2621",
+      "1744-263X"
+    ],
+    "subject": [
+      "Library and Information Sciences",
+      "Information Systems",
+      "Computer Science Applications"
+    ],
+    "id": "gil11eed"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2015-12-23T13:56:52Z",
+      "timestamp": 1450879012471
+    },
+    "reference-count": 33,
+    "publisher": "Elsevier BV",
     "issue": "2",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2006-09-01T00:00:00Z",
+          "timestamp": 1157068800000
+        },
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
     "DOI": "10.1016/j.physd.2006.07.016",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2006-09-11T11:12:21Z",
+      "timestamp": 1157973141000
+    },
     "page": "135-145",
+    "source": "CrossRef",
     "title": "Limit cycles for competitor–competitor–mutualist Lotka–Volterra systems",
+    "prefix": "http://id.crossref.org/prefix/10.1016",
     "volume": "221",
     "author": [
       {
+        "affiliation": [],
         "family": "Gyllenberg",
         "given": "Mats"
       },
       {
+        "affiliation": [],
         "family": "Yan",
         "given": "Ping"
       },
       {
+        "affiliation": [],
         "family": "Wang",
         "given": "Yi"
       }
     ],
+    "member": "http://id.crossref.org/member/78",
     "container-title": "Physica D: Nonlinear Phenomena",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/xml",
+        "URL": "http://api.elsevier.com/content/article/PII:S0167278906002612?httpAccept=text/xml"
+      },
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/plain",
+        "URL": "http://api.elsevier.com/content/article/PII:S0167278906002612?httpAccept=text/plain"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          25
+        ]
+      ],
+      "date-time": "2015-11-25T06:57:03Z",
+      "timestamp": 1448434623000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -376,10 +1270,131 @@
         ]
       ]
     },
+    "alternative-id": [
+      "S0167278906002612"
+    ],
+    "URL": "http://dx.doi.org/10.1016/j.physd.2006.07.016",
+    "ISSN": [
+      "0167-2789"
+    ],
+    "subject": [
+      "Statistical and Nonlinear Physics",
+      "Condensed Matter Physics"
+    ],
     "id": "gyll06lcc"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2016-02-25T16:15:25Z",
+      "timestamp": 1456416925120
+    },
+    "reference-count": 47,
+    "publisher": "Wiley-Blackwell",
+    "issue": "3",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 1279,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1890/11-0826.1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2012-04-17T20:20:13Z",
+      "timestamp": 1334694013000
+    },
+    "page": "679-688",
+    "source": "CrossRef",
+    "title": "Cross-validation of species distribution models: removing spatial sorting bias and calibration with a null model",
+    "prefix": "http://id.crossref.org/prefix/10.1002",
+    "volume": "93",
+    "author": [
+      {
+        "affiliation": [],
+        "family": "Hijmans",
+        "given": "Robert J."
+      }
+    ],
+    "member": "http://id.crossref.org/member/311",
+    "container-title": "Ecology",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1890%2F11-0826.1"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2016-02-25T15:25:14Z",
+      "timestamp": 1456413914000
+    },
+    "score": 1,
+    "subtitle": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "alternative-id": [
+      "10.1890/11-0826.1"
+    ],
+    "URL": "http://dx.doi.org/10.1890/11-0826.1",
+    "ISSN": [
+      "0012-9658"
+    ],
+    "subject": [
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
+    "id": "hijm12csd"
+  },
+  {
     "DOI": "10.1187/cbe.15-09-0186",
+    "ISSN": "1931-7913",
     "URL": "http://dx.doi.org/10.1187/cbe.15-09-0186",
     "author": [
       {
@@ -404,6 +1419,39 @@
       }
     ],
     "container-title": "Cell Biology Education",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2016-05-05T04:29:09Z",
+      "timestamp": 1462422549000
+    },
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2016-05-05T04:29:10Z",
+      "timestamp": 1462422550000
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2016-05-05T05:41:49Z",
+      "timestamp": 1462426909347
+    },
     "issue": "2",
     "issued": {
       "date-parts": [
@@ -414,8 +1462,36 @@
         ]
       ]
     },
+    "member": "http://id.crossref.org/member/1076",
     "page": "ar14-ar14",
+    "prefix": "http://id.crossref.org/prefix/10.1187",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          4
+        ]
+      ]
+    },
     "publisher": "American Society for Cell Biology (ASCB)",
+    "reference-count": 0,
+    "score": 1,
+    "source": "CrossRef",
+    "subject": [
+      "Biochemistry, Genetics and Molecular Biology(all)",
+      "Education"
+    ],
+    "subtitle": [],
     "title": "Development and Assessment of Modules to Integrate Quantitative Skills in Introductory Biology Courses",
     "type": "article-journal",
     "volume": "15",
@@ -448,19 +1524,79 @@
     "id": "lege98ne"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2015-12-27T00:28:00Z",
+      "timestamp": 1451176080997
+    },
+    "reference-count": 12,
+    "publisher": "The Royal Society",
     "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          6
+        ]
+      ]
+    },
     "DOI": "10.1098/rsfs.2012.0006",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2012-02-02T19:16:00Z",
+      "timestamp": 1328210160000
+    },
     "page": "141-143",
+    "update-policy": "http://dx.doi.org/10.1098/crossmarkpolicy",
+    "source": "CrossRef",
     "title": "Towards the marriage of theory and data",
+    "prefix": "http://id.crossref.org/prefix/10.1098",
     "volume": "2",
     "author": [
       {
+        "affiliation": [],
         "family": "Levin",
         "given": "S. A."
       }
     ],
+    "member": "http://id.crossref.org/member/175",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          2,
+          1
+        ]
+      ]
+    },
     "container-title": "Interface Focus",
+    "deposited": {
+      "date-parts": [
+        [
+          2012,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2012-10-19T22:19:53Z",
+      "timestamp": 1350685193000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -470,10 +1606,16 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1098/rsfs.2012.0006",
+    "ISSN": [
+      "2042-8898",
+      "2042-8901"
+    ],
     "id": "levi12mtd"
   },
   {
     "URL": "https://peerj.com/preprints/38v1",
+    "abstract": "Meta-analysis offers ecologists a powerful tool for knowledge synthesis. There is however obvious and subtle issues to consider specific to ecology with respect to the appropriate interpretation of meta-analyses once the statistics are completed. Meta-analysts in any field must clearly define a priori the scope of inference and the purpose of the meta-analysis, but ecological meta-analysis often faces issues particular to this field. For example, the primary studies being combined, even for tests of the same hypothesis, in ecology are generally conducted at different study sites or have difference ecological contexts (i.e. often few studies are not conducted in a laboratory) and use very different methods to test a single hypothesis. General objectives of the meta-analysis could include assessment of confidence limits of the treatment or ecological process of interest, detection of differences in treatments from no effect, identification of research gaps, and differences between groups such as different populations or communities. Meta-analyses can also be used in ecology to assess whether the scope of tests of a hypothesis are adequate. Reporting more than one summary statistic such as different effect size metrics is an excellent means to enhance synthetic potential for ecologists. Magnitude and sign of effect sizes can also be interpreted in novel ways for ecology given the broad scope of forms of hypotheses explored in this discipline. Ecology is now poised to take advantage of the synthesis developments common in other disciplines and this brief conceptual methods review provides the appropriate framing for this endeavor.",
     "accessed": {
       "date-parts": [
         [
@@ -509,6 +1651,7 @@
         ]
       ]
     },
+    "keyword": "criteria,Ecology,interpretation,meta-analysis,methods,statistics,synthesis",
     "number": "e38v1",
     "publisher": "PeerJ PrePrints",
     "title": "Practical interpretation of ecological meta-analyses",
@@ -516,23 +1659,83 @@
     "id": "lort13pie"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          21
+        ]
+      ],
+      "date-time": "2015-12-21T19:40:51Z",
+      "timestamp": 1450726851230
+    },
+    "reference-count": 0,
+    "publisher": "SAGE Publications",
     "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          1
+        ]
+      ]
+    },
     "DOI": "10.1177/0309133315580890",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2015-04-23T01:02:55Z",
+      "timestamp": 1429750975000
+    },
     "page": "837-849",
+    "source": "CrossRef",
     "title": "Incorporating movement in species distribution models",
+    "prefix": "http://id.crossref.org/prefix/10.1177",
     "volume": "39",
     "author": [
       {
+        "affiliation": [],
         "family": "Miller",
         "given": "J. A."
       },
       {
+        "affiliation": [],
         "family": "Holloway",
         "given": "P."
       }
     ],
+    "member": "http://id.crossref.org/member/179",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          22
+        ]
+      ]
+    },
     "container-title": "Progress in Physical Geography",
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2015-11-20T07:17:39Z",
+      "timestamp": 1448003859000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -542,17 +1745,144 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1177/0309133315580890",
+    "ISSN": [
+      "0309-1333",
+      "1477-0296"
+    ],
+    "subject": [
+      "Earth and Planetary Sciences (miscellaneous)",
+      "Geography, Planning and Development",
+      "Earth and Planetary Sciences(all)"
+    ],
     "id": "mill15ims"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T20:27:25Z",
+      "timestamp": 1461184045394
+    },
+    "reference-count": 0,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "6",
+    "license": [
+      {
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              13
+            ]
+          ],
+          "date-time": "2013-06-13T00:00:00Z",
+          "timestamp": 1371081600000
+        },
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "DOI": "10.1371/journal.pone.0065848",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          13
+        ]
+      ],
+      "date-time": "2013-06-13T21:21:02Z",
+      "timestamp": 1371158462000
+    },
+    "page": "e65848",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "CrossRef",
+    "title": "The EcoData Retriever: Improving Access to Existing Ecological Data",
+    "prefix": "http://id.crossref.org/prefix/10.1371",
+    "volume": "8",
+    "author": [
+      {
+        "affiliation": [],
+        "family": "Morris",
+        "given": "Benjamin D."
+      },
+      {
+        "affiliation": [],
+        "family": "White",
+        "given": "Ethan P."
+      }
+    ],
+    "member": "http://id.crossref.org/member/340",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          13
+        ]
+      ]
+    },
+    "container-title": "PLoS ONE",
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T18:00:05Z",
+      "timestamp": 1461175205000
+    },
+    "score": 1,
+    "subtitle": [],
+    "editor": [
+      {
+        "affiliation": [],
+        "family": "Swenson",
+        "given": "Nathan G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          13
+        ]
+      ]
+    },
+    "URL": "http://dx.doi.org/10.1371/journal.pone.0065848",
+    "ISSN": [
+      "1932-6203"
+    ],
+    "subject": [
+      "Biochemistry, Genetics and Molecular Biology(all)",
+      "Agricultural and Biological Sciences(all)",
+      "Medicine(all)"
+    ],
+    "id": "morr13eri"
   },
   {
     "author": [
       {
         "family": "Otto",
-        "given": "Sarah P"
+        "given": "Sarah P",
+        "parse-names": true
       },
       {
         "family": "Day",
-        "given": "Troy"
+        "given": "Troy",
+        "parse-names": true
       }
     ],
     "issued": {
@@ -569,18 +1899,66 @@
     "id": "otto07bgm"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2015-12-27T02:33:36Z",
+      "timestamp": 1451183616240
+    },
+    "reference-count": 0,
+    "publisher": "Springer Science + Business Media",
     "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
     "DOI": "10.1007/bf00191473",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2004-09-25T11:04:23Z",
+      "timestamp": 1096110263000
+    },
+    "source": "CrossRef",
     "title": "An exploration in the space of mathematics educations",
+    "prefix": "http://id.crossref.org/prefix/10.1007",
     "volume": "1",
     "author": [
       {
+        "affiliation": [],
         "family": "Papert",
         "given": "Seymour"
       }
     ],
+    "member": "http://id.crossref.org/member/297",
     "container-title": "International Journal of Computers for Mathematical Learning",
+    "deposited": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          4
+        ]
+      ],
+      "date-time": "2013-01-04T00:56:43Z",
+      "timestamp": 1357261003000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -588,22 +1966,103 @@
         ]
       ]
     },
+    "alternative-id": [
+      "BF00191473"
+    ],
+    "URL": "http://dx.doi.org/10.1007/bf00191473",
+    "ISSN": [
+      "1382-3892",
+      "1573-1766"
+    ],
+    "subject": [
+      "Theoretical Computer Science",
+      "Engineering(all)",
+      "Computational Theory and Mathematics",
+      "Computer Science Applications"
+    ],
     "id": "pape96esm"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T19:40:15Z",
+      "timestamp": 1461181215090
+    },
+    "reference-count": 51,
+    "publisher": "Public Library of Science (PLoS)",
     "issue": "2",
+    "license": [
+      {
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2005,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2005-01-01T00:00:00Z",
+          "timestamp": 1104537600000
+        },
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
     "DOI": "10.1371/journal.pcbi.0010018",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2005-07-28T21:30:59Z",
+      "timestamp": 1122586259000
+    },
     "page": "e18",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "CrossRef",
     "title": "Computational Ecology: From the Complex to the Simple and Back",
+    "prefix": "http://id.crossref.org/prefix/10.1371",
     "volume": "1",
     "author": [
       {
+        "affiliation": [],
         "family": "Pascual",
         "given": "Mercedes"
       }
     ],
+    "member": "http://id.crossref.org/member/340",
     "container-title": "PLoS Comp Biol",
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2016-04-20T17:59:31Z",
+      "timestamp": 1461175171000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -611,46 +2070,178 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1371/journal.pcbi.0010018",
+    "ISSN": [
+      "1553-734X",
+      "1553-7358"
+    ],
+    "subject": [
+      "Ecology",
+      "Modelling and Simulation",
+      "Computational Theory and Mathematics",
+      "Genetics",
+      "Ecology, Evolution, Behavior and Systematics",
+      "Molecular Biology",
+      "Cellular and Molecular Neuroscience"
+    ],
     "id": "pasc05cec"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2015-12-25T08:50:31Z",
+      "timestamp": 1451033431129
+    },
+    "reference-count": 47,
+    "publisher": "Wiley-Blackwell",
     "issue": "13",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 680,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          11
+        ]
+      ]
+    },
     "DOI": "10.1002/ece3.843",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2013-10-21T06:50:44Z",
+      "timestamp": 1382338244000
+    },
     "page": "4572-4583",
+    "source": "CrossRef",
     "title": "Combining food web and species distribution models for improved community projections",
+    "prefix": "http://id.crossref.org/prefix/10.1002",
     "volume": "3",
     "author": [
       {
+        "affiliation": [
+          {
+            "name": "Department of Bioscience; The Arctic Research Centre; Aarhus University; Ny Munkegade 114 DK-8000 Aarhus Denmark"
+          }
+        ],
         "family": "Pellissier",
         "given": "Loïc"
       },
       {
+        "affiliation": [
+          {
+            "name": "Integrative Ecology Group; Estación Biológica de Doñana (EBD - CSIC); Calle Américo Vespucio s/n Sevilla 41092 Spain"
+          }
+        ],
         "family": "Rohr",
         "given": "Rudolf P."
       },
       {
+        "affiliation": [
+          {
+            "name": "Department of Ecology and Evolution; University of Lausanne; Bâtiment Biophore Lausanne CH-1015 Switzerland"
+          }
+        ],
         "family": "Ndiribe",
         "given": "Charlotte"
       },
       {
+        "affiliation": [
+          {
+            "name": "Department of Ecology and Evolution; University of Lausanne; Bâtiment Biophore Lausanne CH-1015 Switzerland"
+          }
+        ],
         "family": "Pradervand",
         "given": "Jean-Nicolas"
       },
       {
+        "affiliation": [
+          {
+            "name": "Department of Ecology and Evolution; University of Lausanne; Bâtiment Biophore Lausanne CH-1015 Switzerland"
+          }
+        ],
         "family": "Salamin",
         "given": "Nicolas"
       },
       {
+        "affiliation": [
+          {
+            "name": "Department of Ecology and Evolution; University of Lausanne; Bâtiment Biophore Lausanne CH-1015 Switzerland"
+          }
+        ],
         "family": "Guisan",
         "given": "Antoine"
       },
       {
+        "affiliation": [
+          {
+            "name": "Department of Bioscience; The Arctic Research Centre; Aarhus University; Ny Munkegade 114 DK-8000 Aarhus Denmark"
+          }
+        ],
         "family": "Wisz",
         "given": "Mary"
       }
     ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          21
+        ]
+      ]
+    },
     "container-title": "Ecol Evol",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fece3.843"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2015-10-21T22:49:14Z",
+      "timestamp": 1445467754000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -660,26 +2251,91 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1002/ece3.843",
+    "ISSN": [
+      "2045-7758"
+    ],
     "id": "pell13cfw"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2015-12-27T00:27:34Z",
+      "timestamp": 1451176054117
+    },
+    "reference-count": 60,
+    "publisher": "The Royal Society",
     "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          6
+        ]
+      ]
+    },
     "DOI": "10.1098/rsfs.2011.0083",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2012-01-06T05:20:41Z",
+      "timestamp": 1325827241000
+    },
     "page": "241-254",
+    "update-policy": "http://dx.doi.org/10.1098/crossmarkpolicy",
+    "source": "CrossRef",
     "title": "Computational ecology as an emerging science",
+    "prefix": "http://id.crossref.org/prefix/10.1098",
     "volume": "2",
     "author": [
       {
+        "affiliation": [],
         "family": "Petrovskii",
         "given": "S."
       },
       {
+        "affiliation": [],
         "family": "Petrovskaya",
         "given": "N."
       }
     ],
+    "member": "http://id.crossref.org/member/175",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          5
+        ]
+      ]
+    },
     "container-title": "Interface Focus",
+    "deposited": {
+      "date-parts": [
+        [
+          2012,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2012-10-19T22:19:07Z",
+      "timestamp": 1350685147000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -689,54 +2345,212 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1098/rsfs.2011.0083",
+    "ISSN": [
+      "2042-8898",
+      "2042-8901"
+    ],
     "id": "petr12cee"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2016-04-02T14:41:03Z",
+      "timestamp": 1459608063424
+    },
+    "reference-count": 40,
+    "publisher": "Wiley-Blackwell",
     "issue": "4",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              11,
+              16
+            ]
+          ],
+          "date-time": "2015-11-16T00:00:00Z",
+          "timestamp": 1447632000000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      },
+      {
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              11,
+              16
+            ]
+          ],
+          "date-time": "2015-11-16T00:00:00Z",
+          "timestamp": 1447632000000
+        },
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          4
+        ]
+      ]
+    },
     "DOI": "10.1111/ecog.01941",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T09:09:42Z",
+      "timestamp": 1444900182000
+    },
     "page": "402-408",
+    "source": "CrossRef",
     "title": "Synthetic datasets and community tools for the rapid testing of ecological hypotheses",
+    "prefix": "http://id.crossref.org/prefix/10.1111",
     "volume": "39",
     "author": [
       {
+        "affiliation": [
+          {
+            "name": "Univ. de Montréal; Dépt de Sciences Biologiques; 90 Avenue Vincent d'Indy Montréal QC H2V3S9 Canada"
+          },
+          {
+            "name": "Québec Centre for Biodiversity Sciences; 1205 Dr. Penfield Avenue Montréal QC H3A1B1 Canada"
+          }
+        ],
         "family": "Poisot",
         "given": "Timothée"
       },
       {
+        "affiliation": [
+          {
+            "name": "Québec Centre for Biodiversity Sciences; 1205 Dr. Penfield Avenue Montréal QC H3A1B1 Canada"
+          },
+          {
+            "name": "Univ. du Québec à Rimouski; Dépt de Biologie; 300 Allée des Ursulines Rimouski QC G5L3A1 Canada"
+          }
+        ],
         "family": "Gravel",
         "given": "Dominique"
       },
       {
+        "affiliation": [
+          {
+            "name": "Memorial Univ. of Newfoundland; Dept of Biology; 232 Elizabeth Ave St. John's NL A1B3X9 Canada"
+          }
+        ],
         "family": "Leroux",
         "given": "Shawn"
       },
       {
+        "affiliation": [
+          {
+            "name": "Woods Inst. for the Environment, Stanford Univ.; Stanford CA USA"
+          },
+          {
+            "name": "School for Environmental and Forest Science, Univ. of Washington; Seattle WA USA"
+          }
+        ],
         "family": "Wood",
         "given": "Spencer A."
       },
       {
+        "affiliation": [
+          {
+            "name": "Univ. of Toronto; Dept of Ecology and Evolutionary Biology; 25 Harbord Street Toronto ON M5S3G5 Canada"
+          }
+        ],
         "family": "Fortin",
         "given": "Marie-Josée"
       },
       {
+        "affiliation": [
+          {
+            "name": "Univ. of Florida; Dept of Wildlife, Ecology and Conservation; Gainseville FL USA"
+          }
+        ],
         "family": "Baiser",
         "given": "Benjamin"
       },
       {
+        "affiliation": [
+          {
+            "name": "Centre for Integrative Ecology, School of Biological Sciences, Univ. of Canterbury; Christchurch New Zealand"
+          }
+        ],
         "family": "Cirtwill",
         "given": "Alyssa R."
       },
       {
+        "affiliation": [
+          {
+            "name": "Museo Nacional de Ciencias Naturales, CSIC; C/José Gutiérrez Abascal 2 Madrid ES-28006 España"
+          }
+        ],
         "family": "Araújo",
         "given": "Miguel B."
       },
       {
+        "affiliation": [
+          {
+            "name": "Centre for Integrative Ecology, School of Biological Sciences, Univ. of Canterbury; Christchurch New Zealand"
+          }
+        ],
         "family": "Stouffer",
         "given": "Daniel B."
       }
     ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          16
+        ]
+      ]
+    },
     "container-title": "Ecography",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "application/pdf",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fecog.01941"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2016-04-02T13:32:03Z",
+      "timestamp": 1459603923000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -746,10 +2560,50 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1111/ecog.01941",
+    "archive": [
+      "Portico"
+    ],
+    "ISSN": [
+      "0906-7590"
+    ],
+    "subject": [
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
     "id": "pois15sdc"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2016-05-06T21:40:51Z",
+      "timestamp": 1462570851994
+    },
+    "reference-count": 48,
     "publisher": "Association for Computing Machinery (ACM)",
+    "license": [
+      {
+        "content-version": "vor",
+        "delay-in-days": 127,
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              5,
+              7
+            ]
+          ],
+          "date-time": "2016-05-07T00:00:00Z",
+          "timestamp": 1462579200000
+        },
+        "URL": "http://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
     "funder": [
       {
         "award": [
@@ -758,36 +2612,102 @@
         "name": "National Science Foundation"
       }
     ],
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
     "DOI": "10.1145/2851581.2892577",
-    "type": "paper-conference",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2016-05-06T19:56:09Z",
+      "timestamp": 1462564569000
+    },
+    "source": "CrossRef",
     "title": "Computational Agroecology",
+    "prefix": "http://id.crossref.org/prefix/10.1145",
     "author": [
       {
+        "affiliation": [
+          {
+            "name": "International Computer Science Institute, Berkeley, CA, USA"
+          }
+        ],
         "family": "Raghavan",
         "given": "Barath"
       },
       {
+        "affiliation": [
+          {
+            "name": "UC Irvine, Irvine, CA, USA"
+          }
+        ],
         "family": "Nardi",
         "given": "Bonnie"
       },
       {
+        "affiliation": [
+          {
+            "name": "University of Illinois at Urbana-Champaign, Urbana, IL, USA"
+          }
+        ],
         "family": "Lovell",
         "given": "Sarah T."
       },
       {
+        "affiliation": [
+          {
+            "name": "University of California, Irvine, Irvine, CA, USA"
+          }
+        ],
         "family": "Norton",
         "given": "Juliet"
       },
       {
+        "affiliation": [
+          {
+            "name": "University of California, Irvine, Irvine, CA, USA"
+          }
+        ],
         "family": "Tomlinson",
         "given": "Bill"
       },
       {
+        "affiliation": [
+          {
+            "name": "University of California at Irvine, Irvine, CA, USA"
+          }
+        ],
         "family": "Patterson",
         "given": "Donald J."
       }
     ],
+    "member": "http://id.crossref.org/member/320",
     "container-title": "Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA '16",
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2016-05-06T20:52:12Z",
+      "timestamp": 1462567932000
+    },
+    "score": 1,
+    "subtitle": [
+      "Sustainable Food Ecosystem Design"
+    ],
     "issued": {
       "date-parts": [
         [
@@ -795,12 +2715,15 @@
         ]
       ]
     },
-    "ISBN": "http://id.crossref.org/isbn/9781450340823",
+    "ISBN": [
+      "http://id.crossref.org/isbn/9781450340823"
+    ],
     "URL": "http://dx.doi.org/10.1145/2851581.2892577",
     "id": "ragh16ca"
   },
   {
     "DOI": "10.1371/journal.pbio.1001779",
+    "abstract": "Public data archiving has many benefits for society, but some scientists are reluctant to share their data. This Perspective offers some practical solutions to reduce costs and increase benefits for individual researchers. $<$/sec$>$",
     "accessed": {
       "date-parts": [
         [
@@ -867,6 +2790,7 @@
   },
   {
     "DOI": "10.1371/journal.pbio.1002295",
+    "ISSN": "1545-7885",
     "URL": "http://dx.doi.org/10.1371/journal.pbio.1002295",
     "author": [
       {
@@ -887,6 +2811,39 @@
       }
     ],
     "container-title": "PLOS Biology",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2015-11-10T19:05:10Z",
+      "timestamp": 1447182310000
+    },
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2015-11-10T19:05:11Z",
+      "timestamp": 1447182311000
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2015-11-13T11:36:40Z",
+      "timestamp": 1447414600666
+    },
     "issue": "11",
     "issued": {
       "date-parts": [
@@ -897,28 +2854,122 @@
         ]
       ]
     },
+    "member": "http://id.crossref.org/member/340",
     "page": "e1002295",
+    "prefix": "http://id.crossref.org/prefix/10.1371",
     "publisher": "Public Library of Science (PLoS)",
+    "reference-count": 0,
+    "score": 1,
+    "source": "CrossRef",
+    "subject": [
+      "Biochemistry, Genetics and Molecular Biology(all)",
+      "Immunology and Microbiology(all)",
+      "Neuroscience(all)",
+      "Agricultural and Biological Sciences(all)"
+    ],
+    "subtitle": [],
     "title": "Public Data Archiving in Ecology and Evolution: How Well Are We Doing?",
     "type": "article-journal",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "volume": "13",
     "id": "roch15pda"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2015-12-20T23:27:59Z",
+      "timestamp": 1450654079347
+    },
+    "reference-count": 51,
+    "publisher": "Elsevier BV",
     "issue": "3",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "start": {
+          "date-parts": [
+            [
+              1996,
+              11,
+              1
+            ]
+          ],
+          "date-time": "1996-11-01T00:00:00Z",
+          "timestamp": 846806400000
+        },
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1996,
+          11
+        ]
+      ]
+    },
     "DOI": "10.1016/0304-3800(95)00152-2",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2002-07-25T14:55:55Z",
+      "timestamp": 1027608955000
+    },
     "page": "229-244",
+    "source": "CrossRef",
     "title": "Testing ecological models: the meaning of validation",
+    "prefix": "http://id.crossref.org/prefix/10.1016",
     "volume": "90",
     "author": [
       {
+        "affiliation": [],
         "family": "Rykiel",
         "given": "Edward J.",
         "suffix": "Jr."
       }
     ],
+    "member": "http://id.crossref.org/member/78",
     "container-title": "Ecological Modelling",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/xml",
+        "URL": "http://api.elsevier.com/content/article/PII:0304380095001522?httpAccept=text/xml"
+      },
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "text/plain",
+        "URL": "http://api.elsevier.com/content/article/PII:0304380095001522?httpAccept=text/plain"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2015-09-03T06:47:49Z",
+      "timestamp": 1441262869000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -927,34 +2978,107 @@
         ]
       ]
     },
+    "alternative-id": [
+      "0304380095001522"
+    ],
+    "URL": "http://dx.doi.org/10.1016/0304-3800(95)00152-2",
+    "ISSN": [
+      "0304-3800"
+    ],
+    "subject": [
+      "Ecological Modelling"
+    ],
     "id": "ryki96tem"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          28
+        ]
+      ],
+      "date-time": "2015-12-28T02:00:14Z",
+      "timestamp": 1451268014758
+    },
+    "reference-count": 29,
+    "publisher": "Proceedings of the National Academy of Sciences",
     "issue": "20",
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          5,
+          17
+        ]
+      ]
+    },
     "DOI": "10.1073/pnas.1100631108",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          5,
+          3
+        ]
+      ],
+      "date-time": "2011-05-03T01:59:44Z",
+      "timestamp": 1304387984000
+    },
     "page": "8335-8338",
+    "update-policy": "http://dx.doi.org/10.1073/pnas.cm10313",
+    "source": "CrossRef",
     "title": "Persistent predator-prey dynamics revealed by mass extinction",
+    "prefix": "http://id.crossref.org/prefix/10.1073",
     "volume": "108",
     "author": [
       {
+        "affiliation": [],
         "family": "Sallan",
         "given": "L. C."
       },
       {
+        "affiliation": [],
         "family": "Kammer",
         "given": "T. W."
       },
       {
+        "affiliation": [],
         "family": "Ausich",
         "given": "W. I."
       },
       {
+        "affiliation": [],
         "family": "Cook",
         "given": "L. A."
       }
     ],
+    "member": "http://id.crossref.org/member/341",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          5,
+          2
+        ]
+      ]
+    },
     "container-title": "Proceedings of the National Academy of Sciences",
+    "deposited": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2013-10-27T17:35:42Z",
+      "timestamp": 1382895342000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -964,6 +3088,14 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1073/pnas.1100631108",
+    "ISSN": [
+      "0027-8424",
+      "1091-6490"
+    ],
+    "subject": [
+      "General"
+    ],
     "id": "sall11ppd"
   },
   {
@@ -990,35 +3122,169 @@
     "id": "soet08pge"
   },
   {
-    "issue": "5",
-    "DOI": "10.1007/s11258-014-0366-3",
+    "DOI": "10.1016/j.cub.2013.11.014",
+    "ISSN": "0960-9822",
+    "abstract": "Summary Policies ensuring that research data are available on public archives are increasingly being implemented at the government \\[1\\], funding agency \\[24\\], and journal \\[5, 6\\] level. These policies are predicated on the idea that authors are poor stewards of their data, particularly over the long term \\[7\\], and indeed many studies have found that authors are often unable or unwilling to share their data \\[811\\]. However, there are no systematic estimates of how the availability of research data changes with time since publication. We therefore requested data sets from a relatively homogenous set of 516 articles published between 2 and 22 years ago, and found that availability of the data was strongly affected by article age. For papers where the authors gave the status of their data, the odds of a data set being extant fell by 17% per year. In addition, the odds that we could find a working e-mail address for the first, last, or corresponding author fell by 7% per year. Our results reinforce the notion that, in the long term, research data cannot be reliably preserved by individual researchers, and further demonstrate the urgent need for policies mandating data sharing via public archives.",
+    "accessed": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Vines",
+        "given": "Timothy H."
+      },
+      {
+        "family": "Albert",
+        "given": "Arianne Y. K."
+      },
+      {
+        "family": "Andrew",
+        "given": "Rose L."
+      },
+      {
+        "family": "Débarre",
+        "given": "Florence"
+      },
+      {
+        "family": "Bock",
+        "given": "Dan G."
+      },
+      {
+        "family": "Franklin",
+        "given": "Michelle T."
+      },
+      {
+        "family": "Gilbert",
+        "given": "Kimberly J."
+      },
+      {
+        "family": "Moore",
+        "given": "Jean-Sébastien"
+      },
+      {
+        "family": "Renaut",
+        "given": "Sébastien"
+      },
+      {
+        "family": "Rennison",
+        "given": "Diana J."
+      }
+    ],
+    "container-title": "Current Biology",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          1
+        ]
+      ]
+    },
+    "page": "94-97",
+    "title": "The Availability of Research Data Declines Rapidly with Article Age",
     "type": "article-journal",
+    "volume": "24",
+    "id": "vine14ard"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2015-12-20T05:15:08Z",
+      "timestamp": 1450588508858
+    },
+    "reference-count": 50,
+    "publisher": "Springer Science + Business Media",
+    "issue": "5",
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11258-014-0366-3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2014-11-21T16:24:43Z",
+      "timestamp": 1416587083000
+    },
     "page": "669-682",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "CrossRef",
     "title": "Model-based thinking for community ecology",
+    "prefix": "http://id.crossref.org/prefix/10.1007",
     "volume": "216",
     "author": [
       {
+        "affiliation": [],
         "family": "Warton",
         "given": "David I."
       },
       {
+        "affiliation": [],
         "family": "Foster",
         "given": "Scott D."
       },
       {
+        "affiliation": [],
         "family": "De’ath",
         "given": "Glenn"
       },
       {
+        "affiliation": [],
         "family": "Stoklosa",
         "given": "Jakub"
       },
       {
+        "affiliation": [],
         "family": "Dunstan",
         "given": "Piers K."
       }
     ],
+    "member": "http://id.crossref.org/member/297",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          19
+        ]
+      ]
+    },
     "container-title": "Plant Ecol",
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2015-05-11T09:02:13Z",
+      "timestamp": 1431334933000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -1028,70 +3294,169 @@
         ]
       ]
     },
+    "alternative-id": [
+      "366"
+    ],
+    "URL": "http://dx.doi.org/10.1007/s11258-014-0366-3",
+    "ISSN": [
+      "1385-0237",
+      "1573-5052"
+    ],
+    "subject": [
+      "Plant Science",
+      "Ecology"
+    ],
     "id": "wart14mtc"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2016-02-25T20:43:48Z",
+      "timestamp": 1456433028298
+    },
+    "reference-count": 92,
+    "publisher": "Wiley-Blackwell",
     "issue": "8",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 31,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    },
     "DOI": "10.1890/es14-00485.1",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2015-08-07T20:56:33Z",
+      "timestamp": 1438980993000
+    },
     "page": "art134",
+    "source": "CrossRef",
     "title": "The next generation ofaction ecology: novel approaches towards global ecological research",
+    "prefix": "http://id.crossref.org/prefix/10.1002",
     "volume": "6",
     "author": [
       {
+        "affiliation": [],
         "family": "White",
         "given": "Rachel L."
       },
       {
+        "affiliation": [],
         "family": "Sutton",
         "given": "Alexandra E."
       },
       {
+        "affiliation": [],
         "family": "Salguero-Gómez",
         "given": "Roberto"
       },
       {
+        "affiliation": [],
         "family": "Bray",
         "given": "Timothy C."
       },
       {
+        "affiliation": [],
         "family": "Campbell",
         "given": "Heather"
       },
       {
+        "affiliation": [],
         "family": "Cieraad",
         "given": "Ellen"
       },
       {
+        "affiliation": [],
         "family": "Geekiyanage",
         "given": "Nalaka"
       },
       {
+        "affiliation": [],
         "family": "Gherardi",
         "given": "Laureano"
       },
       {
+        "affiliation": [],
         "family": "Hughes",
         "given": "Alice C."
       },
       {
+        "affiliation": [],
         "family": "Jørgensen",
         "given": "Peter Søgaard"
       },
       {
+        "affiliation": [],
         "family": "Poisot",
         "given": "Timothee"
       },
       {
+        "affiliation": [],
         "family": "DeSoto",
         "given": "Lucía"
       },
       {
+        "affiliation": [],
         "family": "Zimmerman",
         "given": "Naupaka"
       }
     ],
+    "member": "http://id.crossref.org/member/311",
     "container-title": "Ecosphere",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1890%2FES14-00485.1"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2016-02-25T19:03:06Z",
+      "timestamp": 1456426986000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -1100,114 +3465,228 @@
         ]
       ]
     },
+    "alternative-id": [
+      "10.1890/ES14-00485.1"
+    ],
+    "URL": "http://dx.doi.org/10.1890/es14-00485.1",
+    "ISSN": [
+      "2150-8925"
+    ],
     "id": "whit15gae"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2015-12-24T13:30:02Z",
+      "timestamp": 1450963802386
+    },
+    "reference-count": 158,
+    "publisher": "Wiley-Blackwell",
     "issue": "1",
+    "license": [
+      {
+        "content-version": "tdm",
+        "delay-in-days": 1176,
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+      }
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          2
+        ]
+      ]
+    },
     "DOI": "10.1111/j.1469-185x.2012.00235.x",
-    "type": "article-journal",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2012-06-12T06:55:21Z",
+      "timestamp": 1339484121000
+    },
     "page": "15-30",
+    "source": "CrossRef",
     "title": "The role of biotic interactions in shaping distributions and realised assemblages of species: implications for species distribution modelling",
+    "prefix": "http://id.crossref.org/prefix/10.1111",
     "volume": "88",
     "author": [
       {
+        "affiliation": [],
         "family": "Wisz",
         "given": "Mary Susanne"
       },
       {
+        "affiliation": [],
         "family": "Pottier",
         "given": "Julien"
       },
       {
+        "affiliation": [],
         "family": "Kissling",
         "given": "W. Daniel"
       },
       {
+        "affiliation": [],
         "family": "Pellissier",
         "given": "Loïc"
       },
       {
+        "affiliation": [],
         "family": "Lenoir",
         "given": "Jonathan"
       },
       {
+        "affiliation": [],
         "family": "Damgaard",
         "given": "Christian F."
       },
       {
+        "affiliation": [],
         "family": "Dormann",
         "given": "Carsten F."
       },
       {
+        "affiliation": [],
         "family": "Forchhammer",
         "given": "Mads C."
       },
       {
+        "affiliation": [],
         "family": "Grytnes",
         "given": "John-Arvid"
       },
       {
+        "affiliation": [],
         "family": "Guisan",
         "given": "Antoine"
       },
       {
+        "affiliation": [],
         "family": "Heikkinen",
         "given": "Risto K."
       },
       {
+        "affiliation": [],
         "family": "Høye",
         "given": "Toke T."
       },
       {
+        "affiliation": [],
         "family": "Kühn",
         "given": "Ingolf"
       },
       {
+        "affiliation": [],
         "family": "Luoto",
         "given": "Miska"
       },
       {
+        "affiliation": [],
         "family": "Maiorano",
         "given": "Luigi"
       },
       {
+        "affiliation": [],
         "family": "Nilsson",
         "given": "Marie-Charlotte"
       },
       {
+        "affiliation": [],
         "family": "Normand",
         "given": "Signe"
       },
       {
+        "affiliation": [],
         "family": "Öckinger",
         "given": "Erik"
       },
       {
+        "affiliation": [],
         "family": "Schmidt",
         "given": "Niels M."
       },
       {
+        "affiliation": [],
         "family": "Termansen",
         "given": "Mette"
       },
       {
+        "affiliation": [],
         "family": "Timmermann",
         "given": "Allan"
       },
       {
+        "affiliation": [],
         "family": "Wardle",
         "given": "David A."
       },
       {
+        "affiliation": [],
         "family": "Aastrup",
         "given": "Peter"
       },
       {
+        "affiliation": [],
         "family": "Svenning",
         "given": "Jens-Christian"
       }
     ],
+    "member": "http://id.crossref.org/member/311",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          12
+        ]
+      ]
+    },
     "container-title": "Biological Reviews",
+    "link": [
+      {
+        "intended-application": "text-mining",
+        "content-version": "vor",
+        "content-type": "unspecified",
+        "URL": "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1469-185X.2012.00235.x"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2015-10-21T18:20:28Z",
+      "timestamp": 1445451628000
+    },
+    "score": 1,
+    "subtitle": [],
     "issued": {
       "date-parts": [
         [
@@ -1217,6 +3696,14 @@
         ]
       ]
     },
+    "URL": "http://dx.doi.org/10.1111/j.1469-185X.2012.00235.x",
+    "ISSN": [
+      "1464-7931"
+    ],
+    "subject": [
+      "Biochemistry, Genetics and Molecular Biology(all)",
+      "Agricultural and Biological Sciences(all)"
+    ],
     "id": "wisz12rbi"
   }
 ]
