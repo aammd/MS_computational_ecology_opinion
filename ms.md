@@ -188,35 +188,78 @@ explicit consideration of more realistic ecological mechanisms.
 The field of ecology as a whole needs to improve the ways in which it can
 improve synthesis in order to become policy-relevant. Most of the global
 challenges have an ecological or environmental component, and outside of the
-socio-$\star$ (ecological, economical, cultural, ...) aspects, ecologists can
-contribute to the mitigation or resolution of these challenges by i) assessing
-our knowledge of natural systems, ii) developping methods to produce scenarios
-using state-of-the-art models and tools, and iii) communicate the output of
-these scenarios to impact policy-making. @whit15gae propose that this falls
-under the umbrella of *action ecology*, *i.e.* using fundamental knowlede and
-ecological theory to adress pressing, real-world questions.
+socio-$\star$ (ecological, economical, cultural, ...) aspects, ecologists
+can contribute to the mitigation or resolution of these challenges by i)
+assessing our knowledge of natural systems, ii) developing methods to produce
+scenarios using state-of-the-art models and tools, and iii) communicate the
+output of these scenarios to impact policy-making. @whit15gae propose that
+this falls under the umbrella of *action ecology*, *i.e.* using fundamental
+knowledge and ecological theory to address pressing, real-world questions.
 
 {== a bit on the need to comp res instead of sampling bc time constraint ==}
 
-@ragh16ca suggest that this approach can also accomodate stakeholder knowledge
+@ragh16ca suggest that this approach can also accommodate stakeholder knowledge
 and engagement. By building models that rely on ecological concepts, empirical
 data, and stakeholder feedback, they are able to implement a *computational
 agroecology* program, to use computational tools in the optimization of
-sustainable agricultural practices.
+sustainable agricultural practices. This example suggests that not only can
+computational approaches yield fundamental research results in a short time
+frame, they can also be leveraged as a tool for applied research and knowledge
+transfer now. In the next sections, I will outline the key challenges that
+exist for the integration of computational ecology to other approaches to
+ecological research.
 
-+ list of challenges
+## Mapping the domains of collaboration
 
-## Integration of computational research into the broader research landscape
+Understanding how computational ecology will fit within the broader research
+landscape requires to answer three questions: what can computational
+ecology bring, what are the needs of computational ecologists, and what are
+the current limitations of computational approaches that could limit their
+immediate applicability. Relying heavily on external information implies that
+computational research is dependant on standard for data representation. The
+Ecological Metadata Language [@fegr05med] is an attempt at standardizing
+the way meta-data are represented for ecological data; adherence to this
+standard, although it has been shown to improve the ease of assembling large
+datasets from single studies [@gil11eed], is done on a voluntary basis (and is
+therefore abysmal). An alternative approach is to rely on community efforts
+to pre-curate and pre-catalog ecological data, such as with the flagship
+effort *EcoDataRetriever* [@morr13eri]. Yet even this approach is ultimately
+limited, because of the human factor involved -- when the upstream data
+change, they have to be re-worked into the software. A community consensus
+on data representation, although unlikely, would actually solve several
+problems at once. First, it would make the integration of multiple data
+sources trivial. Second, it will provide clear guidelines about the input
+and storage of data, thus maybe improving their currently limited longevity
+[@vine14ard]. Finally, it would facilitate the integration of data and models
+with minimum efforts and risk of mis-communication, since the format would
+be the same for all.
 
-- {== a lot of large-scale databases ==}
+With or without a common data format, the problem remains that we have very
+limited insights into error propagation of predictions made on synthetic
+datasets [@pois15sdc]. There are biases in the underlying data, biases
+in the models used to generate the predictions, and this can turn out in
+three possible ways. First, predictions from these datasets accumulate bias
+and cannot be used. Second, because the scale at which these predictions
+are expressed is large, errors are (quantitatively) small enough to be
+over-ridden by the magnitude of actual variation. Finally, in the best-case
+but low-realism scenario, errors end up cancelling each other out. The best
+possible way to understand how errors propagate is to validate predictions
+*de novo*. Model-validation methods can be used, as they are with SDMS
+[@hijm12csd], but *de novo* sampling carries the additional weight of being an
+independent attempt at testing the prediction. Improved collaborations on this
+aspect will provide estimates of the robustness of the predictions, in addition
+to highlighting the steps of the process in which uncertainty is high ---
+these steps are natural candidates for additional methodological development.
 
-- summary of @pois15sdc
-  + {>> lack of insights on error propagation <<}
-  + {>> standards <<}
-
-\autoref{flow} A
-
-- computational -> other {>> models needs explanations + grounding <<}
+Finally, there is a need to assess how the predictions made by purely
+computational approaches will be fed back into other types of research. This
+is notably true when presenting these approaches to stakeholders. One possible
+way to make this knowledge transfer process easier is to be transparent about
+the way predictions where derived: which data were used (with citations and
+unique identifiers), which software was used (with versions numbers and code),
+and what the model / simulations do. In short, the onus is on practitioners
+of computational research to make sure we provide all the information needed
+to communicate how predictions came to be.
 
 ## Establishing the currencies of collaboration
 
