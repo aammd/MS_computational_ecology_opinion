@@ -139,12 +139,6 @@ predictions will improve the predictions quality [@pois15sdc].
 
 !{costbenefit}
 
-{== missing a transition here ==}
-
-None of these approaches to ecological research have any intrinsic superiority --
-in the end, direct observation and experimentation trumps all, and serve as the
-validation, rejection, or refinement of predictions derived in other ways.
-
 ## A success story: Species Distribution Models
 
 The practice known as "species distributions modelling" (and the species
@@ -289,7 +283,7 @@ more difficult to resolve; this is, I think, an incentive for a collaboration
 that builds on the skills that are specific to different approaches.
 
 There is no tip-toeing around the fact that computational ecologists will be
-*data consumer*, and this data will have to come from ecologists with active
+*data consumers*, and this data will have to come from ecologists with active
 field programs. Recognizing that computational ecology *needs* this data as a
 condition for its continued existence and relevance should motivate the
 establishment of a way to credit and recognize the role of *data producers*
@@ -318,8 +312,6 @@ approaches are put to work in complementarity.
 
 !{flow}
 
-The end-goal of ecological research is problem solving. {== to be continued==}
-
 ## Training and advising computational ecologists
 
 @barr14lqt highlighted the fact that, professional ecologists received *less*
@@ -332,7 +324,7 @@ dividing the field further beteen empirically and theoretically minded
 scientists, this would showcase quantitative skills are being transversal to all
 questions that ecology can adress. What to teach, and how to integrate it to the
 existing curriculum, does of course requires discussion and consensus building
-by the community. {==more?==}
+by the community.
 
 A related problem is that most practicing ecologists are terrible role models
 when it comes to showcasing good practices of data management; and data
@@ -348,11 +340,19 @@ became a core skill for ecologists.
 
 # Concluding remarks
 
-Emphasize that computational power and increased data availability will allow
-more predictions but the time to test them is not compressible. Let theory +
-what is feasible + dialogue with field ecologists determine where efforts should
-be invested, also develop roadmap to understand the propagation of uncertainty
-and errors.
+None of these approaches to ecological research have any intrinsic superiority --
+in the end, direct observation and experimentation trumps all, and serve as the
+validation, rejection, or refinement of predictions derived in other ways. The
+growing computational power, growing amount of data, and increasing
+computational litteracy means that producing theory and predictions is becoming
+cheaper and faster (regardless of the quality of these products). Yet the time
+needed to test any prediction is not decreasing, or not as fast. Computational
+science has resulted in the development of many tools and approaches that can be
+useful to ecology, since they allow to wade through these predictions and data.
+Confronting theoretical predictions to data is a requirement, if not the core,
+of ecological synthesis; this is only possible under the conditions that
+ecologists engage in meaningful dialogue, and recognize the currencies of their
+collaborations.
 
 **Acknowledgements:** I thank Dr. Allison Barner and Dr. Andrew McDonald for
 stimulating discussions, students of the Computational Ecology Summer School
@@ -361,6 +361,8 @@ des Laurentides de l'Université de Montréal for hosting me during part of the
 writing process. Part of this manuscript was inspired by presentations I gave
 during High Performance Computing Symposium 2015 in Montréal, for the
 organization of which I thank Compute Québec and Compute Canada, and during the
-2016 meeting of the Ecological Society of America.
+2016 meeting of the Ecological Society of America. I thank the volunteers of
+Software Carpentry and Data Carpentry, whose work contribute to improving the
+skills of ecologists.
 
 # References
