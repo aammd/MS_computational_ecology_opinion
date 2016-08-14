@@ -25,11 +25,11 @@ figure:
     short: Four quadrats of ecological research.
     file: quadrats.pdf
   - id: costbenefit
-    caption: Research methodologies differ on the basis of their costs, and on the type of predictions they make. Computational ecology is justified only in the context of an interaction with observational or manipulative approaches; specifically, only observations can validate predictions.
+    caption: Research methodologies differ on the basis of their costs, and on the type of predictions they make. Computational ecology is justified only in the context of an interaction with observational or manipulative approaches; specifically, only observations can validate predictions. Modelling studies are extremely accurate, but their testability is low. Computational approaches generate highly testable predictions, but their accuracy is currently difficult to assess (and should therefore be considered low). Observational or manipulative studies are extremely accurate, and can inform and refine predictions generated through computational approaches.
     short: Costs and benefits.
     file: costbenefit.pdf
   - id: flow
-    caption: A) The domains of computational ecology (grey box) in the general research process. (THIS FIGURE IS BAD BECAUSE IT IMPLIES ONLY COMP APPROACHES CAN GENERATE HYPOTHESES WHICH IS WRONG). B) Mapping the currencies of collaborations across methodologies (IN NEED OF A LEGEND).
+    caption: Relationships between the key concepts discussed in this manuscript. Components of the computational approach are highlighted in blue. The advantage of computational approaches is that they exist within a direct feedback loop from data to hypothesis, while not being disconnected from the rest of the ecological praxis.
     short: Flow and currencies.
     file: flow.pdf
 date: \today
