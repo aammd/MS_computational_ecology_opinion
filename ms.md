@@ -183,7 +183,7 @@ in mathematical expressiveness (which is most often ruled out by the use of
 stochastic simulations), they assume to gain in predictive ability through the
 explicit consideration of more realistic ecological mechanisms.
 
-# The roadmap towards synthesis
+# En route towards synthesis
 
 The field of ecology as a whole needs to improve the ways in which it can
 improve synthesis in order to become policy-relevant. Most of the global
@@ -196,8 +196,6 @@ output of these scenarios to impact policy-making. @whit15gae propose that
 this falls under the umbrella of *action ecology*, *i.e.* using fundamental
 knowledge and ecological theory to address pressing, real-world questions.
 
-{== a bit on the need to comp res instead of sampling bc time constraint ==}
-
 @ragh16ca suggest that this approach can also accommodate stakeholder knowledge
 and engagement. By building models that rely on ecological concepts, empirical
 data, and stakeholder feedback, they are able to implement a *computational
@@ -208,6 +206,20 @@ frame, they can also be leveraged as a tool for applied research and knowledge
 transfer now. In the next sections, I will outline the key challenges that
 exist for the integration of computational ecology to other approaches to
 ecological research.
+
+It seems, at this point, important to minimize neither the importance nor the
+efficiency of sampling and collection of additional data. Sampling is important
+because ecological questions, no matter how fundamental, ought to be grounded in
+phenomena happening in nature, and these are revealed by observation or
+manipulation of natural systems. Sampling is efficient because it is the final
+arbiter: how good any prediction is at explaining aspects of a particular
+empirical system is determined by observations of this system, compared to the
+predictions. Yet any endeavor to collect additional data has its scope limited
+by financial, human, and temporal constraints -- or in other words, we need to
+chose what to sample, because we can't afford to sample it all. Computational
+approaches, because they can work through large amounts of data, and integrate
+them with models that can generate predictions, might allow answering an all
+important question: what do we sample, and where?
 
 ## Mapping the domains of collaboration
 
@@ -328,13 +340,13 @@ what is feasible + dialogue with field ecologists determine where efforts should
 be invested, also develop roadmap to understand the propagation of uncertainty
 and errors.
 
-**Acknowledgements:** I thank Dr. Allison Barner for comments on a very
-early draft of this manuscript as well as stimulating on-line discussions,
-students of the Computational Ecology Summer School 2016 for asking "What
-is computational ecology?", and the Station de Biologie des Laurentides
-de l'Université de Montréal for hosting me during part of the writing
-process. Part of this manuscript was inspired by a presentation I gave during
-High Performance Computing Symposium 2015 in Montréal, for the organization
-of which I thank Compute Québec and Compute Canada.
+**Acknowledgements:** I thank Dr. Allison Barner and Dr. Andrew McDonald for
+stimulating discussions, students of the Computational Ecology Summer School
+2016 for asking "What is computational ecology?", and the Station de Biologie
+des Laurentides de l'Université de Montréal for hosting me during part of the
+writing process. Part of this manuscript was inspired by presentations I gave
+during High Performance Computing Symposium 2015 in Montréal, for the
+organization of which I thank Compute Québec and Compute Canada, and during the
+2016 meeting of the Ecological Society of America.
 
 # References
