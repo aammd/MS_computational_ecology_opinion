@@ -215,36 +215,38 @@ manipulation of natural systems. Sampling is efficient because it is the final
 arbiter: how good any prediction is at explaining aspects of a particular
 empirical system is determined by observations of this system, compared to the
 predictions. Yet any endeavor to collect additional data has its scope limited
-by financial, human, and temporal constraints -- or in other words, we need to
+by financial, human, and temporal constraints --- or in other words, we need to
 chose what to sample, because we can't afford to sample it all. Computational
 approaches, because they can work through large amounts of data, and integrate
 them with models that can generate predictions, might allow answering an all
-important question: what do we sample, and where?
+important question: what do we sample, and where? Some rely on their ecological
+intuition to answer; being a computational ecologist, and therefore being
+deprived of such intuitions, I would suggest that data, coupled with model, can
+be used to provide this answer.
 
 ## Mapping the domains of collaboration
 
 Understanding how computational ecology will fit within the broader research
-landscape requires to answer three questions: what can computational
-ecology bring, what are the needs of computational ecologists, and what are
-the current limitations of computational approaches that could limit their
-immediate applicability. Relying heavily on external information implies that
+landscape requires to answer three questions: what can computational ecology
+bring, what are the needs of computational ecologists, and what are the current
+limitations of computational approaches that could limit their immediate
+applicability. Relying heavily on external information implies that
 computational research is dependant on standard for data representation. The
-Ecological Metadata Language [@fegr05med] is an attempt at standardizing
-the way meta-data are represented for ecological data; adherence to this
-standard, although it has been shown to improve the ease of assembling large
-datasets from single studies [@gil11eed], is done on a voluntary basis (and is
-therefore abysmal). An alternative approach is to rely on community efforts
-to pre-curate and pre-catalog ecological data, such as with the flagship
-effort *EcoDataRetriever* [@morr13eri]. Yet even this approach is ultimately
-limited, because of the human factor involved -- when the upstream data
-change, they have to be re-worked into the software. A community consensus
-on data representation, although unlikely, would actually solve several
-problems at once. First, it would make the integration of multiple data
-sources trivial. Second, it will provide clear guidelines about the input
-and storage of data, thus maybe improving their currently limited longevity
-[@vine14ard]. Finally, it would facilitate the integration of data and models
-with minimum efforts and risk of mis-communication, since the format would
-be the same for all.
+Ecological Metadata Language [@fegr05med] is an attempt at standardizing the way
+meta-data are represented for ecological data; adherence to this standard,
+although it has been shown to improve the ease of assembling large datasets from
+single studies [@gil11eed], is done on a voluntary basis (and is therefore
+abysmal). An alternative approach is to rely on community efforts to pre-curate
+and pre-catalog ecological data, such as with the flagship effort
+*EcoDataRetriever* [@morr13eri]. Yet even this approach is ultimately limited,
+because of the human factor involved --- when the upstream data change, they
+have to be re-worked into the software. A community consensus on data
+representation, although unlikely, would actually solve several problems at
+once. First, it would make the integration of multiple data sources trivial.
+Second, it will provide clear guidelines about the input and storage of data,
+thus maybe improving their currently limited longevity [@vine14ard]. Finally, it
+would facilitate the integration of data and models with minimum efforts and
+risk of mis-communication, since the format would be the same for all.
 
 With or without a common data format, the problem remains that we have very
 limited insights into error propagation of predictions made on synthetic
