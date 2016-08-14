@@ -329,12 +329,24 @@ quantitative and computational thinking that they think should be necessary.
 Increasing the amount of such training does not necessarily imply that natural
 history or field practice will be sacrified on the altar of mathematics: rather,
 ecology would benefit from introducing more quantitative skills and reasoning
-across all courses, and introductiory ones in particular [@hoff16dam]. Instead
-of dividing the field further beteen empirically and theoretically minded
+across all courses, and introductory ones in particular [@hoff16dam]. Instead of
+dividing the field further beteen empirically and theoretically minded
 scientists, this would showcase quantitative skills are being transversal to all
-questions that ecology can adress.
+questions that ecology can adress. What to teach, and how to integrate it to the
+existing curriculum, does of course requires discussion and consensus building
+by the community. {==more?==}
 
-- @roch15pda @roch14tpd -- low adherence to standards (emphasize at all time)
+A related problem is that most practicing ecologists are terrible role models
+when it comes to showcasing good practices of data management; and data
+management is a crucial step towards easier computational approaches. Even in
+the minority of cases where ecologists do share their data on public platforms,
+there are so few metadata that not being able to reproduce the original study is
+the rule [@roch15pda; @roch14tpd]. This is a worrying trend, because data
+management affects how easily research is done, regardless of whether the data
+are ultimately archived. Because the volume and variety of data we can collect
+tends to increase over time, and because we expect higher standard of analysis
+(therefore requiring more programmatic approaches), data management has already
+became a core skill for ecologists.
 
 Emphasize that computational power and increased data availability will allow
 more predictions but the time to test them is not compressible. Let theory +
