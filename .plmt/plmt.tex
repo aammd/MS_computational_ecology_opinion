@@ -1,0 +1,49 @@
+\usepackage[table]{xcolor}
+\usepackage{ccicons}
+
+% Colors
+\input{.plmt/plmt-color.tex}
+
+% pgf
+\input{.plmt/plmt-pgf.tex}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{etoolbox}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+
+% Fonts
+\input{.plmt/plmt-fonts.tex}
+
+% Code highlight and colors
+\input{.plmt/plmt-code.tex}
+
+\usepackage{caption}
+\captionsetup{font={small}, labelfont={bf}, format=plain, indention=4mm, labelsep=quad}
+
+% Spacing
+\usepackage{setspace}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{1.1em}
+
+\input{.plmt/plmt-marks.tex}
+
+\usepackage{booktabs, tabularx, longtable}
+
+\usepackage{titlesec}
+\titleformat{\section}{\Large}{\makebox[0cm][r]{\thesection\hspace{1em}}}{0em}{\scshape\lowercase}
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+\titleformat{\subsection}{\large}{\thesubsection}{.6em}{\itshape}
+\titlespacing*{\subsection}{0pt}{\baselineskip}{\baselineskip}
+\titleformat{\subsubsection}{\bfseries}{}{}{}
+\titlespacing*{\subsubsection}{0pt}{\baselineskip}{\baselineskip}
+
+% Geometry block
+\usepackage[letterpaper]{geometry}
+
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\renewcommand\UrlFont{\color{s3}\rmfamily\bfseries}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}

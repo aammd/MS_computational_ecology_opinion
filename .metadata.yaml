@@ -1,0 +1,30 @@
+---
+title: 'Data-based, synthesis-driven: an agenda for computational ecology'
+short: Manuscript template
+keyword:
+  - ecological networks
+  - beta-diversity
+  - biogeography
+date: 2017-03-02T00:00:00.000Z
+abstract: >
+  Writing manuscripts doesn't have to be awful. This template *tries* to provide
+
+  good defaults for both the draft and preprint modes. Most of the information
+  is
+
+  contained in the YAML file. The preprint mode is particularly good looking.
+author:
+  - family: Poisot
+    given: Timothée
+    affiliations:
+      - 1
+      - 2
+    email: timothee.poisot@umontreal.ca
+    id: tp
+    orcid: 0000-0002-0735-5184
+affiliation:
+  - id: 1
+    text: 'Université de Montréal, Département de Sciences Biologiques'
+  - id: 2
+    text: Québec Centre for Biodiversity Sciences
+...

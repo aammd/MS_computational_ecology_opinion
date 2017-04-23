@@ -1,0 +1,82 @@
+\documentclass[11pt,serif]{article}
+
+\input{.plmt/plmt.tex}
+
+\setcounter{secnumdepth}{5}
+
+\geometry{lmargin=2.65cm, rmargin=5cm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LO,RE]{}
+\fancyhead[LE,RO]{}
+\fancyfoot[C]{}
+\fancyfoot[LO,RE]{$if(short)$\small \emph{$short$}$endif$}
+\fancyfoot[LE,RO]{\small\bfseries P. \thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+{\bfseries\huge $title$}
+
+\vskip 5em
+
+$if(author)$
+$for(author)$
+$if(author.orcid)$
+\href{http://orcid.org/$author.orcid$}{$author.given$ $author.family$}
+$else$
+$author.given$ $author.family$
+$endif$
+{
+$if(author.affiliations)$
+$for(author.affiliations)$$author.affiliations$$sep$,$endfor$
+$endif$
+$sep$\\
+$endfor$
+\bigskip
+$endif$
+
+$if(affiliation)$
+\small
+$for(affiliation)$
+\textbf{$affiliation.id$}: $affiliation.text$\\
+$endfor$
+\bigskip
+\normalsize
+$endif$
+
+\vfill
+
+$if(abstract)$
+$abstract$
+\vskip 1em
+$endif$
+$if(keyword)$
+{\small{\bfseries Keywords:}
+$for(keyword)$$keyword$ $sep$ - $endfor$\vskip 4em
+}
+$endif$
+
+\vfill
+
+{\small%
+{\ccby}\\
+{\emph{This work is licensed under a %
+Creative Commons Attribution 4.0 Unported License.}}%
+\\
+$if(author)$
+$for(author)$
+$if(author.email)$Correspondence to $author.given$ $author.family$ -- \texttt{$author.email$}$endif$$endfor$$endif$
+\newline
+\texttt{$date$}
+}%
+
+\cleardoublepage
+
+$body$
+
+\end{document}

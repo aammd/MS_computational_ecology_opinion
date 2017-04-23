@@ -1,0 +1,77 @@
+\documentclass[12pt,serif]{article}
+
+\input{.plmt/plmt.tex}
+
+\geometry{margin=2.5cm}
+
+\usepackage{lineno}
+\linenumbers
+\usepackage{endfloat}
+
+\begin{document}
+
+
+\thispagestyle{empty}
+
+{\bfseries\huge $title$}
+
+\vskip 5em
+
+$if(author)$
+$for(author)$
+$if(author.orcid)$
+\href{http://orcid.org/$author.orcid$}{$author.given$ $author.family$}
+$else$
+$author.given$ $author.family$
+$endif$
+{
+$if(author.affiliations)$
+$for(author.affiliations)$$author.affiliations$$sep$,$endfor$
+$endif$
+$sep$\\
+$endfor$
+\bigskip
+$endif$
+
+$if(affiliation)$
+\small
+$for(affiliation)$
+\textbf{$affiliation.id$}: $affiliation.text$\\
+$endfor$
+\bigskip
+\normalsize
+$endif$
+
+\vfill
+
+$if(abstract)$
+$abstract$
+\vskip 1em
+$endif$
+$if(keyword)$
+{\small{\bfseries Keywords:}
+$for(keyword)$$keyword$ $sep$ - $endfor$\vskip 4em
+}
+$endif$
+
+\vfill
+
+{\small%
+{\ccby}\\
+{\emph{This work is licensed under a %
+Creative Commons Attribution 4.0 Unported License.}}%
+\\
+$if(author)$
+$for(author)$
+$if(author.email)$Correspondence to $author.given$ $author.family$ -- \texttt{$author.email$}$endif$$endfor$$endif$
+\newline
+\texttt{$date$}
+}%
+
+\cleardoublepage
+
+\doublespacing
+
+$body$
+
+\end{document}
