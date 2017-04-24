@@ -242,6 +242,8 @@ thus maybe improving their currently limited longevity [@vine14ard]. Finally, it
 would facilitate the integration of data and models with minimum efforts and
 risk of mis-communication, since the format would be the same for all.
 
+\note{cite recent ELE paper on common format}
+
 With or without a common data format, the problem remains that we have very
 limited insights into error propagation of predictions made on synthetic
 datasets [@pois15sdc]. There are biases in the underlying data, biases in the
