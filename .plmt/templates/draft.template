@@ -1,15 +1,14 @@
-\documentclass[12pt,serif]{article}
+\documentclass[11pt,serif]{article}
 
 \input{.plmt/plmt.tex}
 
 \geometry{margin=2.5cm}
 
-\usepackage{lineno}
+\usepackage[right]{lineno}
 \linenumbers
 \usepackage{endfloat}
 
 \begin{document}
-
 
 \thispagestyle{empty}
 
@@ -18,29 +17,26 @@
 \vskip 5em
 
 $if(author)$
+\begin{flushleft}
 $for(author)$
 $if(author.orcid)$
 \href{http://orcid.org/$author.orcid$}{$author.given$ $author.family$}
 $else$
-$author.given$ $author.family$
+\mbox{$author.given$ $author.family$}
 $endif$
-{
 $if(author.affiliations)$
-$for(author.affiliations)$$author.affiliations$$sep$,$endfor$
+~\emph{$for(author.affiliations)$$author.affiliations$$sep$,$endfor$}
 $endif$
-$sep$\\
+$sep$\quad
 $endfor$
+\end{flushleft}
 \bigskip
 $endif$
 
 $if(affiliation)$
 \small
 $for(affiliation)$
-\textbf{$affiliation.id$}: $affiliation.text$\\
-$endfor$
-\bigskip
-\normalsize
-$endif$
+\textbf{$affiliation.id$}:~$affiliation.text$$sep$;\quad$endfor$\normalsize$endif$
 
 \vfill
 

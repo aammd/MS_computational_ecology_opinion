@@ -4,30 +4,30 @@
 \setulcolor{hlh}
 
 \newcommand\edmark[1]{%
-  {\small\color{accent}\bfseries\sffamily #1}%
+  {\small\color{blue}\bfseries\sffamily #1}%
 }
 
 \newcommand\add[2][]{%
 \ifstrempty{#1}{%
-\textcolor{add}{#2}%
+\textcolor{green}{#2}%
 }{%
-\textcolor{add}{#2 \edmark{#1}}%
+\textcolor{green}{#2 \edmark{#1}}%
 }%
 }
 
 \newcommand\remove[2][]{%
 \ifstrempty{#1}{%
-\textcolor{meta}{\st{#2}}%
+\textcolor{red}{\st{#2}}%
 }{%
-\textcolor{meta}{\st{#2} \edmark{#1}}%
+\textcolor{red}{\st{#2} \edmark{#1}}%
 }%
 }
 
 \newcommand\note[2][]{%
 \ifstrempty{#1}{%
-\textcolor{not}{[\small\sffamily #2]}%
+\textcolor{purple}{[\small\sffamily #2]}%
 }{%
-\textcolor{not}{[\small\sffamily #2 -- \edmark{#1}]}%
+\textcolor{purple}{[\small\sffamily #2 -- \edmark{#1}]}%
 }%
 }
 

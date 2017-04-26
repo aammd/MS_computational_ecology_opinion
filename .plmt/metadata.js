@@ -49,6 +49,7 @@ infos.abstract = abs//.replace(/[^\n]/gmi, " ")
 // Update infos
 infos.author = autho
 infos.affiliation = print_affiliations
+infos.cleveref = true
 
 // Write to file
 var json = yaml.safeDump(infos);
