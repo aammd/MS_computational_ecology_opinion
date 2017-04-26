@@ -186,15 +186,6 @@ immense human and monetary costs that limit the scale at which they can be
 applied). There is simply too much Nature around for us to observe, monitor, and
 manipulate it all.
 
-| Approach              | accurate ? | testable ? | usable for prediction ? |
-|:----------------------|:-----------|:-----------|:------------------------|
-| Empirical observation | yes        |            |                         |
-| Computational         | unknown    | yes        | directly                |
-| Modelling             | yes        | no         | indirectly              |
-| Meta-analysis         | yes        | no         | no                      |
-
-Table: TODO {#tbl:costbenefit}
-
 Computational ecology ought to fall in the middle of this spectrum -- although
 the reliance on advanced research computing incurs greater costs (either paid
 for by the researcher of by a computing center or consortium; these costs
@@ -204,7 +195,14 @@ the accuracy of these predictions is currently unknown (and will vary on a
 model/study/question basis), any additional empirical effort to *validate*
 predictions will improve the predictions quality [@pois16sdc].
 
-!{costbenefit}
+| Approach              | accurate ? | testable ? | usable for prediction ? |
+|:----------------------|:-----------|:-----------|:------------------------|
+| Empirical observation | yes        |            |                         |
+| Computational         | unknown    | yes        | directly                |
+| Modelling             | yes        | no         | indirectly              |
+| Meta-analysis         | yes        | no         | no                      |
+
+Table: TODO {#tbl:costbenefit}
 
 # En route towards synthesis
 
