@@ -165,27 +165,35 @@ Where in this landscape does computational approaches fit?
 
 In *Life on the Mississippi*, Mark Twain wrote that "There is something
 fascinating about science. One gets such wholesale returns of conjecture out of
-such a trifling investment of fact.". Because there was no such thing as
-computational science in 1883, this is surely not what he had in mind -- but
-amusingly, herein lies computational ecology mission statement: in a
-data-limited context, merging phenomenological models with pre-existing datasets
-is a way to efficiently develop conjectures, or more appropriately, build on our
-knowledge of models and data to put forward testable, quantified hypotheses.
-@pasc05cec outlines that computational ecology has a unique ability to go from
-the complex (natural systems) to the simple (representations and conceptual
-models), and back (testable predictions). Although the natural world is
-immensely complex, it is paradoxically the high degree of abstraction of models
-that computational approaches favor that give them generality.
+such a trifling investment of fact.". This is a good description of the purpose
+of computational ecology: in a data-limited context, merging phenomenological
+models with pre-existing datasets is a way to efficiently develop conjectures,
+or more appropriately, build on our knowledge of models and data to put forward
+testable, quantified hypotheses. @pasc05cec outlines that computational ecology
+has a unique ability to go from the complex (natural systems) to the simple
+(representations and conceptual models), and back (testable predictions).
+Although the natural world is immensely complex, it is paradoxically the high
+degree of abstraction of models that computational approaches favor that give
+them generality.
 
-This I illustrate in \autoref{costbenefit} (from which I excluded
-meta-analyses). The three types of approaches are ranked in (again, approximate
-and arbitrary) order of cost and effort. Ecological models make, by definition,
-high accuracy predictions, but they tend to be difficult to test [@ryki96tem].
-At the other hand of the spectrum, observations (field sampling) or manipulative
-approaches (micro/meso/macro-cosms, field experiments) are highly accurate (but
-have also immense human and monetary costs that limit the scale at which they
-can be applied). There is simply too much Nature around for us to observe,
-monitor, and manipulate it all.
+{>>TK<<}This I illustrate in {@tbl:costbenefit} (from which I excluded meta-analyses).
+The three types of approaches are ranked in (again, approximate and arbitrary)
+order of cost and effort. Ecological models make, by definition, high accuracy
+predictions, but they tend to be difficult to test [@ryki96tem]. At the other
+hand of the spectrum, observations (field sampling) or manipulative approaches
+(micro/meso/macro-cosms, field experiments) are highly accurate (but have also
+immense human and monetary costs that limit the scale at which they can be
+applied). There is simply too much Nature around for us to observe, monitor, and
+manipulate it all.
+
+| Approach              | accurate ? | testable ? | usable for prediction ? |
+|:----------------------|:-----------|:-----------|:------------------------|
+| Empirical observation | yes        |            |                         |
+| Computational         | unknown    | yes        | directly                |
+| Modelling             | yes        | no         | indirectly              |
+| Meta-analysis         | yes        | no         | no                      |
+
+Table: TODO {#tbl:costbenefit}
 
 Computational ecology ought to fall in the middle of this spectrum -- although
 the reliance on advanced research computing incurs greater costs (either paid
