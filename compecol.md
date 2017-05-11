@@ -75,12 +75,13 @@ training.
 The practice known as "species distributions modelling" (and the species
 distribution models, henceforth SDMs, it generates) is a good example of
 computational practices generating novel ecological insights. At their core,
-SDMs seek to model the presence (and sometimes absence) of a species based on
-previous observations of its presence (and sometimes absence) and knowledge of
-the environment in which the observation was made. More formally, SDMs can be
-interpreted as having the form $\text{P}(S | E)$, where $S$ denotes the presence
-of a species, and $E$ is an array of variables representing the local state of
-the environment at the point where the prediction is made.
+SDMs seek to model the presence or absence of a species based on previous
+observations of its presence or absences, and knowledge of the environment in
+which the observation was made. More formally, SDMs can be interpreted as having
+the form $\text{P}(S | E)$, where $S$ denotes the presence of a species, and $E$
+is an array of variables representing the local state of the environment at the
+point where the prediction is made (the location is represented, not by its
+spatial positions, but by a suite of environmental variables).
 
 As @fran10msd highlights, SDMs emerged at a time where access to computers *and*
 the ability to effectively program them became easier. Although ecological
@@ -89,26 +90,26 @@ these ingredients into something predictive required what is now called
 "computational literacy" -- the ability to abstract, and automate, a system in
 order to generate predictions through computer simulations and their validation.
 One of the strengths of SDMs is that they can be used either for predictions or
-explanations [@elit09sdm]. To calculate $\text{P}(S | E)$ is to make a
-prediction (what are the chances of observing species $S$ at a given location),
-that can be refined, validated, or rejected based on sampling; to understand
-what goes into $E$, *i.e.* what aspects of the environment are involved in
-determining the presence of a species, is an explanation of its distribution
-which can be related to, or informed by, knowledge from the species' natural
-history.
+explanations of where a given species occur [@elit09sdm]. To calculate
+$\text{P}(S | E)$ is to make a prediction (what are the chances of observing
+species $S$ at a given location), that can be refined, validated, or rejected
+based on sampling. To understand what goes into $E$, *i.e.* what aspects of the
+environment are involved in determining the presence of a species, is an
+explanation of its distribution which can be related to, or informed by,
+knowledge from the species' natural history.
 
-@aust02sps makes the point that SDMs exist at the interface between ecological
-theory and statistical models -- this is a key feature of computational
-thinking, *i.e.* being able to integrate ideas and knowledge (abstract concepts)
-with statistical and numerical tools. In fact, one of the most recent and most
-stimulating developments in the field of SDMs is to refine their predictions not
-through the addition of more data, but through the addition of more processes
-[@fran10mss]. These SDMs rely on the usual statistical models, but also on
-dynamical models (*i.e.* simulations; see *e.g.* @wisz12rbi or @pell13cfw for
-biotic interactions, and @mill15ims for movement and dispersal). What they lack
-in mathematical expressiveness (which is most often ruled out by the use of
-stochastic simulations), they assume to gain in predictive ability through the
-explicit consideration of more realistic ecological mechanisms.
+SDMs exist at the interface between ecological theory and statistical models
+[@aust02sps] -- being able to integrate (abstract) ideas and knowledge with
+(formal) statistical and numerical tools is a key feature of computational
+thinking. In fact, one of the most recent and most stimulating developments in
+the field of SDMs is to refine their predictions not through the addition of
+more data, but through the addition of more processes [@fran10mss]. These SDMs
+rely on the usual statistical models, but also on dynamical models (*i.e.*
+simulations; see *e.g.* @wisz12rbi or @pell13cfw for biotic interactions, and
+@mill15ims for movement and dispersal). What they lack in mathematical
+expressiveness (which is most often ruled out by the use of stochastic
+simulations), they assume to gain in predictive ability through the explicit
+consideration of more realistic ecological mechanisms.
 
 # Computational ecology in its broader landscape
 
