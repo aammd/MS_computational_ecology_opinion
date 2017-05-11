@@ -124,11 +124,11 @@ mechanisms and their interactions). The second axis is based on the degree of
 integration between data and models, ranging from disconnected (for purely
 data-based or model-based) to highly integrated. A classification this coarse is
 bound to be caricatural, but it serves as an illustration of where computational
-ecology exists in the overall research methodology. Because it relies on the
-integration of data (if possible *raw* data from observational and manipulative
-experiments) and models (either statistical or phenomenological), it can
-*suggest* general trends through an abstraction of the idiosyncracies of a
-particular system.
+ecology exists in the overall research methodology. Because computational
+ecology relies on the integration of data (if possible *raw* data from
+observational and manipulative experiments) and models (either statistical or
+phenomenological), it can *suggest* general trends through an abstraction of the
+idiosyncracies of a particular system.
 
 ![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of eological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats width=50%}
 
@@ -137,11 +137,13 @@ illustration of how the same problem can be addressed in different ways. The
 classical prey--predator equations of Lotka & Volterra are an instance of a
 "modelling" based perspective, wherein mathematical analysis reveals how
 selected parameters (rates of interactions and growth) affect an ecologically
-relevant quantity (population stability and coexistence). These models, although
-they have been formulated to explain data generated through empirical
-observations, are disconnected from the data themselves. In fact, this family of
-model lies at the basis of a branch of ecological modelling that now exists
-entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
+relevant quantity (population stability and coexistence). As an aside,
+coexistence is an example of a quantity which, although straightforward to
+measure on models, remains elusive in nature [@lett17lmc; @gril17fcl]. These
+models, although they have been formulated to explain data generated through
+empirical observations, are disconnected from the data themselves. In fact, this
+family of model lies at the basis of a branch of ecological modelling that now
+exists entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
 
 By contrast @sall11ppd study the same issue (sustained persistence and
 fluctuations of predator--prey couples through time) using a paleo-ecological
@@ -177,36 +179,36 @@ has a unique ability to go from the complex (natural systems) to the simple
 Although the natural world is immensely complex, it is paradoxically the high
 degree of abstraction of models that computational approaches favor that give
 them generality. Because the rate at which ecological data are collected is not
-improving, whereas our needsfor testable and actionable predictions increases,
+improving, whereas our needs for testable and actionable predictions increases,
 refining the models and further integrating them with data is necessary.
 
-This I illustrate in {@tbl:costbenefit}. The quadrats of ecological approaches
-are ranked in (again, approximate and arbitrary) order of cost and effort.
-Ecological models make, by definition, high accuracy predictions, but they tend
-to be difficult to test [@ryki96tem] -- models relying on precise mathematical
-expressions can be difficult to calibrate or parameterize. Observations (field
-sampling) or manipulative approaches (micro/meso/macro-cosms, field experiments)
-are highly accurate (but have also immense human and monetary costs that limit
-the scale at which they can be applied). There is simply too much Nature around
-for us to observe, monitor, and manipulate it all.
+In {@tbl:costbenefit}, the quadrats of ecological approaches are ranked in
+(again, approximate and arbitrary) order of cost and effort. Ecological models
+make, by definition, high accuracy predictions, but they tend to be difficult to
+test [@ryki96tem] -- models relying on precise mathematical expressions can be
+difficult to calibrate or parameterize. Observations (field sampling) or
+manipulative approaches (micro/meso/macro-cosms, field experiments) are highly
+accurate (but have also immense human and monetary costs that limit the scale at
+which they can be applied). There is simply too much Nature around for us to
+observe, monitor, and manipulate it all.
 
 Computational ecology ought to fall in the middle of this spectrum -- although
 the reliance on advanced research computing incurs greater costs (either paid
 for by the researcher of by a computing center or consortium; these costs
-include operations of computing power, but also training of qualified students),
-it can generates predictions that are highly testable. Specifically, although
-the accuracy of these predictions is currently unknown (and will vary on a
-model/study/question basis), any additional empirical effort to *validate*
+include operations of computing power, but also training of highly qualified
+personnel), it can generates predictions that are highly testable. Specifically,
+although the accuracy of these predictions is currently unknown (and will vary
+on a model/study/question basis), any additional empirical effort to *validate*
 predictions will improve the predictions quality [@pois16sdc].
 
-| Approach              | accurate ? | testable ? | usable for prediction ? |
-|:----------------------|:-----------|:-----------|:------------------------|
-| Empirical observation | yes        |            |                         |
-| Computational         | unknown    | yes        | directly                |
-| Modelling             | yes        | no         | indirectly              |
-| Meta-analysis         | yes        | no         | no                      |
+| Approach              | accuracy | testability | suitability for prediction |
+|:----------------------|:---------|:------------|:---------------------------|
+| Empirical observation | yes      |             |                            |
+| Computational         | unknown  | yes         | directly                   |
+| Modelling             | yes      | no          | indirectly                 |
+| Meta-analysis         | yes      | no          | no                         |
 
-Table: Overview of the properties of the quadrats delineated in {@fig:quadrats}. {#tbl:costbenefit}
+Table: Overview of the properties of the quadrats delineated in {@fig:quadrats}. Empirical observations are the most effort-intensive way of doing ecology. Computational approaches are ranked immediately below because the need to maintain a computational infrastructure is incurring immense (though often invisible) costs. Models are accurate in the limit of their definition, and meta-analysis are accurate in the limit of the empirical studies on which they are based. {#tbl:costbenefit}
 
 # En route towards synthesis
 
@@ -228,9 +230,11 @@ agroecology* program, to use computational tools in the optimization of
 sustainable agricultural practices. This example suggests that not only can
 computational approaches yield fundamental research results in a short time
 frame, they can also be leveraged as a tool for applied research and knowledge
-transfer now. In the next sections, I will outline the key challenges that exist
-for the integration of computational ecology to other approaches to ecological
-research.
+transfer now. The definition of "a short time" is highly sensitive to the
+context -- some predictions can be generated using routine tools (in a matter of
+weeks), whereas some require to develop novel methodologies, and may require
+years. Accelerating the time to prediction will, in large part, require the
+development of software that can be deployed and run more rapidly.
 
 ## Mapping the domains of collaboration
 
@@ -289,7 +293,7 @@ errors are (quantitatively) small enough to be over-ridden by the magnitude of
 actual variation. Finally, in the best-case but low-realism scenario, errors end
 up cancelling each other out. The best possible way to understand how errors
 propagate is to validate predictions *de novo*. Model-validation methods can be
-used, as they are with SDMS [@hijm12csd], but *de novo* sampling carries the
+used, as they are with SDMs [@hijm12csd], but *de novo* sampling carries the
 additional weight of being an independent attempt at testing the prediction.
 Improved collaborations on this aspect will provide estimates of the robustness
 of the predictions, in addition to highlighting the steps of the process in
@@ -300,28 +304,28 @@ Finally, there is a need to assess how the predictions made by purely
 computational approaches will be fed back into other types of research. This is
 notably true when presenting these approaches to stakeholders. One possible way
 to make this knowledge transfer process easier is to be transparent about the
-way predictions where derived: which data were used (with citations and unique
-identifiers), which software was used (with versions numbers and code), and what
-the model / simulations do. In short, the onus is on practitioners of
-computational research to make sure we provide all the information needed to
-communicate how predictions came to be.
+way predictions where derived: which data were used (with citations for credits
+and unique identifiers for reproductibility), which software was used (with
+versions numbers and code), and what the model / simulations do. In short, the
+onus is on practitioners of computational research to make sure we provide all
+the information needed to communicate how predictions came to be.
 
 ## Establishing the currencies of collaboration
 
-An important question to further the integration of of computational approaches
-to the workflow of ecological research is to establish *currencies* for
+An important question to further the integration of computational approaches to
+the workflow of ecological research is to establish *currencies* for
 collaborations. Both at the scale of individuals researchers, research groups,
 and larger research communities, it is important to understand what each can
 contribute to the research effort. As ecological research is expected to be
 increasingly predictive and policy-relevant, and as fundamental research tends
 to tackle increasingly refined and complex questions, it is expected that
-research problems will become more difficult to resolve; this is, I think, an
-incentive for a collaboration that builds on the skills that are specific to
-different approaches.
+research problems will become more difficult to resolve. This is an incentive
+for collaborations that build on the skills that are specific to different
+approaches.
 
 In an editorial to the *New England Journal of Medicine*, @long16ds
 characterized scientists using previously published data as "research parasites"
-(backclash by a large part of the scientific community caused on of the authors
+(backclash by a large part of the scientific community caused one of the authors
 to later retract the statement -- @draz16dsj). Although community ecologists
 would have, anyways, realized that the presence of parasites indicates a healthy
 ecosystem [@marc05psa; @huds06heo], this feeling on unfair benefit to data
@@ -357,6 +361,10 @@ establishment of crediting mechanisms for data producers; as the availability of
 these data is crucial to computational approaches, and as we do not share any of
 the cost of collecting these data, it behooves us to make sure that our research
 practices do not accrue a cost for our colleagues with field or lab programs.
+Research funders could develop financial incentives to these collaborations,
+specifically by dedicating a part of the money to developing and implementing
+sound data archival and re-use strategies, or by encouraging researchers to
+re-use existing data when they exist.
 
 ## Training and advising computational ecologists
 
@@ -369,19 +377,19 @@ the skills required to develop robust computational studies (programming,
 applied mathematics) are different. If anything, this calls for increased
 collaboration, where these approaches are put to work in complementarity.
 
-@barr14lqt highlighted the fact that, professional ecologists received *less*
+@barr14lqt highlighted the fact that professional ecologists received *less*
 quantitative and computational thinking that they think should be necessary.
 Increasing the amount of such training does not necessarily imply that natural
-history or field practice will be sacrified on the altar of mathematics: rather,
-ecology would benefit from introducing more quantitative skills and reasoning
-across all courses, and introductory ones in particular [@hoff16dam]. Instead of
-dividing the field further beteen empirically and theoretically minded
-scientists, this would showcase quantitative skills are being transversal to all
-questions that ecology can adress. What to teach, and how to integrate it to the
-existing curriculum, does of course requires discussion and consensus building
-by the community.
+history or field practice will be sacrificed on the altar of mathematics:
+rather, ecology would benefit from introducing more quantitative skills and
+reasoning across all courses, and introductory ones in particular [@hoff16dam].
+Instead of dividing the field further between empirically and theoretically
+minded scientists, this would showcase quantitative skills are being transversal
+to all questions that ecology can address. What to teach, and how to integrate
+it to the existing curriculum, does of course requires discussion and consensus
+building by the community.
 
-A related problem is that most practicing ecologists are terrible role models
+A related problem is that most practising ecologists are terrible role models
 when it comes to showcasing good practices of data management (because there are
 no incentives to do this); and data management is a crucial step towards easier
 computational approaches. Even in the minority of cases where ecologists do
@@ -400,7 +408,7 @@ producing code. This also requires to equip ecologists with ways to evaluate the
 quality of the software they use [@pois15bpp]. Finally, @hamp15tos proposed that
 the "Tao of Open Science" would be particularly beneficial to the entire field
 of ecology; as part of the important changes in attitude, they identified the
-sollicitation and integration of productive feedback throughout the research
+solicitation and integration of productive feedback throughout the research
 process. Regardless of the technical solution, this emphasizes the need to
 foster, in ecologists in training, a culture of discussion across disciplinary
 boundaries.
@@ -411,7 +419,7 @@ None of these approaches to ecological research have any intrinsic superiority -
 in the end, direct observation and experimentation trumps all, and serve as the
 validation, rejection, or refinement of predictions derived in other ways. The
 growing computational power, growing amount of data, and increasing
-computational litteracy means that producing theory and predictions is becoming
+computational literacy means that producing theory and predictions is becoming
 cheaper and faster (regardless of the quality of these products). Yet the time
 needed to test any prediction is not decreasing, or not as fast. Computational
 science has resulted in the development of many tools and approaches that can be
@@ -429,7 +437,7 @@ variety of techniques from the field of machine learning --  I fully concur,
 because these techniques usually make the most of existing data [@hale09ued].
 Reaching a point where these methods are routinely used by ecologists will
 require a shift in our culture: quantitative training is perceived as inadequate
-[@barr14lqt], and most graduate programs do not train ecologiy students in
+[@barr14lqt], and most graduate programs do not train ecology students in
 contemporary statistics [@touc16mcs].
 
 **Acknowledgements:** I thank Dr. Allison Barner and Dr. Andrew McDonald for

@@ -6,13 +6,8 @@ keyword:
   - beta-diversity
   - biogeography
 date: 2017-03-02T00:00:00.000Z
-abstract: >
-  Writing manuscripts doesn't have to be awful. This template *tries* to provide
-
-  good defaults for both the draft and preprint modes. Most of the information
-  is
-
-  contained in the YAML file. The preprint mode is particularly good looking.
+abstract: |
+  **temporary list of people that gave feedback**: Richard Labrie
 author:
   - family: Poisot
     given: Timothée
