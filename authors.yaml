@@ -3,8 +3,18 @@
   given: Timothée
   affiliations:
     - Université de Montréal, Département de Sciences Biologiques
+    - Groupe de Recherche Interuniversitaire en Limnologie et environnement aquatique
     - Québec Centre for Biodiversity Sciences
   email: timothee.poisot@umontreal.ca
   id: tp
   orcid: 0000-0002-0735-5184
+- family: Labrie
+  given: Richard
+  affiliations:
+    - Université de Montréal, Département de Sciences Biologiques
+    - Groupe de Recherche Interuniversitaire en Limnologie et environnement aquatique
+- family: Rahlin
+  given: Anastasia
+  affiliations:
+    - Illinois Natural History Survey
 ...

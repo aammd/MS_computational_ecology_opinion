@@ -62,9 +62,9 @@ integrating computational advances, novel mathematical tools, and the usual data
 from one field, has a high potential to deliver synthesis. A more reasonable
 statement would be that *all ecology can benefit from computational ecology*, as
 long as we can understand how it interacts with other approaches; in this paper,
-I attempt to situate the practice of computational ecology within the broader
-landscape of ecological research. In particular, I highlight the ways in which
-computational ecology differs from, and complements, ecological modelling. I
+we attempt to situate the practice of computational ecology within the broader
+landscape of ecological research. In particular, we highlight the ways in which
+computational ecology differs from, and complements, ecological modelling. We
 finally move on to the currency of collaborations between different groups of
 ecologists, and discuss the need to add more quantitative skills in ecological
 training.
@@ -114,7 +114,7 @@ consideration of more realistic ecological mechanisms [@stan17lmc;
 
 ## The four quadrats of ecological research
 
-In {@fig:quadrats}, I propose a rough outline of four quadrats for ecological
+In {@fig:quadrats}, we propose a rough outline of four quadrats for ecological
 research. The horizontal axis is based on the degree of integration between data
 and models, ranging from disconnected (for purely data-based or model-based) to
 highly integrated. The vertical axis is based on the ability to *document*
@@ -137,7 +137,7 @@ classical prey--predator equations of Lotka & Volterra are an instance of a
 selected parameters (rates of interactions and growth) affect an ecologically
 relevant quantity (population stability and coexistence). As an aside,
 coexistence is an example of a quantity which, although straightforward to
-measure on models, remains elusive in nature [@lett17lmc; @gril17fcl]. These
+measure on models, remains elusive in nature [@lett16lmc; @gril17fcl]. These
 models, although they have been formulated to explain data generated through
 empirical observations, are disconnected from the data themselves. In fact, this
 family of model lies at the basis of a branch of ecological modelling that now
@@ -160,8 +160,6 @@ across different systems. Meta-analyses most often require a *critical mass* of
 pre-existing papers [@lort13pie]. Although they are irreplaceable as a tool to
 measure the strength of results, they are limited by their need for primary
 literature with experimental designs that are similar enough.
-
-Where in this landscape does computational approaches fit?
 
 ## Computational ecology in context
 
@@ -421,7 +419,7 @@ Discussion the place of computational ecology within the broader context of the
 ecological sciences will highlight areas of collaborations with other areas of
 science. @thes16aml makes the point that long-standing ecological problems would
 benefit from being examined through a variety of machine learning techniques --
-I fully concur, because these techniques usually make the most of existing data
+We fully concur, because these techniques usually make the most of existing data
 [@hale09ued]. Reaching a point where these methods are routinely used by
 ecologists will require a shift in our culture: quantitative training is
 perceived as inadequate [@barr14lqt], and most graduate programs do not train
@@ -445,15 +443,10 @@ consortia), it allows to generate predictions that are highly testable
 to *validate* predictions will improve their quality, reinforcing the need for
 dialogue and collaborations.
 
-**Acknowledgements:** I thank Dr. Allison Barner and Dr. Andrew McDonald for
-stimulating discussions, students of the Computational Ecology Summer School
-2016 for asking "What is computational ecology?", and the Station de Biologie
-des Laurentides de l'Université de Montréal for hosting me during part of the
-writing process. Part of this manuscript was inspired by presentations I gave
-during High Performance Computing Symposium 2015 in Montréal, for the
-organization of which I thank Compute Québec and Compute Canada, and during the
-2016 meeting of the Ecological Society of America. I thank the volunteers of
-Software Carpentry and Data Carpentry, whose work contribute to improving the
-skills of ecologists.
+**Acknowledgements:** TP thanks Dr. Allison Barner and Dr. Andrew McDonald for
+stimulating discussions, and the Station de Biologie des Laurentides de
+l'Université de Montréal for hosting him during part of the writing process.
+We thank the volunteers of Software Carpentry and Data Carpentry, whose work
+contribute to improving the skills of ecologists.
 
 # References

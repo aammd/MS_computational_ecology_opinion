@@ -6,21 +6,38 @@ keyword:
   - beta-diversity
   - biogeography
 date: 2017-03-02T00:00:00.000Z
-abstract: |
-  **temporary list of people that gave feedback**: Richard Labrie
+abstract: >
+  **temporary list of people that gave feedback**: Richard Labrie, Anastasia
+  Rahlin
 author:
   - family: Poisot
     given: Timothée
     affiliations:
       - 1
       - 2
+      - 3
     email: timothee.poisot@umontreal.ca
     id: tp
     orcid: 0000-0002-0735-5184
+  - family: Labrie
+    given: Richard
+    affiliations:
+      - 1
+      - 2
+  - family: Rahlin
+    given: Anastasia
+    affiliations:
+      - 4
 affiliation:
   - id: 1
     text: 'Université de Montréal, Département de Sciences Biologiques'
   - id: 2
+    text: >-
+      Groupe de Recherche Interuniversitaire en Limnologie et environnement
+      aquatique
+  - id: 3
     text: Québec Centre for Biodiversity Sciences
+  - id: 4
+    text: Illinois Natural History Survey
 cleveref: true
 ...
