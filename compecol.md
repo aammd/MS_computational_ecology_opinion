@@ -7,9 +7,9 @@ computational thinking [@pape96esm], *i.e.* the feedback loop of abstracting a
 problem to its core mechanisms, expressing a solution in a way that can be
 automated, and using interactions between simulations and data to refine the
 original problem or suggest new knowledge. Computational approaches are
-commonplace in most area of biology, to the point where one would almost be
+commonplace in most areas of biology, to the point where one would almost be
 confident that they represent a viable career path [@bour11tsr]. Data usually
-collected in ecological studies have a high variability, are time-consuming,
+collected in ecological studies have high variability, and are time-consuming,
 costly, and demanding to collect. In parallel, many problems lack appropriate
 formal mathematical formulations, which we need in order to construct strong,
 testable hypotheses. For these reasons, computational approaches hold great
@@ -22,26 +22,15 @@ adequately expressed models, this effort is hampered by the fact that data and
 models are often developed by different groups of scientists, and reconciling
 both can be difficult. This has been suggested as one of the reasons for which
 theoretical papers (defined as *papers with at least one equation in the main
-text*) experience a sharp decrease in citation [@fawc12hue]; this is the tragic
-sign that empirical scientists do not see the value of theoretical work, which
-of course can be blamed on both parties. One of the leading textbooks for the
-mathematical models in ecology and evolution [@otto07bgm] is more focused with
-algebra and calculus, and not with the integration of models with data. Other
-manuals that cover the integration of models and data tend to lean more towards
-statistical models [@soet08pge; @bolk08emd]. This paints a picture of ecology as
-a field in which dynamical models and empirical data do not interact much, and
-instead the literature develops in silos.
-
-Ecology as a whole (and community ecology in particular) circumvented the
-problem of model and data mismatch by investing in the development and
-refinement of statistical models [see @wart14mtc for an excellent overview] and
-"numerical" approaches [@lege98ne] based on multivariate statistics. These
-models are able to *explain* data, but very rarely do they give new predictions.
-Computational ecology can fill this niche; at the cost of a higher degree of
-abstraction, its integration of data and generative models (*i.e.* models that,
-given rules, will generate new data) can be helpful to initiate the
-investigation of questions that have not received extensive empirical treatment,
-or for which usual statistical approaches fall short.
+text*) experience a sharp deficit in numbers of citations [@fawc12hue]; this is
+the tragic sign that empirical scientists do not see the value of theoretical
+work, which of course can be blamed on both parties. One of the leading
+textbooks for the mathematical models in ecology and evolution [@otto07bgm] is
+more focused with algebra and calculus, and not with the integration of models
+with data. Other manuals that cover the integration of models and data tend to
+lean more towards statistical models [@soet08pge; @bolk08emd]. This paints a
+picture of ecology as a field in which dynamical models and empirical data do
+not interact much, and instead the literature develops in silos.
 
 What is computational ecology? It is the application of computational thinking
 to ecological problems. This defines three core characteristics of computational
@@ -56,6 +45,18 @@ conceptual, or "toy" models, as long as they can be confronted to empirical
 data, is preferable to "abusing" mathematics by describing the wrong mechanism
 well [@may04uam].
 
+Ecology as a whole (and community ecology in particular) circumvented the
+problem of model and data mismatch by investing in the development and
+refinement of statistical models [see @wart14mtc for an excellent overview] and
+"numerical" approaches [@lege98ne] based on multivariate statistics. These
+models are able to *explain* data, but very rarely do they give rise to new
+predictions. Computational ecology can fill this niche; at the cost of a higher
+degree of abstraction, its integration of data and generative models (*i.e.*
+models that, given rules, will generate new data) can be helpful to initiate the
+investigation of questions that have not received (or perhaps cannot receive)
+extensive empirical treatment, or for which usual statistical approaches fall
+short.
+
 In a thought-provoking essay, @mark17abc suggests that *all biology is
 computational biology* -- the rationale behind this bold statement being that
 integrating computational advances, novel mathematical tools, and the usual data
@@ -65,9 +66,9 @@ long as we can understand how it interacts with other approaches; in this paper,
 we attempt to situate the practice of computational ecology within the broader
 landscape of ecological research. In particular, we highlight the ways in which
 computational ecology differs from, and complements, ecological modelling. We
-finally move on to the currency of collaborations between different groups of
-ecologists, and discuss the need to add more quantitative skills in ecological
-training.
+finally move on to the currency of collaborations between different
+sub-disciplines of ecologists, and discuss the need to add more quantitative
+skills in ecological training.
 
 # A success story: Species Distribution Models
 
@@ -84,17 +85,17 @@ spatial positions, but by a suite of environmental variables).
 
 As @fran10msd highlights, SDMs emerged at a time where access to computers *and*
 the ability to effectively program them became easier. Although ecological
-insights, statistical methods, and data were pre-existing, the ability to turn
+insights, statistical methods, and data already existed, the ability to turn
 these ingredients into something predictive required what is now called
 "computational literacy" -- the ability to abstract, and automate, a system in
 order to generate predictions through computer simulations and their validation.
 One of the strengths of SDMs is that they can be used either for predictions or
-explanations of where a given species occur [@elit09sdm]. To calculate
-$\text{P}(S | E)$ is to make a prediction (what are the chances of observing
-species $S$ at a given location), that can be refined, validated, or rejected
-based on sampling. To understand $E$, *i.e.* the environmental aspects that
-determine species presence, is to form an explanation of a distribution that
-relates to the natural history of a species.
+explanations of where a given species occur [@elit09sdm] and can be corroborated
+with empirical data. To calculate $\text{P}(S | E)$ is to make a prediction
+(what are the chances of observing species $S$ at a given location), that can be
+refined, validated, or rejected based on sampling. To understand $E$, *i.e.* the
+environmental aspects that determine species presence, is to form an explanation
+of a distribution that relates to the natural history of a species.
 
 SDMs exist at the interface between ecological theory and statistical models
 [@aust02sps] -- being able to integrate (abstract) ideas and knowledge with
@@ -105,10 +106,12 @@ more data, but through the addition of more processes [@fran10mss]. These SDMs
 rely on the usual statistical models, but also on dynamical models (*i.e.*
 simulations; see *e.g.* @wisz12rbi or @pell13cfw for biotic interactions, and
 @mill15ims for movement and dispersal). What they lack in mathematical
-expressiveness (which is most often ruled out by the use of stochastic
-simulations), they assume to gain in predictive ability through the explicit
-consideration of more realistic ecological mechanisms [@stan17lmc;
-@dam17isp].
+expressiveness (*i.e.* having a closed-form solution, which is most often ruled
+out by the use of stochastic simulations), they assume to gain in predictive
+ability through the explicit consideration of more realistic ecological
+mechanisms [@stan17lmc; @dam17isp]. SDMs have been a success, but there are
+many other areas of ecology that could be improved by a marriage of
+computational ecology and empirical data.
 
 # Computational ecology in its broader landscape
 
@@ -128,20 +131,18 @@ from observational and manipulative experiments) and models (either statistical
 or phenomenological), it can *suggest* general trends through an abstraction of
 the idiosyncracies of a particular system.
 
-![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of eological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats width=50%}
+![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of ecological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge dynamical models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats width=50%}
 
 The specific example of predator-prey interactions should be a familiar
 illustration of how the same problem can be addressed in different ways. The
 classical prey--predator equations of Lotka & Volterra are an instance of a
 "modelling" based perspective, wherein mathematical analysis reveals how
 selected parameters (rates of interactions and growth) affect an ecologically
-relevant quantity (population stability and coexistence). As an aside,
-coexistence is an example of a quantity which, although straightforward to
-measure on models, remains elusive in nature [@lett16lmc; @gril17fcl]. These
-models, although they have been formulated to explain data generated through
-empirical observations, are disconnected from the data themselves. In fact, this
-family of model lies at the basis of a branch of ecological modelling that now
-exists entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
+relevant quantity (population stability and coexistence). These models, although
+they have been formulated to explain data generated through empirical
+observations, are disconnected from the data themselves. In fact, this family of
+model lies at the basis of a branch of ecological modelling that now exists
+entirely outside of data [@gyll06lcc; @ackl04slg; @covi13cel].
 
 By contrast @sall11ppd study the same issue (sustained persistence and
 fluctuations of predator--prey couples through time) using a paleo-ecological
@@ -173,12 +174,12 @@ testable, quantified hypotheses. @pasc05cec outlines that computational ecology
 has a unique ability to go from the complex (natural systems) to the simple
 (representations and conceptual models), and back (testable predictions).
 Although the natural world is immensely complex, it is paradoxically the high
-degree of abstraction of models that computational approaches favor that give
-them generality. Because (with the exception of a still narrow faamily of
-problems that can be addressed by remote-sensing) the rate at which ecological
-data are collected is not improving, whereas our needs for testable and
-actionable predictions increases, refining the models and further integrating
-them with data is necessary.
+degree of model abstraction in computational approaches that gives them
+generality. Because (with the exception of a still narrow family of problems
+that can be addressed by remote-sensing) the rate at which ecological data are
+collected is not improving, whereas our needs for testable and actionable
+predictions increases, refining the models and further integrating them with
+data is necessary.
 
 In {@tbl:costbenefit}, the quadrats of ecological approaches are ranked in
 (again, approximate and arbitrary) order of cost and effort. Ecological models
@@ -187,7 +188,7 @@ test [@ryki96tem] -- models relying on precise mathematical expressions can be
 difficult to calibrate or parameterize. Observations (field sampling) or
 manipulative approaches (micro/meso/macro-cosms, field experiments) are highly
 accurate (but have also immense human and monetary costs that limit the scale at
-which they can be applied). There is simply too much Nature around for us to
+which they can be applied). There is simply too much nature around for us to
 observe, monitor, and manipulate it all.
 
 | Approach              | accuracy | testability | suitability for prediction |
@@ -202,12 +203,12 @@ Table: Overview of the properties of the quadrats delineated in {@fig:quadrats}.
 # En route towards synthesis
 
 The field of ecology as a whole needs to improve the ways in which it can
-improve synthesis in order to become policy-relevant. Most of the global
+improve synthesis in order to become policy-relevant. Most of the global policy
 challenges have an ecological or environmental component, and outside of the
 socio-$\star$ (ecological, economical, cultural, ...) aspects, ecologists can
 contribute to the mitigation or resolution of these challenges by i) assessing
 our knowledge of natural systems, ii) developing methods to produce scenarios
-using state-of-the-art models and tools, and iii) communicate the output of
+using state-of-the-art models and tools, and iii) communicating the output of
 these scenarios to impact policy-making. @whit15ngo propose that this falls
 under the umbrella of *action ecology*, *i.e.* using fundamental knowledge and
 ecological theory to address pressing, real-world questions.
@@ -223,12 +224,15 @@ definition of "a short time" is highly sensitive to the context -- some
 predictions can be generated using routine tools (in a matter of weeks), whereas
 some require to develop novel methodologies, and may require years. Accelerating
 the time to prediction will, in large part, require the development of software
-that can be deployed and run more rapidly.
+that can be deployed and run more rapidly. Overall, computational ecology is
+nevertheless nimble enough that it can be used to iterate rapidly over a range
+of scenarios, to inform interactions with policy makers or stakeholders in near
+real time.
 
 ## Mapping the domains of collaboration
 
 Understanding how computational ecology will fit within the broader research
-landscape requires to answer three questions: what can computational ecology
+landscape requires us to answer three questions: what can computational ecology
 bring to the table, what are the needs of computational ecologists, and what are
 the current limitations of computational approaches that could limit their
 immediate applicability. It seems, at this point, important to minimize neither
@@ -252,7 +256,7 @@ approach is ultimately limited, because of the human factor involved --- when
 the upstream data change, they have to be re-worked into the software. A
 community consensus on data representation, although unlikely, would actually
 solve several problems at once. First, it would make the integration of multiple
-data sources trivial. Second, it will provide clear guidelines about the input
+data sources trivial. Second, it would provide clear guidelines about the input
 and storage of data, thus maybe improving their currently limited longevity
 [@vine14ard]. Finally, it would facilitate the integration of data and models
 with minimum efforts and risk of mis-communication, since the format would be
@@ -285,7 +289,7 @@ Finally, there is a need to assess how the predictions made by purely
 computational approaches will be fed back into other types of research. This is
 notably true when presenting these approaches to stakeholders. One possible way
 to make this knowledge transfer process easier is to be transparent about the
-way predictions where derived: which data were used (with citations for credits
+way predictions were derived: which data were used (with citations for credits
 and unique identifiers for reproductibility), which software was used (with
 versions numbers and code), and what the model / simulations do [@whit13nsw]. In
 short, the onus is on practitioners of computational research to make sure we
@@ -306,29 +310,30 @@ approaches.
 
 In an editorial to the *New England Journal of Medicine*, @long16ds
 characterized scientists using previously published data as "research parasites"
-(backclash by a large part of the scientific community caused one of the authors
+(backlash by a large part of the scientific community caused one of the authors
 to later retract the statement -- @draz16dsj). Although community ecologists
 would have, anyways, realized that the presence of parasites indicates a healthy
-ecosystem [@marc05psa; @huds06heo], this feeling on unfair benefit to data
-re-analysis which is also expressed by ecologists [@mill15apd] has to be
-adressed. It has no empirical support: @evan16gpc shows that the rate of data
-re-use in ecology is low and has a large delay -- he found no instances of
-re-analysing the same data for the same (or similar) purpose. There is a
-necessary delay between the moment data are available, and the moment where they
-are re-used (especially considering that data are, at the earliest, published at
-the same time as the paper). This delay is introduced by the need to understand
-the data, see how they can be combined, develop a research hypothesis, etc..
+ecosystem [@marc05psa; @huds06heo], this feeling on unfair benefit for
+ecological data re-analysis [@mill15apd] has to be addressed. It has no
+empirical support: @evan16gpc shows that the rate of data re-use in ecology is
+low and has a large delay -- he found no instances of re-analysing the same data
+for the same (or similar) purpose. There is a necessary delay between the moment
+data are available, and the moment where they are aggregated and re-purposed
+(especially considering that data are, at the earliest, published at the same
+time as the paper). This delay is introduced by the need to understand the data,
+see how they can be combined, develop a research hypothesis, etc..
 
 On the other hand, there are multiple instances of combining multiple datasets
-collected at different scales, to adress an entirely different question [see
+collected at different scales, to address an entirely different question [see
 @gbif16gsr for an excellent showcase] -- it is more likely than data re-use is
 done with the intent of exploring different questions. It is also worth
-remembering that ecology (macroecology and biogeography in particular) already
-benefit immensely from data re-use -- data collected by citizen scientists are
-used to generate estimates of biodiversity distribution, but also set and refine
-conservation target [@devi10scs]; an overwhelming majority of our knowledge of
-bird richness and distribution comes from the *eBird* project [@sull14eei;
-@sull09ecb], which is essentially fed by the unpaid work of citizen scientists.
+remembering that ecology as a whole, and macroecology and biogeography in
+particular, already benefit immensely from data re-use. For example, data
+collected by citizen scientists are used to generate estimates of biodiversity
+distribution, but also set and refine conservation target [@devi10scs]; an
+overwhelming majority of our knowledge of bird richness and distribution comes
+from the *eBird* project [@sull14eei; @sull09ecb], which is essentially fed by
+the unpaid work of citizen scientists.
 
 With this is mind, there is no tip-toeing around the fact that computational
 ecologists will be *data consumers*, and this data will have to come from
@@ -350,9 +355,9 @@ of the money to developing and implementing sound data archival and re-use
 strategies, and by encouraging researchers to re-use existing data when they
 exist.
 
-## Training and advising computational ecologists
+## Training ecologists in the changing landscape
 
-The fact that data re-use is not instantaneous conveniently reveals another
+The fact that data re-use is not instantaneously convenient reveals another
 piece of information about computational ecology: it relies on different skills,
 and different tools than those typically used by field ecologists. One of the
 most fruitful avenue for collaboration lies in recognizing the strengths of
@@ -369,9 +374,9 @@ history or field practice will be sacrificed on the altar of mathematics:
 rather, ecology would benefit from introducing more quantitative skills and
 reasoning across all courses, and introductory ones in particular [@hoff16dam].
 Instead of dividing the field further between empirically and theoretically
-minded scientists, this would showcase quantitative skills as transversal to all
-questions that ecology can address. What to teach, and how to integrate it to
-the existing curriculum, does of course requires discussion and consensus
+minded scientists, this would showcase quantitative skills as being transversal
+to all questions that ecology can address. What to teach, and how to integrate
+it to the existing curriculum, does of course requires discussion and consensus
 building by the community.
 
 A related problem is that most practising ecologists are terrible role models
@@ -403,17 +408,19 @@ boundaries.
 
 None of these approaches to ecological research have any intrinsic superiority --
 in the end, direct observation and experimentation trumps all, and serve as the
-validation, rejection, or refinement of predictions derived in other ways. The
-growing computational power, growing amount of data, and increasing
-computational literacy means that producing theory and predictions is becoming
+validation, rejection, or refinement of predictions derived in other ways, but
+lacks the scaling power to be the only viable solution. The growing
+computational power, growing amount of data, and increasing computational
+literacy in ecology means that producing theory and predictions is becoming
 cheaper and faster (regardless of the quality of these products). Yet the time
-needed to test any prediction is not decreasing. Computational science has
-resulted in the development of many tools and approaches that can be useful to
-ecology, since they allow ecologists to wade through these predictions and data.
-Confronting theoretical predictions to data is a requirement, if not the core,
-of ecological synthesis; this is only possible under the conditions that
-ecologists engage in meaningful dialogue across disciplines, and recognize the
-currencies of their collaborations.
+needed to test any prediction is not decreasing (or at least not as fast).
+Computational science has resulted in the development of many tools and
+approaches that can be useful to ecology, since they allow ecologists of all
+kinds to wade through these predictions and data. Confronting theoretical
+predictions to data is a requirement, if not the core, of ecological synthesis;
+this is only possible under the conditions that ecologists engage in meaningful
+dialogue across disciplines, and recognize the currencies of their
+collaborations.
 
 Discussion the place of computational ecology within the broader context of the
 ecological sciences will highlight areas of collaborations with other areas of
@@ -422,8 +429,8 @@ benefit from being examined through a variety of machine learning techniques --
 We fully concur, because these techniques usually make the most of existing data
 [@hale09ued]. Reaching a point where these methods are routinely used by
 ecologists will require a shift in our culture: quantitative training is
-perceived as inadequate [@barr14lqt], and most graduate programs do not train
-ecology students in contemporary statistics [@touc16mcs].
+currently perceived as inadequate [@barr14lqt], and most graduate programs do
+not train ecology students in contemporary statistics [@touc16mcs].
 
 Ultimately, any additional data collection has its scope limited by financial,
 human, and temporal constraints --- or in other words, we need to chose what to
