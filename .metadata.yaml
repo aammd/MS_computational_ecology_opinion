@@ -60,7 +60,7 @@ affiliation:
   - id: 3
     text: Québec Centre for Biodiversity Sciences
   - id: 4
-    text: unknown
+    text: 'Department of Ecology and Evolutionary Biology, Cornell University'
   - id: 5
     text: Illinois Natural History Survey
 cleveref: true
