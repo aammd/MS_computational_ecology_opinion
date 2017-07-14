@@ -16,7 +16,7 @@ SOURCE=$(FILE).md
 BIB=references.json
 
 # CSL is the path to the file with the CSL style to render the references.
-CSL=.plmt/plab.csl
+CSL=oikos.csl
 
 # MARKED is the path with the intermedidate steps applied (mostly, changing the
 # criticmarkup marks into LaTeX markup). Better leave this alone too.
