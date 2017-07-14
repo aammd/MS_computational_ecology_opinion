@@ -26,7 +26,7 @@ abstract: >
 
   dialogue to build on one another expertise. We discuss how training can be
 
-  amended to improve the computational literacy of ecologists can be improved.
+  amended to improve the computational literacy.
 author:
   - family: Poisot
     given: Timothée
@@ -37,7 +37,7 @@ author:
     email: timothee.poisot@umontreal.ca
     id: tp
     orcid: 0000-0002-0735-5184
-  - family: Labrie
+  - family: LaBrie
     given: Richard
     affiliations:
       - 1
