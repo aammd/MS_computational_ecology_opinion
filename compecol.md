@@ -316,7 +316,7 @@ provide all the information needed to communicate how predictions came to be.
 
 An important question to further the integration of computational approaches to
 the workflow of ecological research is to establish *currencies* for
-collaborations. Both at the scale of individuals researchers, research groups,
+collaborations. Both at the scale of individuals researchers, research group,
 and larger research communities, it is important to understand what each can
 contribute to the research effort. As ecological research is expected to be
 increasingly predictive and policy-relevant, and as fundamental research tends
@@ -424,6 +424,19 @@ process. Regardless of the technical solution, this emphasizes the need to
 foster, in ecologists in training, a culture of discussion across disciplinary
 boundaries.
 
+All of these points can be distilled into practical training recommendations for
+different groups in the community of ecologists. Classes based around lab or
+field experience should emphasize practical data management skills, and
+introduce tools that would make the maintenance of data easier. Modelling
+classes, especially when concerned about purely mathematical models, should add
+modules on the way these models can be integrated with empirical data. Finally,
+computational classes should emphasize communication skills: what do these new
+tools do, and how can they be used by other fields in ecology; but also, how do
+we properyl track citations to data, and give credit to data producers? Building
+this practices into training would ensure that the next generation of ecologists
+will be able to engage in a meaningful dialogue across methodological
+boundaries.
+
 # Concluding remarks
 
 None of these approaches to ecological research have any intrinsic superiority --
@@ -442,7 +455,7 @@ this is only possible under the conditions that ecologists engage in meaningful
 dialogue across disciplines, and recognize the currencies of their
 collaborations.
 
-Discussion the place of computational ecology within the broader context of the
+Discussing the place of computational ecology within the broader context of the
 ecological sciences will highlight areas of collaborations with other areas of
 science. @thes16aml makes the point that long-standing ecological problems would
 benefit from being examined through a variety of machine learning techniques --

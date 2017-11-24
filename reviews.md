@@ -17,9 +17,6 @@ Thiago Rangel
 
 # Reviewer: 1
 
-Comments on “Data-based, synthesis-driven: setting the agenda for computational
-ecology”.
-
 > Regarding their dismissiveness towards prediction as being important: Houlahan
 > et al. 2017 in Oikos have a great paper “The priority of prediction in
 > ecological understanding”, which deftly argues that prediction is the only way
@@ -282,15 +279,13 @@ infrastructure that could possibly serve the entire community by bringing
 together the different needs, such as data standardisation, but also correct
 citation and tracking of data (re)utilisation.
 
-> I’m wondering about rearranging section 3 at the end specifically targeting the
-> three groups – empirical ecologists, modellers and computational ecologists, and
-> what they need to do to enable synthesis. I do think that a strength of the
-> paper could be putting those three groups in conversation with each other about
-> computational ecology, if that’s something you’d like to do. I’d be happy to
-> contribute thoughts about the agenda for empirical ecologists, since that’s
-> closer to my background.
+> We thank the reviewer for this suggestion. We have added a paragraph (XX) to
+> the section on training, to make more practical recommendations to different
+> groups of ecologists.
 
 Line 293: check the beginning of the sentence.
+
+> We have corrected this issue.
 
 # Reviewer: 2
 
