@@ -16,7 +16,7 @@ SOURCE=$(FILE).md
 BIB=references.json
 
 # CSL is the path to the file with the CSL style to render the references.
-CSL=oikos.csl
+CSL=.plmt/plab.csl
 
 # MARKED is the path with the intermedidate steps applied (mostly, changing the
 # criticmarkup marks into LaTeX markup). Better leave this alone too.
@@ -24,7 +24,7 @@ MARKED= ./.plmt/processed.md
 
 # PFLAGS is the list of pandoc filters and options required to make the
 # documents. You can add some, but it is probably wise not to remove any.
-PFLAGS= --filter pandoc-fignos --filter pandoc-tablenos --filter pandoc-eqnos --filter pandoc-citeproc --listings --bibliography $(BIB) --csl $(CSL)
+PFLAGS= --filter pandoc-crossref --filter pandoc-citeproc --listings --bibliography $(BIB) --csl $(CSL)
 
 # TAG is the version of the git tag or commit against which the track-changed
 # pdf should be built. By default, it is the latest commit (so you can see your
@@ -48,9 +48,9 @@ help: #> Show the help
 output/: #> Create the output directory to store the pdf and odt files
 	mkdir -p output
 
-# This rule will, by default, make the draft, the preprint, and the odt
-# document.
-all: draft preprint odt #> Make all the default outputs
+# This rule will, by default, make the draft, the preprint, the raw latex fil,
+# and the odt document.
+all: draft preprint odt latex #> Make all the default outputs
 
 # This rule will create a document with the changes marked. The behavior of this
 # command is affected by the `TAG` variable (which version to compare to), and
@@ -65,7 +65,7 @@ clean: #> Remove the temporary file
 # updated manually. Instead, look at authors.json, infos.json, and ABSTRACT.
 .metadata.yaml: infos.yaml authors.yaml ABSTRACT #> Compile the document metadata in a hidden file
 	node .plmt/metadata.js
-	sed -i '1s/^/---\n/' $@
+	sed -i '1 s/^/---\n/' $@
 	echo "..." >> $@
 
 # This rule will compile the Rmd file to the md file IF there is a Rmd file with
@@ -96,6 +96,8 @@ preprint: output/$(FILE)_preprint.pdf #> Create a pdf using the preprint templat
 
 draft: output/$(FILE)_draft.pdf #> Create a pdf using the draft template
 
+latex: output/$(FILE).tex #> Create a LaTeX standalone document for publishers
+
 odt: output/$(FILE).odt #> Create a LibreOffice document
 
 # Additional rules go here. By default, they are commented, but removing the #
@@ -110,6 +112,9 @@ output/$(FILE)_preprint.pdf: $(MARKED)
 
 output/$(FILE)_draft.pdf: $(MARKED)
 	pandoc $(MARKED) -o $@ $(PFLAGS) --template ./.plmt/templates/draft.template .metadata.yaml
+
+output/$(FILE).tex: $(MARKED)
+	pandoc $(MARKED) -o $@ $(PFLAGS) --template ./.plmt/templates/raw.template .metadata.yaml
 
 output/$(FILE).odt: $(MARKED)
 	pandoc $(MARKED) -o $@ $(PFLAGS) --template ./.plmt/templates/opendocument.template .metadata.yaml
@@ -135,7 +140,7 @@ output/diff_$(FILE)_$(TAG)_$(AS).pdf: revised.md
 	pandoc $< -o old.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml
 	pandoc $(MARKED) -o new.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml
 	latexdiff old.tex new.tex > diff.tex
-	latexmk -pdf diff.tex
+	latexmk -pdf diff.tex -interaction=nonstopmode -f
 	latexmk -c
 	pdf2ps diff.pdf diff.ps
 	ps2pdf13 diff.ps diff.pdf
@@ -143,7 +148,5 @@ output/diff_$(FILE)_$(TAG)_$(AS).pdf: revised.md
 	rm {old,new,diff}.tex
 	mv diff.pdf $@
 
-# This installs the python dependencies. Might have to be run with `sudo make
-# dependencies` depending on your system.
-dependencies: #> Install the required pandoc filters
-	pip install pandoc-fignos pandoc-eqnos pandoc-tablenos
+reviews.pdf: reviews.md #> Compile the reviews file
+	pandoc $< -o $@ --template ./.plmt/templates/reviews.template .metadata.yaml
