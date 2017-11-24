@@ -1,13 +1,14 @@
 Computational science happens when algorithms, software, data management
 practices, and advanced research computing are put in interaction with the
 explicit goal of solving "complex" problems. Typically, problems are considered
-*complex* when they cannot be solved appropriately with modelling or
-data-collection only. Computational science is one of the ways to practice
-computational thinking [@pape96esm], *i.e.* the feedback loop of abstracting a
-problem to its core mechanisms, expressing a solution in a way that can be
-automated, and using interactions between simulations and data to refine the
-original problem or suggest new knowledge. Computational approaches are
-commonplace in most areas of biology, to the point where one would almost be
+*complex* when they cannot be solved appropriately with modelling (*i.e.* the
+application of mathematical models that are not explicitely grounded into
+empirical data) or data-collection only. Computational science is one of the
+ways to practice computational thinking [@pape96esm], *i.e.* the feedback loop
+of abstracting a problem to its core mechanisms, expressing a solution in a way
+that can be automated, and using interactions between simulations and data to
+refine the original problem or suggest new knowledge. Computational approaches
+are commonplace in most areas of biology, to the point where one would almost be
 confident that they represent a viable career path [@bour11tsr]. Data usually
 collected in ecological studies have high variability, and are time-consuming,
 costly, and demanding to collect. In parallel, many problems lack appropriate
@@ -39,11 +40,14 @@ places a great emphasis on mathematical tools that can handle, or even require,
 a certain degree of stochasticity [@zhan10cea; @zhan12ceg]. Second, it
 understands that data are the final arbiter of any simulation or model
 [@petr12cee]; this favours the use of data-driven approaches and analyses
-[@beau10abc]. Finally, it accepts that some ecological systems are too complex
-to be formulated in mathematical or programmatic terms [@pasc05cec]; the use of
-conceptual, or "toy" models, as long as they can be confronted to empirical
-data, is preferable to "abusing" mathematics by describing the wrong mechanism
-well [@may04uam].
+[@beau10abc]. On this point, computational approaches differ greatly from
+modelling, that can often function on their own. Finally, it accepts that some
+ecological systems are too complex to be formulated in mathematical or
+programmatic terms [@pasc05cec]; the use of conceptual, or "toy" models, as long
+as they can be confronted to empirical data, is preferable to "abusing"
+mathematics by describing the wrong mechanism well [@may04uam]. By contrast,
+modelling approaches are by construction limited to problems that can be
+expressed in mathematical terms.
 
 Ecology as a whole (and community ecology in particular) circumvented the
 problem of model and data mismatch by investing in the development and
@@ -78,10 +82,11 @@ computational practices generating novel ecological insights. At their core,
 SDMs seek to model the presence or absence of a species based on previous
 observations of its presence or absences, and knowledge of the environment in
 which the observation was made. More formally, SDMs can be interpreted as having
-the form $\text{P}(S | E)$, where $S$ denotes the presence of a species, and $E$
-is an array of variables representing the local state of the environment at the
-point where the prediction is made (the location is represented, not by its
-spatial positions, but by a suite of environmental variables).
+the form $\text{P}(S | E)$ (or $\text{P}(S | E=1)$ for presence-only models),
+where $S$ denotes the presence of a species, and $E$ is an array of variables
+representing the local state of the environment at the point where the
+prediction is made (the location is represented, not by its spatial positions,
+but by a suite of environmental variables).
 
 As @fran10msd highlights, SDMs emerged at a time where access to computers *and*
 the ability to effectively program them became easier. Although ecological
@@ -93,24 +98,25 @@ One of the strengths of SDMs is that they can be used either for predictions or
 explanations of where a given species occur [@elit09sdm] and can be corroborated
 with empirical data. To calculate $\text{P}(S | E)$ is to make a prediction
 (what are the chances of observing species $S$ at a given location), that can be
-refined, validated, or rejected based on sampling. To understand $E$, *i.e.* the
-environmental aspects that determine species presence, is to form an explanation
-of a distribution that relates to the natural history of a species.
+refined, validated, or rejected based on cross-validation [@hijm12csd] or *de
+novo* field samplig [@west16fvi]. To understand $E$, *i.e.* the environmental
+aspects that determine species presence, is to form an explanation of a
+distribution that relates to the natural history of a species.
 
-SDMs exist at the interface between ecological theory and statistical models
-[@aust02sps] -- being able to integrate (abstract) ideas and knowledge with
-(formal) statistical and numerical tools is a key feature of computational
-thinking. In fact, one of the most recent and most stimulating developments in
-the field of SDMs is to refine their predictions not through the addition of
-more data, but through the addition of more processes [@fran10mss]. These SDMs
-rely on the usual statistical models, but also on dynamical models (*i.e.*
-simulations; see *e.g.* @wisz12rbi or @pell13cfw for biotic interactions, and
-@mill15ims for movement and dispersal). What they lack in mathematical
-expressiveness (*i.e.* having a closed-form solution, which is most often ruled
-out by the use of stochastic simulations), they assume to gain in predictive
-ability through the explicit consideration of more realistic ecological
-mechanisms [@stan17lmc; @dam17isp]. SDMs have been a success, but there are
-many other areas of ecology that could be improved by a marriage of
+SDMs originated as statistical and correlative models, and are now incorporating
+more ecological theory [@aust02sps] -- being able to integrate (abstract) ideas
+and knowledge with (formal) statistical and numerical tools is a key feature of
+computational thinking. In fact, one of the most recent and most stimulating
+developments in the field of SDMs is to refine their predictions not through the
+addition of more data, but through the addition of more processes [@fran10mss].
+These SDMs rely on the usual statistical models, but also on dynamical models
+(*i.e.* simulations; see *e.g.* @wisz12rbi or @pell13cfw for biotic
+interactions, and @mill15ims for movement and dispersal). What they lack in
+mathematical expressiveness (*i.e.* having a closed-form solution, which is most
+often ruled out by the use of stochastic simulations), they assume to gain in
+predictive ability through the explicit consideration of more realistic
+ecological mechanisms [@stan17lmc; @dam17isp]. SDMs have been a success, but
+there are many other areas of ecology that could be improved by a marriage of
 computational ecology and empirical data.
 
 # Computational ecology in its broader landscape
@@ -176,10 +182,10 @@ has a unique ability to go from the complex (natural systems) to the simple
 Although the natural world is immensely complex, it is paradoxically the high
 degree of model abstraction in computational approaches that gives them
 generality. Because (with the exception of a still narrow family of problems
-that can be addressed by remote-sensing) the rate at which ecological data are
-collected is not improving, whereas our needs for testable and actionable
-predictions increases, refining the models and further integrating them with
-data is necessary.
+that can be addressed by remote-sensing) there has been no regime shift in the
+rate at which ecological data are collected, whereas our needs for testable and
+actionable predictions increased dramatically, refining the models and further
+integrating them with data is necessary.
 
 In {@tbl:costbenefit}, the quadrats of ecological approaches are ranked in
 (again, approximate and arbitrary) order of cost and effort. Ecological models

@@ -169,7 +169,7 @@ ecologists weird storytellers hugging trees. Depending on what policies we are
 actually talking about (which would be nice to have defined or narrowed down in
 the paper), ecologists have always been making policy-relevant contributions,
 beginning with the theorem of limited growth. The contributions of ecologists
-have been and will be, no  matter how improved we eventually will become,
+have been and will be, no matter how improved we eventually will become,
 policy-relevant under the current limitations of data availability. Knowledge is
 not absolute, particularly not in ecology, no matter how much computation we do.
 And policy makers will have to make policies and more often than not the quality
@@ -187,7 +187,7 @@ importance of prediction for a measure of quality and excellence for
 computational-ecologists was too narrow for my sense of all the wide range of
 things that computational-ecology in my view could and should encompass, such as
 visualisation, method development, new inferrential deductions from data, error
-propagation, computational efficiency and algorithm optimisation, etc etc.  What
+propagation, computational efficiency and algorithm optimisation, etc etc. What
 is more is that focusing on prediction only has such an utilitarian touch to it
 that I fear that the underlying purpose, the scientific raison d’etre for
 ecology, is being forgotten. Ecology, in the end of the day is a scientific
@@ -313,15 +313,24 @@ that seems fine.'
 72: Technically, presence-only models, which are of course more common than
 presence/absence give P(E|S=1).
 
+> We have added this consideration to the text.
+
 85: Rather than 'SDMs exist at the interface between ecological theory and
 statistical models' I'd say that its possible that they could but the theory
 papers are limited and usually ignored, in my opinion.
 
+> We have rephrased this sentence.
+
 93: As strictly correlative models, I don't think it's accurate to say that they
 explicitly include mechanisms.
 
+> We have made no changes to the manuscript: some of the models discussed are
+> explicitely including ecological mechanisms.
+
 137: I'd say citizen science is improving the rate at which data are collected.
 And the new Icarus project is tracking individuals at an unprecedented rate.
+
+> TODO
 
 # Reviewer: 3
 
@@ -350,11 +359,16 @@ another expertise' is not fully justified in the manuscript. It would be helpful
 if the authors could give a clear list of those areas (probably with bullet
 points) in the conclusions or anywhere in the text.
 
+> In addition to other changes (XX, YY), we have modified the abstract.
+
 Introduction, page 3, lines 63-64. If the authors want to discuss a difference
 between computational ecology and ecological modelling, they have to give their
 definition of ecological modelling first. That definition should include 'core
 characteristics' of ecological modelling like it has been done by the authors
 for computational ecology on page 2, lines 41-46.
+
+> We have added a definition of modelling at XX. We have also modified the core
+> principles of computational ecology, to highlight how it differs from modelling.
 
 Section 1, pages 3-4. (i) The authors' conclusion about success of SDM is not
 convincing because their discussion of SDM is unclear. As someone who is not
@@ -362,8 +376,13 @@ familiar with the SDM technique I wonder what the predictive power of SDM is
 based on. Statistical methods are unable of making predictions and the authors
 do not give details of any predictive model.
 
+> We are unsure how to adress this comment. SDM do make a prediction (of the
+> presence/absence, or presence only), so the reviewer's comment in unfair and
+> unjustified to the SDM literature. We have added references (XX) showing how the
+> predictions makde by SDMs can be tested and validated.
+
 Section 1, pages 3-4. (ii) The last paragraph in Section 1 has to be carefully
-revised.  Why do the authors believe that dynamic models and simulations are the
+revised. Why do the authors believe that dynamic models and simulations are the
 same (page 4, lines 89-90)? Also, why is a closed-form solution ruled out by the
 use of stochastic simulations? Is the latter true just for stochastic
 simulations or for deterministic simulations as well?
@@ -408,7 +427,7 @@ ecology (and this is actually mentioned by the authors…).
 
 Sub-section 3.3, page 11. The discussion of training trends is not quite
 relevant as there are a plenty of educational programmes in ecology across the
-world.  Hence any conclusion/suggestion about training ecologists has to be
+world. Hence any conclusion/suggestion about training ecologists has to be
 linked to the higher education curriculum in a specific country and the authors
 should therefore come with more specific suggestions (or at least give
 references) on how the curriculum can be modified. Also, the title of the
@@ -422,9 +441,3 @@ section is ambiguous - what landscape do the authors talk about?
 > approaches. I think we can highlight Data and Software Carpentry as great
 > resources, and perhaps talk about training considerations for graduate level
 > students, especially?
-
-Overall, I recommend major revision of the manuscript where the above-mentioned
-issues must be taken into account. There also are some minor concerns and
-questions  (for example, I am intrigued by the star on page 7, line 150…), but
-there is no need to discuss them at this stage, as the manuscript should be
-reviewed again after the major revision has been made.
