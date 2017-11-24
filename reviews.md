@@ -235,11 +235,13 @@ do this. I see computational-ecologists as a kind of data scavengers, or
 detritus ecosystem, where otherwise “dead” data gets another chance to turn into
 knowledge. Of course there are limits to data accessibility, for example in
 areas where poaching is using this knowledge, but then again other disciplines
-have these kinds of conflicts too. A minor comment here line 213: scale of
-individual research groups (remove the “s”). So in short: important to talk
-about it, define within the community a best practice procedure, but also not
-being shy about asking for them. There is in addition enough evidence that
-publishing data provides great synergistic benefits.
+have these kinds of conflicts too.
+
+A minor comment here line 213: scale of individual research groups (remove the
+“s”). So in short: important to talk about it, define within the community a
+best practice procedure, but also not being shy about asking for them. There is
+in addition enough evidence that publishing data provides great synergistic
+benefits.
 
 > I liked the analogy of computational ecologists as data scavengers (although
 > the way he structured his metaphor made it clear he does not have a strong
@@ -341,16 +343,23 @@ Further development of computational ecology should help to rectify the current
 situation and any comprehensive and consistent discussion of this topic must be
 encouraged and supported.
 
-> I think Comment 1 is in line with Reviewer 1’s concern about clearly defining
-> our audience. I think some of this reviewer’s concern in comment 2 and comment 4
-> is the distinction between computational methods and dynamic modeling, which we
-> could make clearer in the manuscript.
+> We thank the reviewer for the encouragement.
 
 However, while the manuscript contains some interesting thoughts and suggestions
 on how to incorporate computational ecology into the mainstream of ecological
 research, my overall impression about the manuscript is that the authors need
 careful re-consideration of basic concepts they try to discuss. Several major
 concerns can be found below.
+
+> We have read the remarks by this reviewer very carefuly. Most of the concerns
+> are about (i) the difference between modelling and computational approaches,
+> (ii) a disagreement with the applicability of the Lotka-Volterra model to
+> empirical data, and (iii) whether data collectors should recognize computational
+> practices as essential to their work instead than the other way around, and (iv)
+> a disagreement about the relevance of mentionning issues with training. We have
+> adressed these comments in good faith; due to this article being submitted as a
+> "Forum", we have declined to consider some comments. Should the editor request
+> that we modify the text, we will.
 
 Abstract, page 1. The authors' claim 'In this contribution, we suggest areas in
 which empirical ecologists, modellers, and the emerging community of
@@ -378,8 +387,9 @@ do not give details of any predictive model.
 
 > We are unsure how to adress this comment. SDM do make a prediction (of the
 > presence/absence, or presence only), so the reviewer's comment in unfair and
-> unjustified to the SDM literature. We have added references (XX) showing how the
-> predictions makde by SDMs can be tested and validated.
+> unjustified to the SDM literature. Indeed, many statistical methods, such as
+> linear regressions, do make predictions. We have added references (XX) showing
+> how the predictions makde by SDMs can be tested and validated.
 
 Section 1, pages 3-4. (ii) The last paragraph in Section 1 has to be carefully
 revised. Why do the authors believe that dynamic models and simulations are the
@@ -387,57 +397,87 @@ same (page 4, lines 89-90)? Also, why is a closed-form solution ruled out by the
 use of stochastic simulations? Is the latter true just for stochastic
 simulations or for deterministic simulations as well?
 
+> We have clarified the two points raised by the reviewer. Closed form solutions
+> are *often* ruled-out for some stochastic models, or when the mathematical
+> expression for the solution involved differentiation, integration, or some
+> series -- we have added a reference to the definition of closed-form we used.
+
 Section 2. I am puzzled by the diagram in Figure 1 (page 5) and correspondingly
 by Table 1 (page 7). Why are 'Modelling' and 'Computational approaches'
 considered by the authors as separate entities? What is then computed by
 'Computation' and how are 'Models' handled to get any result? Please explain.
+
+> We have expanded the introduction to contrast modelling and computational
+> approaches (XX), and revised the text within the table to be explicit about the
+> fact that we discuss mathematical models. The precise meaning of each term is
+> given in section 2.1
 
 Section 2, page 5. I find the example with the Lotka-Volterra (L-V) model
 mentioned in sub-section 2.1 to be very misleading and I require careful
 revision of this sub-section. The authors place the L-V model in wrong context
 and that substantially diminishes its importance. The conclusion prospective
 readers will make from lines 108-121 on page 5 is that sometimes the L-V model
-is 'good' and sometimes it is 'bad'. Meanwhile the power of the L-V model is
-based on its capacity to predict trends in the population dynamics as opposite
-to predicting some quantitative data-based answers. Hence in the example
-provided by the authors the L-V model did exactly what it was supposed to do: it
-predicted and confirmed a population cycle. Expressions like 'exists entirely
-outside of data…' and '…by contrast...' are highly inappropriate in the context
-of this discussion.
+is 'good' and sometimes it is 'bad'.
+
+> We do hope that this is the message readers will get from this paragraph. In
+> fact, we have added a reference to an instructive (and quite amusing) paper by
+> Gilpin, that shows the dangers of not being cautious enough when applying
+> mathematical models to empirical systems.
+
+Meanwhile the power of the L-V model is based on its capacity to predict trends
+in the population dynamics as opposite to predicting some quantitative
+data-based answers. Hence in the example provided by the authors the L-V model
+did exactly what it was supposed to do: it predicted and confirmed a population
+cycle. Expressions like 'exists entirely outside of data…' and '…by contrast...'
+are highly inappropriate in the context of this discussion.
+
+> We do think that it is important to outline that the purely mathematical
+> analysis is disconnected from data -- and that is is appropriate to do so in a
+> "Forum" paper. We have expanded these paragraphs to explain *why* models being
+> disconnected from data is a relevant point.
 
 Subsection 3.1, page 9, lines 193-199. What do the authors mean by 'error
 propagation'? Is it error accumulation when temporal dynamics is considered or
 is it propagation of errors in input data as data processing is made or is it
 error propagation in a computer network or anything else? Please explain.
 
+> We have clarified the meaning of this sentence. We would like to point out to
+> the editor that in the original submission, the entire paragraph was about
+> explaining the meaning of this sentence.
+
 Subsection 3.2, page 10, lines 242-246. The statement ' Data re-users must be
 extremely pro-active in the establishment of crediting mechanisms for data
 producers; as the availability of these data is crucial to computational
 approaches…' contradicts, in my opinion, to all the arguments made by the
-authors for computational ecology. It is not just that data are crucial to
-computational approaches, it also is that computational approaches should be
-crucial to data producers as a powerful and in most cases the only means of data
-processing. The requirement to data producers to admit importance of
-computational approaches must remain one of the cornerstones of computational
-ecology (and this is actually mentioned by the authors…).
+authors for computational ecology.
 
-> “The requirement to data producers to admit importance of computational
-> approaches must remain one of the cornerstones of computational ecology” – this
-> could be part of the agenda for empirical ecologists.
+> We fail to see how recognising that data are required by computational
+> approaches contradicts the arguments we made. Computational science requires
+> data to function, and so acknowledging this fact should be the first step in any
+> discussion of computational ecology.
+
+It is not just that data are crucial to computational approaches, it also is
+that computational approaches should be crucial to data producers as a powerful
+and in most cases the only means of data processing. The requirement to data
+producers to admit importance of computational approaches must remain one of the
+cornerstones of computational ecology (and this is actually mentioned by the
+authors…).
+
+> We have added a statement to this effect in the discussion (XX).
 
 Sub-section 3.3, page 11. The discussion of training trends is not quite
 relevant as there are a plenty of educational programmes in ecology across the
 world. Hence any conclusion/suggestion about training ecologists has to be
 linked to the higher education curriculum in a specific country and the authors
 should therefore come with more specific suggestions (or at least give
-references) on how the curriculum can be modified. Also, the title of the
-section is ambiguous - what landscape do the authors talk about?
+references) on how the curriculum can be modified.
 
-> “The discussion of training trends is not quite relevant as there are a plenty
-> of educational programmes in ecology across the world.” – I think the discussion
-> of training is actually really relevant. As someone who is training in a top
-> ecology program in the U.S., I’ve been really amazed how few resources we have
-> here on campus in our department for folks who are interested in computational
-> approaches. I think we can highlight Data and Software Carpentry as great
-> resources, and perhaps talk about training considerations for graduate level
-> students, especially?
+> We have made no changes to the manuscript. It is our experience as students
+> and educators that the discussion of training program is integral to the
+> discussion of computational techniques. This section is also sufficiently
+> referenced.
+
+Also, the title of the section is ambiguous - what landscape do the authors talk
+about?
+
+> We have changed the title of the section.
