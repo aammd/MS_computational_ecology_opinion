@@ -2754,5 +2754,186 @@
         "title": "On the dynamics of exploited fish populations",
         "type": "book",
         "volume": "11"
+    },
+    {
+        "DOI": "10.1038/s41598-017-09084-6",
+        "author": [
+            {
+                "family": "Troudet",
+                "given": "Julien"
+            },
+            {
+                "family": "Grandcolas",
+                "given": "Philippe"
+            },
+            {
+                "family": "Blin",
+                "given": "Amandine"
+            },
+            {
+                "family": "Vignes-Lebbe",
+                "given": "Régine"
+            },
+            {
+                "family": "Legendre",
+                "given": "Frédéric"
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "TroGra17",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    8,
+                    22
+                ]
+            ]
+        },
+        "page": "9132",
+        "title": "Taxonomic bias in biodiversity data and societal preferences",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1139/facets-2016-0011",
+        "author": [
+            {
+                "family": "Donaldson",
+                "given": "Michael R."
+            },
+            {
+                "family": "Burnett",
+                "given": "Nicholas J."
+            },
+            {
+                "family": "Braun",
+                "given": "Douglas C."
+            },
+            {
+                "family": "Suski",
+                "given": "Cory D."
+            },
+            {
+                "family": "Hinch",
+                "given": "Scott G."
+            },
+            {
+                "family": "Cooke",
+                "given": "Steven J."
+            },
+            {
+                "family": "Kerr",
+                "given": "Jeremy T."
+            }
+        ],
+        "container-title": "FACETS",
+        "id": "DonBur16",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    7,
+                    26
+                ]
+            ]
+        },
+        "title": "Taxonomic bias and international biodiversity conservation research",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/ddi.12477",
+        "author": [
+            {
+                "family": "Geldmann",
+                "given": "Jonas"
+            },
+            {
+                "family": "Heilmann-Clausen",
+                "given": "Jacob"
+            },
+            {
+                "family": "Holm",
+                "given": "Thomas E."
+            },
+            {
+                "family": "Levinsky",
+                "given": "Irina"
+            },
+            {
+                "family": "Markussen",
+                "given": "Bo"
+            },
+            {
+                "family": "Olsen",
+                "given": "Kent"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Tøttrup",
+                "given": "Anders P."
+            }
+        ],
+        "container-title": "Diversity and Distributions",
+        "id": "GelHei16",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    11,
+                    1
+                ]
+            ]
+        },
+        "page": "1139-1149",
+        "title": "What determines spatial bias in citizen science? Exploring four recording schemes with different proficiency requirements",
+        "type": "article-journal",
+        "volume": "22"
+    },
+    {
+        "DOI": "10.1038/s41598-017-13130-8",
+        "author": [
+            {
+                "family": "Tiago",
+                "given": "Patrícia"
+            },
+            {
+                "family": "Ceia-Hasse",
+                "given": "Ana"
+            },
+            {
+                "family": "Marques",
+                "given": "Tiago A."
+            },
+            {
+                "family": "Capinha",
+                "given": "César"
+            },
+            {
+                "family": "Pereira",
+                "given": "Henrique M."
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "TiaCei17",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017,
+                    10,
+                    16
+                ]
+            ]
+        },
+        "page": "12832",
+        "title": "Spatial distribution of citizen science casuistic observations for different taxonomic groups",
+        "type": "article-journal",
+        "volume": "7"
     }
 ]

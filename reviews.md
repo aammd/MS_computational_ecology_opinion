@@ -17,11 +17,11 @@ Thiago Rangel
 
 # Reviewer: 1
 
-> Regarding their dismissiveness towards prediction as being important: Houlahan
-> et al. 2017 in Oikos have a great paper “The priority of prediction in
-> ecological understanding”, which deftly argues that prediction is the only way
-> that ecologists can show understanding. However, those authors focus on
-> statistical modeling approaches only as the path forward to prediction.
+> We appreciate the effort that Reviewer 1 put in his comments. We have read
+> them multiple times, and edited the text at multiple places accordingly. To us,
+> these comments read more like a response (which about as long as the manuscript
+> itself) to the paper than a list of actionable items to consider or change. For
+> this reason, we have decided not to include point by point responses in this letter.
 
 With much interest have I read this manuscript multiple times and I have to say
 that I find reviewing this paper quite difficult. The manuscript itself is well
@@ -289,13 +289,6 @@ Line 293: check the beginning of the sentence.
 
 # Reviewer: 2
 
-> This reviewer seemed to have largely mild comments that could be fixed by
-> reframing some of this in terms of the designated audience. Both this reviewer
-> and reviewer 1 argue that citizen science is increasing data availability, which
-> is true, but I think it’s still important to note that citizen science is great
-> for answering some questions and not others in ecology. It also is limited to
-> certain taxonomic groups currently, which restricts its scope.
-
 Poisot et al provide a clear overview of considerations surrounding
 computational ecology. I can't really find anything to disagree with; it seems
 like it represents a pretty common perspective among modern ecologists. However
@@ -327,7 +320,11 @@ explicitly include mechanisms.
 137: I'd say citizen science is improving the rate at which data are collected.
 And the new Icarus project is tracking individuals at an unprecedented rate.
 
-> TODO
+> We have added a mention of data from citizen science (XX) -- though this must
+> be nuanced by taxonomic biases. The ICARUS and similar projects are of course
+> interesting, but in development. It is unclear to us if they will deliver a
+> regime shift in data collection at all scales.
+
 
 # Reviewer: 3
 
@@ -414,8 +411,9 @@ and that substantially diminishes its importance. The conclusion prospective
 readers will make from lines 108-121 on page 5 is that sometimes the L-V model
 is 'good' and sometimes it is 'bad'.
 
-> We do hope that this is the message readers will get from this paragraph. In
-> fact, we have added a reference to an instructive (and quite amusing) paper by
+> We do hope that "models are sometines good and sometimes bad" is the message
+> readers will get from this paragraph. In
+> fact, we have added a reference to an instructive (and amusing) paper by
 > Gilpin, that shows the dangers of not being cautious enough when applying
 > mathematical models to empirical systems.
 
@@ -436,9 +434,7 @@ propagation'? Is it error accumulation when temporal dynamics is considered or
 is it propagation of errors in input data as data processing is made or is it
 error propagation in a computer network or anything else? Please explain.
 
-> We have clarified the meaning of this sentence. We would like to point out to
-> the editor that in the original submission, the entire paragraph was about
-> explaining the meaning of this sentence.
+> We have clarified the meaning of this sentence.
 
 Subsection 3.2, page 10, lines 242-246. The statement ' Data re-users must be
 extremely pro-active in the establishment of crediting mechanisms for data

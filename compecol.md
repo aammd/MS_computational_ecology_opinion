@@ -53,12 +53,13 @@ problem of model and data mismatch by investing in the development and
 refinement of statistical models [see @WarFos14 for an excellent overview] and
 "numerical" approaches [@LegLeg98] based on multivariate statistics. These
 models are able to *explain* data, but very rarely do they give rise to new
-predictions. Computational ecology can fill this niche; at the cost of a higher
-degree of abstraction, its integration of data and generative models (*i.e.*
-models that, given rules, will generate new data) can be helpful to initiate the
-investigation of questions that have not received (or perhaps cannot receive)
-extensive empirical treatment, or for which usual statistical approaches fall
-short.
+predictions -- despite it being a very clear priority even if we "simply" seek
+to further our understanding @HouMcK17. Computational ecology can fill this
+niche; at the cost of a higher degree of abstraction, its integration of data
+and generative models (*i.e.* models that, given rules, will generate new data)
+can be helpful to initiate the investigation of questions that have not received
+(or perhaps cannot receive) extensive empirical treatment, or for which usual
+statistical approaches fall short.
 
 In a thought-provoking essay, @Mar17 suggests that *all biology is computational
 biology* -- the rationale behind this bold statement being that integrating
@@ -192,9 +193,13 @@ Although the natural world is immensely complex, it is paradoxically the high
 degree of model abstraction in computational approaches that gives them
 generality. Because (with the exception of a still narrow family of problems
 that can be addressed by remote-sensing) there has been no regime shift in the
-rate at which ecological data are collected, whereas our needs for testable and
-actionable predictions increased dramatically, refining the models and further
-integrating them with data is necessary.
+rate at which ecological data are collected -- observations from citizen science
+accumulate, but are highly biased by societal preferences rather than
+conservation priority [@DonBur16; @TroGra17], by proximity to urban centers and
+infrastructure [@GelHei16], *as well as* by the interaction between these
+factors @TiaCei17. On the other hand, our needs for testable and actionable
+predictions increased dramatically. Refining the models and further integrating
+them with data is necessary.
 
 In {@tbl:costbenefit}, the quadrats of ecological approaches are ranked in
 (again, approximate and arbitrary) order of cost and effort. Ecological models
@@ -284,22 +289,22 @@ ecologists with field expertise, and those of us leaning closest to the
 computational part of the field.
 
 With or without a common data format, the problem remains that we have very
-limited insights into error propagation of predictions made on synthetic
-datasets [@PoiGra16]; in a succesion of predictive steps, do errors at each step
-amplify, or cancel one another? Biases exist in the underlying data, in the
-models used to generate the predictions, and this can turn out in three possible
-ways. First, predictions from these datasets accumulate bias and cannot be used.
-Second, because the scale at which these predictions are expressed is large,
-errors are (quantitatively) small enough to be over-ridden by the magnitude of
-actual variation. Finally, in the best-case but low-realism scenario, errors end
-up cancelling each other out. The best possible way to understand how errors
-propagate is to validate predictions *de novo*. Model-validation methods can be
-used, as they are with SDMs [@Hij12], but *de novo* sampling carries the
-additional weight of being an independent attempt at testing the prediction.
-Improved collaborations on this aspect will provide estimates of the robustness
-of the predictions, in addition to highlighting the steps of the process in
-which uncertainty is high --- these steps are natural candidates for additional
-methodological development.
+limited insights into how error in predictions made on synthetic datasets will
+propagate from an analysis to the other [@PoiGra16]; in a succesion of
+predictive steps, do errors at each step amplify, or cancel one another? Biases
+exist in the underlying data, in the models used to generate the predictions,
+and this can turn out in three possible ways. First, predictions from these
+datasets accumulate bias and cannot be used. Second, because the scale at which
+these predictions are expressed is large, errors are (quantitatively) small
+enough to be over-ridden by the magnitude of actual variation. Finally, in the
+best-case but low-realism scenario, errors end up cancelling each other out. The
+best possible way to understand how errors propagate is to validate predictions
+*de novo*. Model-validation methods can be used, as they are with SDMs [@Hij12],
+but *de novo* sampling carries the additional weight of being an independent
+attempt at testing the prediction. Improved collaborations on this aspect will
+provide estimates of the robustness of the predictions, in addition to
+highlighting the steps of the process in which uncertainty is high --- these
+steps are natural candidates for additional methodological development.
 
 Finally, there is a need to assess how the predictions made by purely
 computational approaches will be fed back into other types of research. This is
