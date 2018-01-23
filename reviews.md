@@ -436,7 +436,7 @@ error propagation in a computer network or anything else? Please explain.
 
 > We have clarified the meaning of this sentence.
 
-Subsection 3.2, page 10, lines 242-246. The statement ' Data re-users must be
+Subsection 3.2, page 10, lines 242-246. The statement 'Data re-users must be
 extremely pro-active in the establishment of crediting mechanisms for data
 producers; as the availability of these data is crucial to computational
 approaches…' contradicts, in my opinion, to all the arguments made by the

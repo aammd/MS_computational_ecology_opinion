@@ -54,7 +54,7 @@ refinement of statistical models [see @WarFos14 for an excellent overview] and
 "numerical" approaches [@LegLeg98] based on multivariate statistics. These
 models are able to *explain* data, but very rarely do they give rise to new
 predictions -- despite it being a very clear priority even if we "simply" seek
-to further our understanding @HouMcK17. Computational ecology can fill this
+to further our understanding [@HouMcK17]. Computational ecology can fill this
 niche; at the cost of a higher degree of abstraction, its integration of data
 and generative models (*i.e.* models that, given rules, will generate new data)
 can be helpful to initiate the investigation of questions that have not received
@@ -419,14 +419,16 @@ acquire.
 This view is echoed in recent proposals. @MisHee16 suggested that highlighting
 the importance of code in most ecological studies would be a way to bring the
 community to adopt higher standards, all the while de-mystifying the process of
-producing code. This also requires teaching ecologists how to evaluate the
-quality of the software they use [@Poi15]. Finally, @HamAnd15 proposed that the
-"Tao of Open Science" would be particularly beneficial to the entire field of
-ecology; as part of the important changes in attitude, they identified the
-solicitation and integration of productive feedback throughout the research
-process. Regardless of the technical solution, this emphasizes the need to
-foster, in ecologists in training, a culture of discussion across disciplinary
-boundaries.
+producing code. As with increased mandatory data release along manuscript
+publication required by funding agencies, mandatory code release would benefit a
+more reproductible science and how data were transformed during the analysis.
+This also requires teaching ecologists how to evaluate the quality of the
+software they use [@Poi15]. Finally, @HamAnd15 proposed that the "Tao of Open
+Science" would be particularly beneficial to the entire field of ecology; as
+part of the important changes in attitude, they identified the solicitation and
+integration of productive feedback throughout the research process. Regardless
+of the technical solution, this emphasizes the need to foster, in ecologists in
+training, a culture of discussion across disciplinary boundaries.
 
 All of these points can be distilled into practical training recommendations for
 different groups in the community of ecologists. Classes based around lab or
@@ -436,7 +438,7 @@ classes, especially when concerned about purely mathematical models, should add
 modules on the way these models can be integrated with empirical data. Finally,
 computational classes should emphasize communication skills: what do these new
 tools do, and how can they be used by other fields in ecology; but also, how do
-we properyl track citations to data, and give credit to data producers? Building
+we properly track citations to data, and give credit to data producers? Building
 this practices into training would ensure that the next generation of ecologists
 will be able to engage in a meaningful dialogue across methodological
 boundaries.
