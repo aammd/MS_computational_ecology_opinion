@@ -137,7 +137,7 @@ from observational and manipulative experiments) and models (either statistical
 or phenomenological), it can *suggest* general trends through an abstraction of
 the idiosyncracies of a particular system.
 
-![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of ecological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge dynamical models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats width=50%}
+![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of ecological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge dynamical models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats}
 
 The specific example of predator-prey interactions should be a familiar
 illustration of how the same problem can be addressed in different ways. The
