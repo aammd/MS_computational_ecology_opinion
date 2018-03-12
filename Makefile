@@ -24,7 +24,7 @@ MARKED= ./.plmt/processed.md
 
 # PFLAGS is the list of pandoc filters and options required to make the
 # documents. You can add some, but it is probably wise not to remove any.
-PFLAGS= --filter pandoc-crossref --filter pandoc-citeproc --listings --bibliography $(BIB) --csl $(CSL)
+PFLAGS= --filter pandoc-fignos --filter pandoc-eqnos --filter pandoc-tablenos --listings --bibliography $(BIB) --csl $(CSL)
 
 # TAG is the version of the git tag or commit against which the track-changed
 # pdf should be built. By default, it is the latest commit (so you can see your
@@ -38,6 +38,10 @@ AS=preprint
 
 # This is makefile jargon, don't sweat it.
 .PHONY: all output/ help dependencies
+
+dependencies:
+	pip3 install panflute pandoc-fignos, pandoc-tablenos, pandoc-eqnos
+
 
 # By default, we wish only to help!
 .DEFAULT_GOAL := help
@@ -65,7 +69,7 @@ clean: #> Remove the temporary file
 # updated manually. Instead, look at authors.json, infos.json, and ABSTRACT.
 .metadata.yaml: infos.yaml authors.yaml ABSTRACT #> Compile the document metadata in a hidden file
 	node .plmt/metadata.js
-	sed -i '1 s/^/---\n/' $@
+	sed -i '1s/^/---\n/' $@
 	echo "..." >> $@
 
 # This rule will compile the Rmd file to the md file IF there is a Rmd file with
@@ -140,13 +144,10 @@ output/diff_$(FILE)_$(TAG)_$(AS).pdf: revised.md
 	pandoc $< -o old.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml
 	pandoc $(MARKED) -o new.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml
 	latexdiff old.tex new.tex > diff.tex
-	latexmk -pdf diff.tex -interaction=nonstopmode -f
+	latexmk -pdf diff.tex
 	latexmk -c
 	pdf2ps diff.pdf diff.ps
 	ps2pdf13 diff.ps diff.pdf
 	rm diff.ps
 	rm {old,new,diff}.tex
 	mv diff.pdf $@
-
-reviews.pdf: reviews.md #> Compile the reviews file
-	pandoc $< -o $@ --template ./.plmt/templates/reviews.template .metadata.yaml
