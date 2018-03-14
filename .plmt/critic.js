@@ -8,16 +8,16 @@ var writeTo = path.normalize(process.argv[3])
 // TODO: detect extension
 
 function criticAddBegin(str, p1, p2, offset, s) {
-  var mark = '\\color{green!50!black}';
-  if (p2) mark += '' + p2 + '';
-  mark += '';
+  var mark = '\\add';
+  if (p2) mark += '[' + p2 + ']';
+  mark += '{';
   return mark;
 }
 
 function criticDelBegin(str, p1, p2, offset, s) {
-  var mark = '\\color{gray}';
+  var mark = '\\remove';
   if (p2) mark += '[' + p2 + ']';
-  mark += '';
+  mark += '{';
   return mark;
 }
 
@@ -36,7 +36,7 @@ function criticNotBegin(str, p1, p2, offset, s) {
 }
 
 function criticClose(str, offset, s) {
-  return "\\color{black}\\ "
+  return "}"
 }
 
 fs.readFile(readTo, 'utf-8', function (err, data) {

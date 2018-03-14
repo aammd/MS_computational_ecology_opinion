@@ -3,17 +3,17 @@ practices, and advanced research computing are put in interaction with the
 explicit goal of solving "complex" problems. Typically, problems are considered
 complex when they cannot be solved appropriately with mathematical modelling
 (*i.e.* the application of mathematical models that are not explicitely grounded
-into empirical data) or data-collection only. Computational science is one of
-the ways to practice computational thinking [@Pap96], *i.e.* the feedback
-loop of abstracting a problem to its core mechanisms, expressing a solution in a
-way that can be automated, and using interactions between simulations and data
-to refine the original problem or suggest new knowledge. Computational
-approaches are commonplace in most areas of biology, to the point where one
-would almost be confident that they represent a viable career path [@Bou11].
-Data usually collected in ecological studies have high variability, and are
-time-consuming, costly, and demanding to collect. In parallel, many problems
-lack appropriate formal mathematical formulations, which we need in order to
-construct strong, testable hypotheses. For these reasons, computational
+into empirical data) or data-collection only. Computational science is {==the
+application to research questions of computational thinking==} [@Pap96], *i.e.*
+the feedback loop of abstracting a problem to its core mechanisms, expressing a
+solution in a way that can be automated, and using interactions between
+simulations and data to refine the original problem or suggest new knowledge.
+Computational approaches are commonplace in most areas of biology, to the point
+where one would almost be confident that they represent a viable career path
+[@Bou11]. Data usually collected in ecological studies have high variability,
+and are time-consuming, costly, and demanding to collect. In parallel, many
+problems lack appropriate formal mathematical formulations, which we need in
+order to construct strong, testable hypotheses. For these reasons, computational
 approaches hold great possibilities, notably to further ecological synthesis and
 help decision-making [@PetPet12].
 
@@ -59,7 +59,12 @@ niche; at the cost of a higher degree of abstraction, its integration of data
 and generative models (*i.e.* models that, given rules, will generate new data)
 can be helpful to initiate the investigation of questions that have not received
 (or perhaps cannot receive) extensive empirical treatment, or for which usual
-statistical approaches fall short.
+statistical approaches fall short. {++In particular, we argue that computational
+approaches can serve a dual purpose. First, they can deliver a more predictive
+science, because they work close to the data. Second, they can guide the
+attention of researchers onto mechanisms of interests; in a context were time
+and resources are finite, and the urgency to understand ecological systems is
+high, this may be the main selling point of computational techniques.++}.
 
 In a thought-provoking essay, @Mar17 suggests that *all biology is computational
 biology* -- the rationale behind this bold statement being that integrating
@@ -68,11 +73,15 @@ field, has a high potential to deliver synthesis. A more reasonable statement
 would be that *all ecology can benefit from computational ecology*, as long as
 we can understand how it interacts with other approaches; in this paper, we
 attempt to situate the practice of computational ecology within the broader
-landscape of ecological research. In particular, we highlight the ways in which
-computational ecology differs from, and complements, ecological modelling. We
-finally move on to the currency of collaborations between different
-sub-disciplines of ecologists, and discuss the need to add more quantitative
-skills in ecological training.
+landscape of ecological research. {++The recent years have given us an explosion
+of new tools, training opportunities, and mechanisms for data access. One can
+assume that computational approaches will become more tempting, and more broadly
+adopted. This requires to address the questions of the usefulness and promises
+of this line of research, as well as the caveats associated with it.++} In
+particular, we highlight the ways in which computational ecology differs from,
+and complements, ecological modelling. We finally move on to the currency of
+collaborations between different sub-disciplines of ecologists, and discuss the
+need to add more quantitative skills in ecological training.
 
 # A success story: Species Distribution Models
 
@@ -82,7 +91,7 @@ computational practices generating novel ecological insights. At their core,
 SDMs seek to model the presence or absence of a species based on previous
 observations of its presence or absences, and knowledge of the environment in
 which the observation was made. More formally, SDMs can be interpreted as having
-the form $\text{P}(S | E)$ (or $\text{P}(S | E=1)$ for presence-only models),
+the form $\text{P}(S | E)$ (or $\text{P}(S=1 | E)$ for presence-only models),
 where $S$ denotes the presence of a species, and $E$ is an array of variables
 representing the local state of the environment at the point where the
 prediction is made (the location is represented, not by its spatial positions,
@@ -121,23 +130,12 @@ of computational ecology and empirical data.
 
 # Computational ecology in its broader landscape
 
-## The four quadrats of ecological research
+## The four quadrants of ecological research
 
-In {@fig:quadrats}, we propose a rough outline of four quadrats for ecological
-research. The horizontal axis is based on the degree of integration between data
-and models, ranging from disconnected (for purely data-based or model-based) to
-highly integrated. The vertical axis is based on the ability to *document*
-natural processes and their underlying mechanisms (through direct or indirect
-observation of natural systems) rather than *suggest* (through focus on a
-reduced number of mechanisms and their interactions). A classification this
-coarse is bound to be caricatural, but it serves as an illustration of where
-computational ecology exists in the overall research methodology. Because
-computational ecology relies on the integration of data (if possible *raw* data
-from observational and manipulative experiments) and models (either statistical
-or phenomenological), it can *suggest* general trends through an abstraction of
-the idiosyncracies of a particular system.
-
-![An overview of four quadrats of ecological research. The vertical axis differentiates the ability to document (by observation) or suggest (by simulation and inference) the action of ecological mechanisms. The horizontal axis indicates whether data and models are connected, or not. Computational ecology constitutes one of these quadrats, as it can bridge dynamical models with observations to further suggest mechanisms.](figures/fourquads.png){#fig:quadrats}
+We propose that ecological approaches can be divided in four quadrants, based on
+how connected they are with empirical data, and how much they can *document* or
+*predict* natural mechanisms -- this view is later summarized in
+{@tbl:costbenefit}, but we will first illustrate it.
 
 The specific example of predator-prey interactions should be a familiar
 illustration of how the same problem can be addressed in different ways. The
@@ -178,6 +176,34 @@ pre-existing papers [@LorSte13]. Although they are irreplaceable as a tool to
 measure the strength of results, they are limited by their need for primary
 literature with experimental designs that are similar enough.
 
+In {@fig:concept}, we propose an illustration of a variety of computational
+approaches in the context of predator-prey interactions. @ColCla15 show how an
+agent-based model can guide the interpretation of the same system represented as
+ordinary differential equations.
+
+@StoPoi17 -- predictions but no understanding, yet provide guidance for sampling
+
+@DesLai17 prediction and improved understanding
+
+@CheAng16 symbolic regression, coupled with modeling 
+
+
+ rough outline of four quadrants for ecological
+research. The horizontal axis is based on the degree of integration between data
+and models, ranging from disconnected (for purely data-based or model-based) to
+highly integrated. The vertical axis is based on the ability to *document*
+natural processes and their underlying mechanisms (through direct or indirect
+observation of natural systems) rather than *suggest* (through focus on a
+reduced number of mechanisms and their interactions). A classification this
+coarse is bound to be caricatural, but it serves as an illustration of where
+computational ecology exists in the overall research methodology. Because
+computational ecology relies on the integration of data (if possible *raw* data
+from observational and manipulative experiments) and models (either statistical
+or phenomenological), it can *suggest* general trends through an abstraction of
+the idiosyncracies of a particular system.
+
+![An overview of how computational approaches can complement other research approaches. ](figures/concept.pdf){#fig:concept}
+
 ## Computational ecology in context
 
 In *Life on the Mississippi*, Mark Twain wrote that "There is something
@@ -201,7 +227,7 @@ factors @TiaCei17. On the other hand, our needs for testable and actionable
 predictions increased dramatically. Refining the models and further integrating
 them with data is necessary.
 
-In {@tbl:costbenefit}, the quadrats of ecological approaches are ranked in
+In {@tbl:costbenefit}, the quadrants of ecological approaches are ranked in
 (again, approximate and arbitrary) order of cost and effort. Ecological models
 make, by definition, high accuracy predictions, but they tend to be difficult to
 test [@Ryk96] -- models relying on precise mathematical expressions can be
@@ -209,16 +235,18 @@ difficult to calibrate or parameterize. Observations (field sampling) or
 manipulative approaches (micro/meso/macro-cosms, field experiments) are highly
 accurate (but have also immense human and monetary costs that limit the scale at
 which they can be applied). There is simply too much nature around for us to
-observe, monitor, and manipulate it all.
+observe, monitor, and manipulate it all. {++In this perspective, computational
+approaches able to generalize some rules from the data++} [@DesLai17; @DesPoi17]
+{++may help guide the attention of researchers onto mechanisms that are worthy
+of a deeper investigation++}.
 
-| Approach              | accuracy | testability | suitability for prediction |
-|:----------------------|:---------|:------------|:---------------------------|
-| Empirical observation | yes      |             |                            |
-| Computational models  | unknown  | yes         | directly                   |
-| Mathematical models   | yes      | variable    | indirectly                 |
-| Meta-analysis         | yes      | no          | no                         |
-
-Table: Overview of the properties of the quadrats delineated in {@fig:quadrats}. Empirical observations are the most effort-intensive way of doing ecology. Computational approaches are ranked immediately below because the need to maintain a computational infrastructure is incurring immense (though often invisible) costs. Models are accurate in the limit of their definition, and meta-analysis are accurate in the limit of the empirical studies on which they are based. {#tbl:costbenefit}
+|                      | accuracy | testability | suitability for prediction |
+|:---------------------|:---------|:------------|:---------------------------|
+| Observation          | yes      |             |                            |
+| Computational models | unknown  | yes         | directly                   |
+| Mathematical models  | yes      | variable    | indirectly                 |
+| Meta-analysis        | yes      | no          | no                         |
+Table: Overview of the properties of the quadrants delineated in the previous section. Empirical observations are the most effort-intensive way of doing ecology. Computational approaches are ranked immediately below because the need to maintain a computational infrastructure is incurring immense (though often invisible) costs. Models are accurate in the limit of their definition, and meta-analysis are accurate in the limit of the empirical studies on which they are based. {#tbl:costbenefit}
 
 # En route towards synthesis
 
@@ -489,10 +517,13 @@ model/study/question basis), any additional empirical effort to *validate*
 predictions will improve their quality, reinforcing the need for dialogue and
 collaborations.
 
-**Acknowledgements:** TP thanks Dr. Allison Barner and Dr. Andrew McDonald for
-stimulating discussions, and the Station de Biologie des Laurentides de
-l'Université de Montréal for hosting him during part of the writing process.
-We thank the volunteers of Software Carpentry and Data Carpentry, whose work
-contribute to improving the skills of ecologists.
+**Acknowledgements:**
+TP thanks Dr. Allison Barner and Dr. Andrew McDonald for stimulating
+discussions, and the Station de Biologie des Laurentides de l'Université de
+Montréal for hosting him during part of the writing process. We thank the
+volunteers of Software Carpentry and Data Carpentry, whose work contribute to
+improving the skills of ecologists. Carabid picture by Maxime Dahirel (CC-BY
+4.0), spider image by Sidney Frederic Harmer, Arthur Everett Shipley, digitized
+by Maxime Dahirel (CC-BY 4.0).
 
 # References
