@@ -1,0 +1,50 @@
+\documentclass[11pt,serif]{article}
+
+\input{.plmt/plmt.tex}
+
+\setcounter{secnumdepth}{5}
+
+\geometry{lmargin=1.5cm, rmargin=1.5cm, tmargin=3cm, bmargin=4.5cm}
+
+\usepackage{lastpage}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LO,RE]{}
+\fancyhead[LE,RO]{}
+\fancyfoot[C]{}
+\fancyfoot[LO,RE]{Responses to reviewers}
+\fancyfoot[LE,RO]{\small Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+\makeatletter
+\def\fps@figure{tbp}
+\makeatother
+
+\usepackage{titlesec}
+\titleformat{\section}{\Large}{\makebox[0cm][r]{\hspace{1em}}}{0em}{\scshape\lowercase}
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+\titleformat{\subsection}{\large}{}{0em}{\itshape}
+\titlespacing*{\subsection}{0pt}{\baselineskip}{\baselineskip}
+\titleformat{\subsubsection}{\normalsize}{\thesubsubsection}{.6em}{\itshape}
+\titlespacing*{\subsubsection}{0pt}{\parskip}{0.5\parskip}
+
+\renewenvironment{quote}
+               {\list{}{\leftmargin\leftmargin}%
+                \item\relax\sffamily\textbf{\color{blue}RESPONSE: }\ignorespaces}
+               {\unskip\unskip\endlist}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+{\Large\itshape Responses to reviewers}\\
+{\bfseries\Large $title$}
+
+\vskip 3em
+\hrule
+\vskip 3em
+
+$body$
+
+\end{document}

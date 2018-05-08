@@ -151,3 +151,6 @@ output/diff_$(FILE)_$(TAG)_$(AS).pdf: revised.md
 	rm diff.ps
 	rm {old,new,diff}.tex
 	mv diff.pdf $@
+
+reviews.pdf: reviews.md #> Compile the reviews file
+	pandoc $< -o $@ --template ./.plmt/templates/reviews.template .metadata.yaml
