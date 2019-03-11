@@ -3,8 +3,8 @@ practices, and advanced research computing are put in interaction with the
 explicit goal of solving "complex" problems. Typically, problems are considered
 complex when they cannot be solved appropriately with mathematical modelling
 (*i.e.* the application of mathematical models that are not explicitly grounded
-into empirical data) or data-collection only [@DornFunk17]. Computational
-science is the application to research questions of computational thinking
+in empirical data) or data-collection only [@DornFunk17]. Computational
+science is the application of computational thinking to research questions 
 [@Pape96], *i.e.* the feedback loop of abstracting a problem to its core
 mechanisms, expressing a solution in a way that can be automated, and using
 interactions between simulations and data to refine the original problem or
@@ -77,6 +77,7 @@ attention of researchers onto mechanisms of interest; in a context where time
 and resources are finite, and the urgency to understand ecological systems is
 high, this may be the main selling point of computational techniques.
 
+Computational ecology is (or could be) everywhere, but the necessary training is not.
 In a thought-provoking essay, @Mark17 suggests that *all biology is
 computational biology* -- the rationale behind this bold statement being that
 integrating computational advances, novel mathematical tools, and the usual data
@@ -86,7 +87,7 @@ long as we can understand how it interacts with other approaches; in this paper,
 we attempt to situate the practice of computational ecology within the broader
 scope of ecological research. The recent years have given us an explosion of new
 tools, training opportunities, and mechanisms for data access. One can assume
-that computational approaches will become more tempting, and more broadly
+that computational approaches will become more appealing, and more broadly
 adopted. This requires us to address the questions of the usefulness and
 promises of this line of research, as well as the caveats associated with it. In
 particular, we highlight the ways in which computational ecology differs from,
@@ -95,7 +96,14 @@ finally move on to the currency of collaborations between different
 sub-disciplines of ecologists, and discuss the need to add more quantitative
 skills in ecological training.
 
-Advancing ecology through computational techniques is an ongoing work, and
+Advancing ecology through computational techniques is an ongoing work, and below we discuss some early successes. 
+However, to sustain this momentum, the community of ecologists needs to establish baseline practices for the sharing and re-use of existing data.
+Such provenance information is critical when data are aggregated and re-purposed. 
+Our community must reach a consensus on a common core of training which enables students to explore computational approaches with rigor. A better integration of computational techniques
+in the practice of ecological research has the potential to improve transparency and
+reproducibility, and facilitate the synthesis of ecological knowledge.
+
+and
 already delivered many results (some of which we discuss in the text). To
 elevate this approach, the community of practising ecologists needs to establish
 baselines of appropriate practices for the sharing and re-use of existing data,
@@ -127,12 +135,12 @@ these ingredients into something predictive required what is now called
 "computational literacy" -- the ability to abstract, and automate, a system in
 order to generate predictions through computer simulations and their validation.
 One of the strengths of SDMs is that they can be used either for predictions or
-explanations of where a given species occur [@ElitLeat09] and can be
+explanations of where a given species occurs [@ElitLeat09] and can be
 corroborated with empirical data. To calculate $\text{P}(S | E)$ is to make a
 prediction (what are the chances of observing species $S$ at a given location),
 that can be refined, validated, or rejected based on cross-validation [@Hijm12]
-or *de novo* field samplig [@WestKuma16]. To understand $E$, *i.e.* the
-environmental aspects that determine species presence, is to form an explanation
+or *de novo* field sampling [@WestKuma16]. To understand $E$, *i.e.* the
+environmental variables that determine species presence, is to form an explanation
 of a distribution that relates to the natural history of a species.
 
 SDMs originated as statistical and correlative models, and are now incorporating
